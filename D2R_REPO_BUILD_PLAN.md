@@ -118,6 +118,21 @@ Current Rune Status vs Key Runewords
 RunewordStatusNotesCall to Arms✓ BUILD NOWAmn+Ral+Mal+Ist+Ohm all in stash. Crystal Sword 5os recommended.Heart of the Oak✓ BUILD NOWKo+Vex+Pul+Thul all in stash. Flail base.Spirit (sword or shield)✓ BUILD NOWTal+Thul+Ort+Amn all in stash. Crystal Sword 4os or Monarch 4os.Insight (merc)✓ BUILD NOWRal+Tir+Tal+Sol all in stash. Eth Thresher/Great Poleaxe.Treachery (merc)✓ BUILD NOWShael+Thul+Lem all in stash. Good IAS merc armor.EnigmaMISSING BERHave Jah ✓, Ith ✓. Need 1× Ber (r30). Sur×1 in stash — need 2 more Sur to cube 1 Ber.Chains of HonorMISSING BERHave Dol ✓, Um ✓, Ist ✓. Need 1× Ber. Same gate as Enigma.Infinity (merc)MISSING 2× BERNeeds Ber×2+Mal+Ist. Long-term farm target.GriefMISSING LOHave Eth✓, Tir✓, Mal✓, Ral✓. Need 1× Lo (r28). Ohm→Lo needs 3× Ohm — have 1.FortitudeMISSING EL+LOEl is low — farmable. Lo is the real gate.
 Priority recommendation: Build Call to Arms first (high-impact, all chars benefit from BO). Then Insight for merc. Focus farming on Sur/Ber to unlock Enigma.
 
+REVISION NOTE ON RUNES - RUNE INVENTORY — USER-MANAGED
+Do NOT rely on the parsed rune counts from the seed data — they are incorrect because the Season 13 stacked rune format is not fully parsed. Instead, build the rune inventory as a live-editable table in the UI:
+
+One row per rune type (El through Zod, 33 runes)
+Quantity field: number input, editable inline, persisted to localStorage under key d2r_rune_counts
+Pre-populate all quantities at 0 (user will fill in their actual counts)
+All runeword feasibility checks, cube upgrade paths, and "can build now" callouts read from this live count
+Include an "Import from text" convenience field: user can paste a list like "Tir:17, Tal:33, Ort:29" and it parses into the quantity fields
+
+On the runeword planner page, for each missing rune, show the cube upgrade path: e.g. "Need 1× Ber — you have 1× Sur, need 2 more Sur → then cube 3× Sur + Flawless Amethyst = 1× Ber." Show the full chain if it spans multiple steps.
+Known quantities to pre-populate (user-provided, accurate):
+
+Tir: 17, Tal: 33, Ort: 29, Fal: 9, Ohm: 3
+All other rune quantities: 0 (user will update)
+
 Notes on Season 13 Parser Gaps
 Several new Rise of the Warlock item codes (ctss, mrgy, wwww, bt) are not present in the bundled TXT reference files (which ship with the pre-RotW parser). This causes the parser to either:
 
