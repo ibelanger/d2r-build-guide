@@ -1,0 +1,1521 @@
+{
+  "meta": {
+    "version": "1.0",
+    "season": 13,
+    "game": "Diablo II Resurrected",
+    "expansion": "Rise of the Warlock",
+    "parser_version": "v2",
+    "notes": "Parsed from .d2s save files. Some new RotW Season 13 items have unknown codes in bundled TXT tables \u2014 these are patched via known_gear_overrides."
+  },
+  "characters": {
+    "ESWarlock": {
+      "class": "Warlock",
+      "level": 90,
+      "items_parsed": 55,
+      "equipped": {
+        "Amulet": {
+          "name": "Rare Amulet",
+          "quality": "Rare",
+          "code": "amu",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "RingR": {
+          "name": "Rare Ring",
+          "quality": "Rare",
+          "code": "rin",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "RingL": {
+          "name": "Manald Heal",
+          "quality": "Unique",
+          "code": "rin",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Helm": {
+          "name": "Harlequin Crest",
+          "quality": "Unique",
+          "code": "uap",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Gloves": {
+          "name": "Trang-Oul's Claws",
+          "quality": "Set",
+          "code": "xmg",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Armor": {
+          "name": "Skin of the Vipermagi",
+          "quality": "Unique",
+          "code": "xea",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Boots": {
+          "name": "Waterwalk",
+          "quality": "Unique",
+          "code": "xvb",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "WeaponR": {
+          "name": "Arioc's Needle",
+          "quality": "Unique",
+          "code": "7sr",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "WeaponL": {
+          "name": "Spirit (Monarch)",
+          "quality": "Normal",
+          "code": "uit",
+          "is_ethereal": false,
+          "is_runeword": true,
+          "runeword_name": "Spirit",
+          "socketed_runes": []
+        }
+      }
+    },
+    "RivvyZon": {
+      "class": "Amazon",
+      "level": 89,
+      "items_parsed": 62,
+      "equipped": {
+        "Helm": {
+          "name": "Kira's Guardian",
+          "quality": "Unique",
+          "code": "ci2",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Gloves": {
+          "name": "Set?[id=1696]",
+          "quality": "Set",
+          "code": "mrgy",
+          "is_ethereal": true,
+          "is_runeword": true,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "WeaponR": {
+          "name": "Titan's Revenge",
+          "quality": "Unique",
+          "code": "amf",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "WeaponL": {
+          "name": "Spirit (Monarch)",
+          "quality": "Normal",
+          "code": "uit",
+          "is_ethereal": false,
+          "is_runeword": true,
+          "runeword_name": "Spirit",
+          "socketed_runes": []
+        }
+      }
+    },
+    "RivvySorc": {
+      "class": "Sorceress",
+      "level": 91,
+      "items_parsed": 74,
+      "equipped": {
+        "Helm": {
+          "name": "Tal Rasha's Horadric Crest",
+          "quality": "Set",
+          "code": "xsk",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Amulet": {
+          "name": "Tal Rasha's Adjudication",
+          "quality": "Set",
+          "code": "amu",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Armor": {
+          "name": "Tal Rasha's Howling Wind",
+          "quality": "Set",
+          "code": "uth",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "RingR": {
+          "name": "Nagelring",
+          "quality": "Unique",
+          "code": "rin",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Gloves": {
+          "name": "Chance Guards",
+          "quality": "Unique",
+          "code": "mgl",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "WeaponL2": {
+          "name": "Grim Shield",
+          "quality": "Normal",
+          "code": "xsh",
+          "is_ethereal": false,
+          "is_runeword": true,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "WeaponR": {
+          "name": "Tal Rasha's Lidless Eye",
+          "quality": "Set",
+          "code": "oba",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "WeaponL": {
+          "name": "Spirit (Monarch)",
+          "quality": "Normal",
+          "code": "uit",
+          "is_ethereal": false,
+          "is_runeword": true,
+          "runeword_name": "Spirit",
+          "socketed_runes": []
+        }
+      }
+    },
+    "RivFOHPally": {
+      "class": "Paladin",
+      "level": 89,
+      "items_parsed": 53,
+      "equipped": {
+        "Helm": {
+          "name": "Harlequin Crest",
+          "quality": "Unique",
+          "code": "uap",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Amulet": {
+          "name": "Rare Amulet",
+          "quality": "Rare",
+          "code": "amu",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "RingL": {
+          "name": "Nagelring",
+          "quality": "Unique",
+          "code": "rin",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Boots": {
+          "name": "Natalya's Soul",
+          "quality": "Set",
+          "code": "xmb",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Belt": {
+          "name": "Goldwrap",
+          "quality": "Unique",
+          "code": "ztb",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "RingR": {
+          "name": "Dwarf Star",
+          "quality": "Unique",
+          "code": "rin",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Armor": {
+          "name": "Skin of the Vipermagi",
+          "quality": "Unique",
+          "code": "uea",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "WeaponL": {
+          "name": "Herald of Zakarum",
+          "quality": "Unique",
+          "code": "pa9",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "WeaponR": {
+          "name": "Insight (Great Poleaxe)",
+          "quality": "Normal",
+          "code": "7h7",
+          "is_ethereal": false,
+          "is_runeword": true,
+          "runeword_name": "Insight",
+          "socketed_runes": []
+        }
+      }
+    },
+    "Warriv": {
+      "class": "Warlock",
+      "level": 93,
+      "items_parsed": 71,
+      "equipped": {
+        "Helm": {
+          "name": "Harlequin Crest",
+          "quality": "Unique",
+          "code": "uap",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Amulet": {
+          "name": "Mara's Kaleidoscope",
+          "quality": "Unique",
+          "code": "amu",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "RingR": {
+          "name": "Nagelring",
+          "quality": "Unique",
+          "code": "rin",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Gloves": {
+          "name": "Chance Guards",
+          "quality": "Unique",
+          "code": "mgl",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Armor": {
+          "name": "Skin of the Vipermagi",
+          "quality": "Unique",
+          "code": "xea",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Boots": {
+          "name": "Horazon's Legacy",
+          "quality": "Set",
+          "code": "utb",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "RingL": {
+          "name": "Nagelring",
+          "quality": "Unique",
+          "code": "rin",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "Belt": {
+          "name": "String of Ears",
+          "quality": "Unique",
+          "code": "zlb",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "WeaponR": {
+          "name": "Mang Song's Lesson",
+          "quality": "Unique",
+          "code": "6ws",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": "",
+          "socketed_runes": []
+        },
+        "WeaponL": {
+          "name": "Spirit (Monarch)",
+          "quality": "Normal",
+          "code": "uit",
+          "is_ethereal": false,
+          "is_runeword": true,
+          "runeword_name": "Spirit",
+          "socketed_runes": []
+        }
+      }
+    }
+  },
+  "known_gear_overrides": {
+    "RivvyZon": {
+      "Amulet": {
+        "name": "The Cat's Eye",
+        "quality": "Unique",
+        "code": "amu",
+        "notes": "+30% FRW, +20% IAS, +25 Dex, Cold Res +25%"
+      },
+      "Armor": {
+        "name": "Treachery (Archon Plate)",
+        "quality": "Runeword",
+        "runeword": "Treachery",
+        "runes": [
+          "Shael",
+          "Thul",
+          "Lem"
+        ],
+        "code": "utp",
+        "notes": "45% IAS, 5% chance fade, +2 Assassin skills"
+      },
+      "RingR": {
+        "name": "The Stone of Jordan",
+        "quality": "Unique",
+        "code": "rin",
+        "notes": "+1 skills, +25% mana, +20 mana"
+      },
+      "RingL": {
+        "name": "Rare Ring",
+        "quality": "Rare",
+        "code": "rin",
+        "notes": "User-specified \u2014 exact stats unknown"
+      },
+      "Belt": {
+        "name": "Razortail",
+        "quality": "Unique",
+        "code": "ztb",
+        "notes": "33% Piercing Attack, +10 max dmg, 15 Dex"
+      },
+      "Boots": {
+        "name": "Silkweave",
+        "quality": "Unique",
+        "code": "xhb",
+        "notes": "+200% enhanced defense, +5 mana per kill, +300 max stamina"
+      }
+    },
+    "ESWarlock": {
+      "Belt": {
+        "name": "Crafted Belt",
+        "quality": "Crafted",
+        "code": "ztb",
+        "notes": "+9% FCR, +17% FHR, +26 Strength, +14 Mana, Regenerate Mana 8%"
+      }
+    },
+    "RivvySorc": {
+      "RingL": {
+        "name": "Nagelring",
+        "quality": "Unique",
+        "code": "rin",
+        "notes": "+15-30 MF"
+      },
+      "Belt": {
+        "name": "Tal Rasha's Fine-Spun Cloth",
+        "quality": "Set",
+        "code": "ztb",
+        "notes": "Tal Rasha set belt \u2014 20 Dex, +60-80 mana, 10-15% MF"
+      },
+      "Boots": {
+        "name": "Sandstorm Trek",
+        "quality": "Unique",
+        "code": "uvb",
+        "notes": "+20 Str, +20 Vit, FHR, poison res, repairs durability"
+      }
+    },
+    "RivFOHPally": {
+      "WeaponL": {
+        "name": "Herald of Zakarum",
+        "quality": "Unique",
+        "code": "pa9",
+        "notes": "+2 combat skills, +2 Pal skills, 65% FBR, resist all +20"
+      },
+      "Gloves": {
+        "name": "Magefist",
+        "quality": "Unique",
+        "code": "tgl",
+        "notes": "+1 Fire skills, +20% FCR, Regen Mana 25%, +25 Mana"
+      },
+      "WeaponR_note": "Heart of the Oak (Flail) \u2014 NOT Insight. Insight is on merc."
+    },
+    "Warriv": {
+      "Boots": {
+        "name": "Horazon's Legacy",
+        "quality": "Set",
+        "code": "xhb",
+        "notes": "RotW Season 13 set boots"
+      }
+    }
+  },
+  "stash": {
+    "pages": [
+      "Stash Page 1",
+      "Stash Page 2",
+      "Stash Page 3",
+      "Stash Page 4",
+      "Stash Page 5",
+      "Materials (Runes/Gems)"
+    ],
+    "item_count": 252,
+    "notable_items": [
+      {
+        "name": "Bloodtree Stump",
+        "quality": "Unique",
+        "code": "9m9",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Crack of the Heavens",
+        "quality": "Unique",
+        "code": "cm3",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Crack of the Heavens",
+        "quality": "Unique",
+        "code": "cm3",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Cold Rupture",
+        "quality": "Unique",
+        "code": "cm3",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Rare Gauntlets",
+        "quality": "Rare",
+        "code": "hgl",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Mosers Blessed Circle",
+        "quality": "Unique",
+        "code": "xml",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Darksight Helm",
+        "quality": "Unique",
+        "code": "xhl",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "The Eye of Etlich",
+        "quality": "Unique",
+        "code": "amu",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Dwarf Star",
+        "quality": "Unique",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Trang-Oul's Claws",
+        "quality": "Set",
+        "code": "xmg",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Arreat's Face",
+        "quality": "Unique",
+        "code": "baa",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Bul-Kathos' Sacred Charge",
+        "quality": "Set",
+        "code": "7gd",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Baranar's Star",
+        "quality": "Unique",
+        "code": "7mt",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Stealskull",
+        "quality": "Unique",
+        "code": "xlm",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Gorerider",
+        "quality": "Unique",
+        "code": "xhb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Aldur's Advance",
+        "quality": "Set",
+        "code": "xtb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Raven Frost",
+        "quality": "Unique",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "[2tnr]",
+        "quality": "Inferior",
+        "code": "2tnr",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "",
+        "stash_page": 0,
+        "stash_page_name": "Stash Page 1"
+      },
+      {
+        "name": "Herald of Zakarum",
+        "quality": "Unique",
+        "code": "pa9",
+        "is_ethereal": true,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 1,
+        "stash_page_name": "Stash Page 2"
+      },
+      {
+        "name": "Hellslayer",
+        "quality": "Unique",
+        "code": "7bt",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 1,
+        "stash_page_name": "Stash Page 2"
+      },
+      {
+        "name": "Magefist",
+        "quality": "Unique",
+        "code": "tgl",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 1,
+        "stash_page_name": "Stash Page 2"
+      },
+      {
+        "name": "Frostburn",
+        "quality": "Unique",
+        "code": "hgl",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 1,
+        "stash_page_name": "Stash Page 2"
+      },
+      {
+        "name": "[]",
+        "quality": "?0",
+        "code": "",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "",
+        "stash_page": 1,
+        "stash_page_name": "Stash Page 2"
+      },
+      {
+        "name": "Suicide Branch",
+        "quality": "Unique",
+        "code": "9wn",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 1,
+        "stash_page_name": "Stash Page 2"
+      },
+      {
+        "name": "Dwarf Star",
+        "quality": "Unique",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 1,
+        "stash_page_name": "Stash Page 2"
+      },
+      {
+        "name": "Goldwrap",
+        "quality": "Unique",
+        "code": "tbl",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 1,
+        "stash_page_name": "Stash Page 2"
+      },
+      {
+        "name": "Chance Guards",
+        "quality": "Unique",
+        "code": "mgl",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 1,
+        "stash_page_name": "Stash Page 2"
+      },
+      {
+        "name": "Crafted Sharkskin Belt",
+        "quality": "Crafted",
+        "code": "zvb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 1,
+        "stash_page_name": "Stash Page 2"
+      },
+      {
+        "name": "Aldur's Advance",
+        "quality": "Set",
+        "code": "xtb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 1,
+        "stash_page_name": "Stash Page 2"
+      },
+      {
+        "name": "Chance Guards",
+        "quality": "Unique",
+        "code": "mgl",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 1,
+        "stash_page_name": "Stash Page 2"
+      },
+      {
+        "name": "Sandstorm Trek",
+        "quality": "Unique",
+        "code": "uvb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 1,
+        "stash_page_name": "Stash Page 2"
+      },
+      {
+        "name": "[rm]",
+        "quality": "Magic",
+        "code": "rm",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "[rm]",
+        "quality": "Magic",
+        "code": "rm",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "Rare Amulet",
+        "quality": "Rare",
+        "code": "amu",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "Blackhand Key",
+        "quality": "Unique",
+        "code": "9gw",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "Rare Jewel",
+        "quality": "Rare",
+        "code": "jew",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "Rare Jewel",
+        "quality": "Rare",
+        "code": "jew",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "Arcanna's Sign",
+        "quality": "Set",
+        "code": "amu",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "Rare Ring",
+        "quality": "Rare",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "Rare Jewel",
+        "quality": "Rare",
+        "code": "jew",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "Rare Jewel",
+        "quality": "Rare",
+        "code": "jew",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "Rare Jewel",
+        "quality": "Rare",
+        "code": "jew",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "Rare Jewel",
+        "quality": "Rare",
+        "code": "jew",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "Crafted [cts]",
+        "quality": "Crafted",
+        "code": "cts",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "[7pws]",
+        "quality": "Magic",
+        "code": "7pws",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "",
+        "stash_page": 2,
+        "stash_page_name": "Stash Page 3"
+      },
+      {
+        "name": "Aldur's Deception",
+        "quality": "Set",
+        "code": "uul",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 3,
+        "stash_page_name": "Stash Page 4"
+      },
+      {
+        "name": "Ars Tor'Baalos",
+        "quality": "Unique",
+        "code": "wae",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 3,
+        "stash_page_name": "Stash Page 4"
+      },
+      {
+        "name": "Ars Tor'Baalos",
+        "quality": "Unique",
+        "code": "wae",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 3,
+        "stash_page_name": "Stash Page 4"
+      },
+      {
+        "name": "M'avina's Embrace",
+        "quality": "Set",
+        "code": "uld",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 3,
+        "stash_page_name": "Stash Page 4"
+      },
+      {
+        "name": "Trang-Oul's Scales",
+        "quality": "Set",
+        "code": "xul",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 3,
+        "stash_page_name": "Stash Page 4"
+      },
+      {
+        "name": "Goldwrap",
+        "quality": "Unique",
+        "code": "ztb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 3,
+        "stash_page_name": "Stash Page 4"
+      },
+      {
+        "name": "Shaftstop",
+        "quality": "Unique",
+        "code": "xhn",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 3,
+        "stash_page_name": "Stash Page 4"
+      },
+      {
+        "name": "Natalya's Totem",
+        "quality": "Set",
+        "code": "xh9",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 3,
+        "stash_page_name": "Stash Page 4"
+      },
+      {
+        "name": "Arioc's Needle",
+        "quality": "Unique",
+        "code": "7sr",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 3,
+        "stash_page_name": "Stash Page 4"
+      },
+      {
+        "name": "Buriza-Do Kyanon",
+        "quality": "Unique",
+        "code": "8hx",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 3,
+        "stash_page_name": "Stash Page 4"
+      },
+      {
+        "name": "String of Ears",
+        "quality": "Unique",
+        "code": "zlb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 3,
+        "stash_page_name": "Stash Page 4"
+      },
+      {
+        "name": "Hsarus' Iron Heel",
+        "quality": "Set",
+        "code": "mbt",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 4,
+        "stash_page_name": "Stash Page 5"
+      },
+      {
+        "name": "Treads of Cthon",
+        "quality": "Unique",
+        "code": "mbt",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 4,
+        "stash_page_name": "Stash Page 5"
+      },
+      {
+        "name": "[u]",
+        "quality": "Normal",
+        "code": "u",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "",
+        "stash_page": 4,
+        "stash_page_name": "Stash Page 5"
+      },
+      {
+        "name": "Insight (Great Poleaxe)",
+        "quality": "Normal",
+        "code": "7h7",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "Insight",
+        "stash_page": 4,
+        "stash_page_name": "Stash Page 5"
+      },
+      {
+        "name": "Ral Rune",
+        "quality": "",
+        "code": "r08",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Ort Rune",
+        "quality": "",
+        "code": "r09",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Tir Rune",
+        "quality": "",
+        "code": "r03",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Amn Rune",
+        "quality": "",
+        "code": "r11",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Tal Rune",
+        "quality": "",
+        "code": "r07",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Sol Rune",
+        "quality": "",
+        "code": "r12",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Dol Rune",
+        "quality": "",
+        "code": "r14",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Hel Rune",
+        "quality": "",
+        "code": "r15",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Nef Rune",
+        "quality": "",
+        "code": "r04",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Shael Rune",
+        "quality": "",
+        "code": "r13",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Eth Rune",
+        "quality": "",
+        "code": "r05",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Fal Rune",
+        "quality": "",
+        "code": "r19",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Sur Rune",
+        "quality": "",
+        "code": "r29",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Io Rune",
+        "quality": "",
+        "code": "r16",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Eld Rune",
+        "quality": "",
+        "code": "r02",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Ith Rune",
+        "quality": "",
+        "code": "r06",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Lem Rune",
+        "quality": "",
+        "code": "r20",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Vex Rune",
+        "quality": "",
+        "code": "r26",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Pul Rune",
+        "quality": "",
+        "code": "r21",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Zod Rune",
+        "quality": "",
+        "code": "r33",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Ohm Rune",
+        "quality": "",
+        "code": "r27",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Ko Rune",
+        "quality": "",
+        "code": "r18",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Mal Rune",
+        "quality": "",
+        "code": "r23",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Um Rune",
+        "quality": "",
+        "code": "r22",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Jah Rune",
+        "quality": "",
+        "code": "r31",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Thul Rune",
+        "quality": "",
+        "code": "r10",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Crafted []",
+        "quality": "Crafted",
+        "code": "",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Lum Rune",
+        "quality": "",
+        "code": "r17",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      },
+      {
+        "name": "Ist Rune",
+        "quality": "",
+        "code": "r24",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "stash_page": 5,
+        "stash_page_name": "Materials (Runes/Gems)"
+      }
+    ]
+  },
+  "rune_inventory": {
+    "Eld": {
+      "code": "r02",
+      "count": 1
+    },
+    "Tir": {
+      "code": "r03",
+      "count": 1
+    },
+    "Nef": {
+      "code": "r04",
+      "count": 1
+    },
+    "Eth": {
+      "code": "r05",
+      "count": 1
+    },
+    "Ith": {
+      "code": "r06",
+      "count": 1
+    },
+    "Tal": {
+      "code": "r07",
+      "count": 1
+    },
+    "Ral": {
+      "code": "r08",
+      "count": 1
+    },
+    "Ort": {
+      "code": "r09",
+      "count": 1
+    },
+    "Thul": {
+      "code": "r10",
+      "count": 1
+    },
+    "Amn": {
+      "code": "r11",
+      "count": 1
+    },
+    "Sol": {
+      "code": "r12",
+      "count": 2
+    },
+    "Shael": {
+      "code": "r13",
+      "count": 1
+    },
+    "Dol": {
+      "code": "r14",
+      "count": 2
+    },
+    "Hel": {
+      "code": "r15",
+      "count": 1
+    },
+    "Io": {
+      "code": "r16",
+      "count": 1
+    },
+    "Lum": {
+      "code": "r17",
+      "count": 1
+    },
+    "Ko": {
+      "code": "r18",
+      "count": 1
+    },
+    "Fal": {
+      "code": "r19",
+      "count": 1
+    },
+    "Lem": {
+      "code": "r20",
+      "count": 1
+    },
+    "Pul": {
+      "code": "r21",
+      "count": 1
+    },
+    "Um": {
+      "code": "r22",
+      "count": 1
+    },
+    "Mal": {
+      "code": "r23",
+      "count": 1
+    },
+    "Ist": {
+      "code": "r24",
+      "count": 1
+    },
+    "Vex": {
+      "code": "r26",
+      "count": 1
+    },
+    "Ohm": {
+      "code": "r27",
+      "count": 1
+    },
+    "Sur": {
+      "code": "r29",
+      "count": 1
+    },
+    "Jah": {
+      "code": "r31",
+      "count": 1
+    },
+    "Zod": {
+      "code": "r33",
+      "count": 1
+    }
+  }
+}
