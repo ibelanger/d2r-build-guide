@@ -12,6 +12,8 @@ I will provide these files — place them as-is:
 
 d2r_seed_data.json → source of truth for characters, stash, rune inventory
 parse_d2r_v2.py → Python save file parser (reference only, not used by React app)
+"D2R_REPO_BUILD_PLAN.md" for all other build details
+build a relevant claude.md file, and any relevant release skills we use.
 
 Generate all other data files (characters.json, bis.json, runewords.json, runes.json, stash.json) from the seed data. The BIS data and runeword data should be hardcoded content — you have enough context from this prompt to populate them fully.
 
