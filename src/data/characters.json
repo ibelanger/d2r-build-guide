@@ -1,0 +1,476 @@
+{
+  "ESWarlock": {
+    "id": "ESWarlock",
+    "name": "ESWarlock",
+    "class": "Warlock",
+    "level": 90,
+    "build": "Energy Shield Warlock",
+    "equipped": {
+      "Helm": {
+        "name": "Harlequin Crest",
+        "quality": "Unique",
+        "code": "uap",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "Armor": {
+        "name": "Skin of the Vipermagi",
+        "quality": "Unique",
+        "code": "xea",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "WeaponR": {
+        "name": "Arioc's Needle",
+        "quality": "Unique",
+        "code": "7sr",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "WeaponL": {
+        "name": "Spirit (Monarch)",
+        "quality": "Runeword",
+        "code": "uit",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "Spirit"
+      },
+      "Gloves": {
+        "name": "Trang-Oul's Claws",
+        "quality": "Set",
+        "code": "xmg",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "Boots": {
+        "name": "Waterwalk",
+        "quality": "Unique",
+        "code": "xvb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "Belt": {
+        "name": "Crafted Belt",
+        "quality": "Crafted",
+        "code": "ztb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "+9% FCR, +17% FHR, +26 Strength, +14 Mana, Regenerate Mana 8%",
+        "overridden": true
+      },
+      "Amulet": {
+        "name": "Rare Amulet",
+        "quality": "Rare",
+        "code": "amu",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "RingR": {
+        "name": "Rare Ring",
+        "quality": "Rare",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "RingL": {
+        "name": "Manald Heal",
+        "quality": "Unique",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      }
+    }
+  },
+  "RivvyZon": {
+    "id": "RivvyZon",
+    "name": "RivvyZon",
+    "class": "Amazon",
+    "level": 89,
+    "build": "Lightning Fury / Charged Strike",
+    "equipped": {
+      "Helm": {
+        "name": "Kira's Guardian",
+        "quality": "Unique",
+        "code": "ci2",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "Armor": {
+        "name": "Treachery (Archon Plate)",
+        "quality": "Runeword",
+        "code": "utp",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "Treachery",
+        "notes": "45% IAS, 5% chance fade, +2 Assassin skills",
+        "overridden": true
+      },
+      "WeaponR": {
+        "name": "Titan's Revenge",
+        "quality": "Unique",
+        "code": "amf",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "WeaponL": {
+        "name": "Spirit (Monarch)",
+        "quality": "Runeword",
+        "code": "uit",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "Spirit"
+      },
+      "Gloves": {
+        "name": "Set Gauntlets",
+        "quality": "Set",
+        "code": "mrgy",
+        "is_ethereal": true,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "Season 13 unknown set code (mrgy)"
+      },
+      "Boots": {
+        "name": "Silkweave",
+        "quality": "Unique",
+        "code": "xhb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "+200% enhanced defense, +5 mana per kill, +300 max stamina",
+        "overridden": true
+      },
+      "Belt": {
+        "name": "Razortail",
+        "quality": "Unique",
+        "code": "ztb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "33% Piercing Attack, +10 max dmg, 15 Dex",
+        "overridden": true
+      },
+      "Amulet": {
+        "name": "The Cat's Eye",
+        "quality": "Unique",
+        "code": "amu",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "+30% FRW, +20% IAS, +25 Dex, Cold Res +25%",
+        "overridden": true
+      },
+      "RingR": {
+        "name": "The Stone of Jordan",
+        "quality": "Unique",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "+1 skills, +25% mana, +20 mana",
+        "overridden": true
+      },
+      "RingL": {
+        "name": "Rare Ring",
+        "quality": "Rare",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "User-specified — exact stats unknown",
+        "overridden": true
+      }
+    }
+  },
+  "RivvySorc": {
+    "id": "RivvySorc",
+    "name": "RivvySorc",
+    "class": "Sorceress",
+    "level": 91,
+    "build": "Blizzard Sorceress (Tal Rasha)",
+    "equipped": {
+      "Helm": {
+        "name": "Tal Rasha's Horadric Crest",
+        "quality": "Set",
+        "code": "xsk",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "Armor": {
+        "name": "Tal Rasha's Howling Wind",
+        "quality": "Set",
+        "code": "uth",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "WeaponR": {
+        "name": "Tal Rasha's Lidless Eye",
+        "quality": "Set",
+        "code": "oba",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "WeaponL": {
+        "name": "Spirit (Monarch)",
+        "quality": "Runeword",
+        "code": "uit",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "Spirit"
+      },
+      "Gloves": {
+        "name": "Chance Guards",
+        "quality": "Unique",
+        "code": "mgl",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "Boots": {
+        "name": "Sandstorm Trek",
+        "quality": "Unique",
+        "code": "uvb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "+20 Str, +20 Vit, FHR, poison res, repairs durability",
+        "overridden": true
+      },
+      "Belt": {
+        "name": "Tal Rasha's Fine-Spun Cloth",
+        "quality": "Set",
+        "code": "ztb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "Tal Rasha set belt — 20 Dex, +60-80 mana, 10-15% MF",
+        "overridden": true
+      },
+      "Amulet": {
+        "name": "Tal Rasha's Adjudication",
+        "quality": "Set",
+        "code": "amu",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "RingR": {
+        "name": "Nagelring",
+        "quality": "Unique",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "RingL": {
+        "name": "Nagelring",
+        "quality": "Unique",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "+15-30 MF",
+        "overridden": true
+      }
+    }
+  },
+  "RivFOHPally": {
+    "id": "RivFOHPally",
+    "name": "RivFOHPally",
+    "class": "Paladin",
+    "level": 89,
+    "build": "Fist of the Heavens Paladin",
+    "equipped": {
+      "Helm": {
+        "name": "Harlequin Crest",
+        "quality": "Unique",
+        "code": "uap",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "Armor": {
+        "name": "Skin of the Vipermagi",
+        "quality": "Unique",
+        "code": "uea",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "WeaponR": {
+        "name": "Heart of the Oak (Flail)",
+        "quality": "Runeword",
+        "code": "fla",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "Heart of the Oak",
+        "notes": "HotO, NOT Insight. Insight is on merc."
+      },
+      "WeaponL": {
+        "name": "Herald of Zakarum",
+        "quality": "Unique",
+        "code": "pa9",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "+2 combat skills, +2 Pal skills, 65% FBR, resist all +20",
+        "overridden": true
+      },
+      "Gloves": {
+        "name": "Magefist",
+        "quality": "Unique",
+        "code": "tgl",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "+1 Fire skills, +20% FCR, Regen Mana 25%, +25 Mana",
+        "overridden": true
+      },
+      "Boots": {
+        "name": "Natalya's Soul",
+        "quality": "Set",
+        "code": "xmb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "Belt": {
+        "name": "Goldwrap",
+        "quality": "Unique",
+        "code": "ztb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "Amulet": {
+        "name": "Rare Amulet",
+        "quality": "Rare",
+        "code": "amu",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "+2 combat skills, 6% lifesteal, +6 all res"
+      },
+      "RingR": {
+        "name": "Dwarf Star",
+        "quality": "Unique",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "RingL": {
+        "name": "Nagelring",
+        "quality": "Unique",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      }
+    }
+  },
+  "Warriv": {
+    "id": "Warriv",
+    "name": "Warriv",
+    "class": "Warlock",
+    "level": 93,
+    "build": "Warlock (Main)",
+    "equipped": {
+      "Helm": {
+        "name": "Harlequin Crest",
+        "quality": "Unique",
+        "code": "uap",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "Armor": {
+        "name": "Skin of the Vipermagi",
+        "quality": "Unique",
+        "code": "xea",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "WeaponR": {
+        "name": "Mang Song's Lesson",
+        "quality": "Unique",
+        "code": "6ws",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "WeaponL": {
+        "name": "Spirit (Monarch)",
+        "quality": "Runeword",
+        "code": "uit",
+        "is_ethereal": false,
+        "is_runeword": true,
+        "runeword_name": "Spirit"
+      },
+      "Gloves": {
+        "name": "Chance Guards",
+        "quality": "Unique",
+        "code": "mgl",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "Boots": {
+        "name": "Horazon's Legacy",
+        "quality": "Set",
+        "code": "utb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": "",
+        "notes": "RotW Season 13 set boots",
+        "overridden": true
+      },
+      "Belt": {
+        "name": "String of Ears",
+        "quality": "Unique",
+        "code": "zlb",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "Amulet": {
+        "name": "Mara's Kaleidoscope",
+        "quality": "Unique",
+        "code": "amu",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "RingR": {
+        "name": "Nagelring",
+        "quality": "Unique",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      },
+      "RingL": {
+        "name": "Nagelring",
+        "quality": "Unique",
+        "code": "rin",
+        "is_ethereal": false,
+        "is_runeword": false,
+        "runeword_name": ""
+      }
+    }
+  }
+}

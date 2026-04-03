@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Call to Arms",
+    "runes": ["Amn", "Ral", "Mal", "Ist", "Ohm"],
+    "bases": ["Crystal Sword", "Flail", "Phase Blade"],
+    "baseType": "5os Sword/Mace",
+    "level": 57,
+    "targetBuilds": ["ESWarlock", "RivvyZon", "RivvySorc", "RivFOHPally", "Warriv"],
+    "priority": 1,
+    "keyStats": "+1 Battle Command, +1 Battle Orders, +1 Battle Cry — weapon swap buff"
+  },
+  {
+    "name": "Heart of the Oak",
+    "runes": ["Ko", "Vex", "Pul", "Thul"],
+    "bases": ["Flail"],
+    "baseType": "4os Mace",
+    "level": 55,
+    "targetBuilds": ["ESWarlock", "RivFOHPally"],
+    "priority": 2,
+    "keyStats": "+3 All Skills, 40% FCR, +30-40 All Res, 75% mana regen"
+  },
+  {
+    "name": "Spirit",
+    "runes": ["Tal", "Thul", "Ort", "Amn"],
+    "bases": ["Crystal Sword", "Broad Sword", "Monarch"],
+    "baseType": "4os Sword or Shield",
+    "level": 25,
+    "targetBuilds": ["ESWarlock", "RivvyZon", "RivvySorc", "RivFOHPally", "Warriv"],
+    "priority": 3,
+    "keyStats": "+2 Skills, 25-35% FCR, 55% FHR, +89-112 Mana"
+  },
+  {
+    "name": "Insight",
+    "runes": ["Ral", "Tir", "Tal", "Sol"],
+    "bases": ["Eth Thresher", "Eth Great Poleaxe", "Eth Colossus Voulge"],
+    "baseType": "4os Polearm",
+    "level": 27,
+    "targetBuilds": ["ESWarlock", "RivvySorc", "Warriv"],
+    "priority": 4,
+    "keyStats": "Level 12-17 Meditation Aura (merc), +5-30 Fire Dmg, +23% MF"
+  },
+  {
+    "name": "Treachery",
+    "runes": ["Shael", "Thul", "Lem"],
+    "bases": ["Archon Plate", "Dusk Shroud", "Wire Fleece"],
+    "baseType": "3os Body Armor",
+    "level": 43,
+    "targetBuilds": ["RivvyZon"],
+    "priority": 5,
+    "keyStats": "45% IAS, 5% Fade chance, +2 Assassin Skills, 20% FHR"
+  },
+  {
+    "name": "Enigma",
+    "runes": ["Jah", "Ith", "Ber"],
+    "bases": ["Archon Plate", "Mage Plate", "Dusk Shroud"],
+    "baseType": "3os Body Armor",
+    "level": 65,
+    "targetBuilds": ["ESWarlock", "RivFOHPally", "Warriv", "RivvyZon"],
+    "priority": 6,
+    "keyStats": "Teleport, +2 Skills, 45% FRW, +750-775 Defense"
+  },
+  {
+    "name": "Chains of Honor",
+    "runes": ["Dol", "Um", "Ber", "Ist"],
+    "bases": ["Archon Plate", "Dusk Shroud"],
+    "baseType": "4os Body Armor",
+    "level": 63,
+    "targetBuilds": ["ESWarlock", "Warriv"],
+    "priority": 7,
+    "keyStats": "+2 Skills, +65 All Res, 8% LL, 25% MF, +20 Str"
+  },
+  {
+    "name": "Infinity",
+    "runes": ["Ber", "Mal", "Ber", "Ist"],
+    "bases": ["Eth Thresher", "Eth Giant Thresher", "Eth Great Poleaxe"],
+    "baseType": "4os Polearm",
+    "level": 63,
+    "targetBuilds": ["RivvyZon", "RivvySorc"],
+    "priority": 8,
+    "keyStats": "Level 12 Conviction Aura (merc), -45-55% enemy lightning res"
+  },
+  {
+    "name": "Grief",
+    "runes": ["Eth", "Tir", "Lo", "Mal", "Ral"],
+    "bases": ["Phase Blade", "Berserker Axe"],
+    "baseType": "5os Sword/Axe",
+    "level": 59,
+    "targetBuilds": [],
+    "priority": 9,
+    "keyStats": "+340-400 Damage, -25% Enemy Poison Res, IAS"
+  },
+  {
+    "name": "Fortitude",
+    "runes": ["El", "Sol", "Dol", "Lo"],
+    "bases": ["Archon Plate", "Dusk Shroud", "Eth Bugged Armor"],
+    "baseType": "4os Body Armor",
+    "level": 59,
+    "targetBuilds": ["RivvyZon"],
+    "priority": 10,
+    "keyStats": "+300% ED, +200 Defense, +30 All Res, 20% Deadly Strike"
+  }
+]

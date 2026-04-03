@@ -1,0 +1,62 @@
+{
+  "ESWarlock": {
+    "Helm": { "name": "Harlequin Crest (Shako)", "quality": "Unique", "notes": "Um rune socket for resistances", "alternatives": ["Griffon's Eye"] },
+    "Armor": { "name": "Enigma (Archon Plate)", "quality": "Runeword", "notes": "Jah+Ith+Ber — Teleport, +2 skills, 45% FRW", "alternatives": ["Chains of Honor"] },
+    "WeaponR": { "name": "Heart of the Oak (Flail)", "quality": "Runeword", "notes": "Ko+Vex+Pul+Thul — +3 skills, 40% FCR, +30-40 all res", "alternatives": ["Eschuta's Temper"] },
+    "WeaponL": { "name": "Spirit (Monarch)", "quality": "Runeword", "notes": "+2 skills, 35% FCR, 55% FHR", "alternatives": [] },
+    "Gloves": { "name": "Trang-Oul's Claws", "quality": "Set", "notes": "+20% FCR — essential for caster breakpoint", "alternatives": ["Magefist"] },
+    "Boots": { "name": "Sandstorm Trek", "quality": "Unique", "notes": "+20 Str, +20 Vit, FHR, poison res", "alternatives": ["War Traveler"] },
+    "Belt": { "name": "Arachnid Mesh", "quality": "Unique", "notes": "+1 skills, +20% FCR, +5% max mana", "alternatives": [] },
+    "Amulet": { "name": "Mara's Kaleidoscope", "quality": "Unique", "notes": "+2 skills, +20-30 all res", "alternatives": ["+2 skills/FCR rare amulet"] },
+    "RingR": { "name": "Stone of Jordan", "quality": "Unique", "notes": "+1 skills, +25% mana", "alternatives": ["Bul-Kathos' Wedding Band"] },
+    "RingL": { "name": "Stone of Jordan", "quality": "Unique", "notes": "+1 skills, +25% mana", "alternatives": ["Bul-Kathos' Wedding Band"] }
+  },
+  "RivvyZon": {
+    "Helm": { "name": "Griffon's Eye", "quality": "Unique", "notes": "+1 skills, -15-20% enemy lightning res, +10-15% lightning dmg", "alternatives": ["Kira's Guardian", "Valkyrie Wing"] },
+    "Armor": { "name": "Enigma (Archon Plate)", "quality": "Runeword", "notes": "Teleport for positioning", "alternatives": ["Fortitude", "Chains of Honor"] },
+    "WeaponR": { "name": "Titan's Revenge (Eth)", "quality": "Unique", "notes": "+2 Amazon, +2 Java, replenishes quantity, ethereal is ideal", "alternatives": ["Thunderstroke"] },
+    "WeaponL": { "name": "Spirit (Monarch)", "quality": "Runeword", "notes": "+2 skills, 35% FCR, 55% FHR", "alternatives": ["Stormshield"] },
+    "Gloves": { "name": "+3 Java / 20 IAS Rare", "quality": "Rare", "notes": "+3 Java & Spear, 20% IAS — rare tier dependent", "alternatives": ["+2 Java / 20 IAS"] },
+    "Boots": { "name": "War Traveler", "quality": "Unique", "notes": "+30-50% MF, +15-25 dmg", "alternatives": ["Silkweave"] },
+    "Belt": { "name": "Razortail", "quality": "Unique", "notes": "33% Piercing Attack — required for pierce threshold", "alternatives": [] },
+    "Amulet": { "name": "Highlord's Wrath", "quality": "Unique", "notes": "+1 skills, 20% IAS, deadly strike per level", "alternatives": ["Cat's Eye"] },
+    "RingR": { "name": "Raven Frost", "quality": "Unique", "notes": "Cannot be frozen, +20 Dex, +250 AR", "alternatives": [] },
+    "RingL": { "name": "Stone of Jordan", "quality": "Unique", "notes": "+1 skills, +25% mana", "alternatives": ["Bul-Kathos' Wedding Band"] }
+  },
+  "RivvySorc": {
+    "Helm": { "name": "Tal Rasha's Horadric Crest", "quality": "Set", "notes": "Tal Rasha set piece — LOCKED", "alternatives": [] },
+    "Armor": { "name": "Tal Rasha's Howling Wind", "quality": "Set", "notes": "Tal Rasha set piece — LOCKED", "alternatives": [] },
+    "WeaponR": { "name": "Tal Rasha's Lidless Eye", "quality": "Set", "notes": "Tal Rasha set piece — LOCKED", "alternatives": ["Death's Fathom", "Eschuta's Temper"] },
+    "WeaponL": { "name": "Spirit (Monarch)", "quality": "Runeword", "notes": "+2 skills, 35% FCR — pairs with Tal set", "alternatives": [] },
+    "Gloves": { "name": "Chance Guards", "quality": "Unique", "notes": "+20-40% MF — MF build focus", "alternatives": ["Magefist"] },
+    "Boots": { "name": "War Traveler", "quality": "Unique", "notes": "+30-50% MF", "alternatives": ["Sandstorm Trek"] },
+    "Belt": { "name": "Tal Rasha's Fine-Spun Cloth", "quality": "Set", "notes": "Tal Rasha set piece — LOCKED", "alternatives": [] },
+    "Amulet": { "name": "Tal Rasha's Adjudication", "quality": "Set", "notes": "Tal Rasha set piece — LOCKED", "alternatives": [] },
+    "RingR": { "name": "Nagelring", "quality": "Unique", "notes": "+15-30% MF — MF stacking", "alternatives": ["Stone of Jordan"] },
+    "RingL": { "name": "Nagelring", "quality": "Unique", "notes": "+15-30% MF — second MF ring", "alternatives": ["Stone of Jordan"] }
+  },
+  "RivFOHPally": {
+    "Helm": { "name": "Harlequin Crest (Shako)", "quality": "Unique", "notes": "+2 skills, DR, life/mana", "alternatives": [] },
+    "Armor": { "name": "Enigma (Archon Plate)", "quality": "Runeword", "notes": "Teleport for Paladin, +2 skills", "alternatives": ["Chains of Honor"] },
+    "WeaponR": { "name": "Heart of the Oak (Flail)", "quality": "Runeword", "notes": "+3 skills, 40% FCR, +30-40 all res", "alternatives": [] },
+    "WeaponL": { "name": "Herald of Zakarum", "quality": "Unique", "notes": "+2 combat skills, +2 Pal skills, high block", "alternatives": [] },
+    "Gloves": { "name": "Magefist", "quality": "Unique", "notes": "+1 Fire skills, +20% FCR, Regen Mana 25%", "alternatives": ["Trang-Oul's Claws"] },
+    "Boots": { "name": "Sandstorm Trek", "quality": "Unique", "notes": "+20 Str, +20 Vit, FHR", "alternatives": ["War Traveler"] },
+    "Belt": { "name": "Arachnid Mesh", "quality": "Unique", "notes": "+1 skills, +20% FCR", "alternatives": [] },
+    "Amulet": { "name": "Mara's Kaleidoscope", "quality": "Unique", "notes": "+2 skills, +20-30 all res", "alternatives": ["+2 Paladin/FCR rare amulet"] },
+    "RingR": { "name": "Stone of Jordan", "quality": "Unique", "notes": "+1 skills, +25% mana", "alternatives": [] },
+    "RingL": { "name": "Stone of Jordan", "quality": "Unique", "notes": "+1 skills, +25% mana", "alternatives": [] }
+  },
+  "Warriv": {
+    "Helm": { "name": "Harlequin Crest (Shako)", "quality": "Unique", "notes": "+2 skills, DR, life/mana", "alternatives": [] },
+    "Armor": { "name": "Enigma (Archon Plate)", "quality": "Runeword", "notes": "Teleport, +2 skills, 45% FRW", "alternatives": ["Chains of Honor"] },
+    "WeaponR": { "name": "Mang Song's Lesson", "quality": "Unique", "notes": "+5 skills, -15-25% enemy res — already equipped", "alternatives": ["Heart of the Oak"] },
+    "WeaponL": { "name": "Spirit (Monarch)", "quality": "Runeword", "notes": "+2 skills, 35% FCR", "alternatives": [] },
+    "Gloves": { "name": "Magefist", "quality": "Unique", "notes": "+1 Fire skills, +20% FCR", "alternatives": ["Chance Guards"] },
+    "Boots": { "name": "War Traveler", "quality": "Unique", "notes": "+30-50% MF, +15-25 dmg", "alternatives": ["Sandstorm Trek"] },
+    "Belt": { "name": "Arachnid Mesh", "quality": "Unique", "notes": "+1 skills, +20% FCR", "alternatives": [] },
+    "Amulet": { "name": "Mara's Kaleidoscope", "quality": "Unique", "notes": "+2 skills, +20-30 all res — already equipped", "alternatives": [] },
+    "RingR": { "name": "Stone of Jordan", "quality": "Unique", "notes": "+1 skills, +25% mana", "alternatives": [] },
+    "RingL": { "name": "Stone of Jordan", "quality": "Unique", "notes": "+1 skills, +25% mana", "alternatives": ["Bul-Kathos' Wedding Band"] }
+  }
+}
