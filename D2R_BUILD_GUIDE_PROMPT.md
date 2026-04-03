@@ -23,3 +23,5 @@ Merc gear tracker: each character's mercenary equipped items (weapon/helm/armor)
 Export to PDF: print-friendly character sheet
 
 Begin by generating the full project scaffold, all data files, and a working / dashboard page with character cards and rune inventory widget. Then implement the character detail page. Then runewords. Then stash browser. Then recommendations. Commit each major section.
+
+Build all files according to orginization in the "D2R_REPO_BUILD_PLAN.md" file - move any current files if necessary. 
