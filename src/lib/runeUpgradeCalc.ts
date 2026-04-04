@@ -49,7 +49,7 @@ export function calculateCubePath(
     if (!below) return false;
 
     const shortfall = needed - current;
-    const lowerNeeded = shortfall * 3;
+    const lowerNeeded = shortfall * below.cubeUpCount;
 
     steps.push({
       from: below.name,

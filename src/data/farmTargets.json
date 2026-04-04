@@ -1,0 +1,29 @@
+{
+  "low": {
+    "runes": ["El", "Eld", "Tir", "Nef", "Eth", "Ith", "Tal", "Ral", "Ort", "Thul"],
+    "locations": [
+      { "name": "Countess (Normal)", "area": "Tower Cellar Level 5, Act 1", "notes": "Guaranteed rune drops up to Ral" },
+      { "name": "Countess (Nightmare)", "area": "Tower Cellar Level 5, Act 1", "notes": "Drops up to Ko, reliable for low-mid runes" }
+    ]
+  },
+  "mid": {
+    "runes": ["Amn", "Sol", "Shael", "Dol", "Hel", "Io", "Lum", "Ko", "Fal"],
+    "locations": [
+      { "name": "Countess (Hell)", "area": "Tower Cellar Level 5, Act 1", "notes": "Drops up to Ist (rare), reliable for mid runes" },
+      { "name": "Hellforge (Nightmare)", "area": "Act 4 Quest Reward", "notes": "One-time per difficulty: drops Hel-Gul range" },
+      { "name": "Arcane Sanctuary", "area": "Act 2 Hell", "notes": "Ghosts have good rune drop rates, no item drops to compete" }
+    ]
+  },
+  "high": {
+    "runes": ["Lem", "Pul", "Um", "Mal", "Ist", "Gul", "Vex", "Ohm", "Lo", "Sur", "Ber", "Jah", "Cham", "Zod"],
+    "locations": [
+      { "name": "Lower Kurast Superchests", "area": "Act 3 Hell", "notes": "Best for Sur/Ber drops. Run the campfire pattern — 2 campfires with superchests nearby. Players 7+ recommended" },
+      { "name": "Travincal Council", "area": "Act 3 Hell", "notes": "High monster density council members. Good for all high runes, fast runs" },
+      { "name": "Chaos Sanctuary", "area": "Act 4 Hell", "notes": "Seal bosses have high treasure class. Also great XP" },
+      { "name": "Cows (Secret Cow Level)", "area": "Act 1 Hell", "notes": "Very high monster count = more chances for rune drops" },
+      { "name": "Worldstone Keep", "area": "Act 5 Hell, Levels 1-3", "notes": "High area level (85), good density, can chain with Baal runs" },
+      { "name": "Countess (Hell)", "area": "Tower Cellar Level 5, Act 1", "notes": "Can drop up to Ist from special rune table, Lo from regular drops" },
+      { "name": "Hellforge (Hell)", "area": "Act 4 Quest Reward", "notes": "One-time: drops Hel-Gul range. Do on every character" }
+    ]
+  }
+}

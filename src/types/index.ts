@@ -44,6 +44,7 @@ export interface Runeword {
   targetBuilds: string[];
   priority: number;
   keyStats: string;
+  ladderOnly?: boolean;
 }
 
 export interface RuneEntry {

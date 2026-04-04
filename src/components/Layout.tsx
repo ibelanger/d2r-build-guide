@@ -6,6 +6,7 @@ const characters = Object.values(charactersData);
 const navLinks = [
   { to: '/', label: 'Dashboard' },
   { to: '/runewords', label: 'Runewords' },
+  { to: '/cube', label: 'Cube' },
   { to: '/stash', label: 'Stash' },
   { to: '/recommendations', label: 'Recommendations' },
 ];
