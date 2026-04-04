@@ -2,3 +2,10 @@ node_modules
 dist
 .DS_Store
 *.log
+
+# D2R save files (user-specific, not committed)
+saves/*.d2s
+saves/*.d2i
+saves/*.ctlo
+saves/*.map
+saves/*.key

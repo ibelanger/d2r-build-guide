@@ -8,36 +8,48 @@ A modern web app for tracking your Diablo II Resurrected Season 13 characters, o
 
 ## Features
 
-### 📊 Dashboard
-- **5 Character Summary Cards**: Name, class icon, level, build, BIS completion %, progress bar
+### Dashboard
+- **5 Character Summary Cards**: Name, class, level, build, BIS completion %, progress bar
 - **Rune Inventory Table**: Editable counts for all 33 runes with import-from-text field
 - **Ready to Build Callouts**: Runewords where you have all runes available right now
+- **D2S Import Instructions**: How to parse save files and update character data
 
-### 👤 Character Detail
+### Character Detail
 - **Gear Table** (10 slots): Equipped item, quality badge, BIS target, status badge
+- **Mercenary Gear Table**: Weapon, Helm, Armor for each character's merc with quality badges
 - **Rare Quality Tiers**: Dropdown selector for Rare/Magic/Crafted items (persisted)
   - Placeholder (gray) = mediocre, upgrade available
   - Right Stats (teal) = has key affixes, near-BIS
   - Right Stats, Find Roll (green) = excellent, only better roll needed
-- **BIS Completion**:  Visual breakdown of how many slots match BIS targets
+- **BIS Completion**: Visual breakdown of how many slots match BIS targets
+- **Print / PDF Export**: Print-friendly character sheet via browser print
 - **Parser Override Notice**: Items that were manually patched due to Season 13 parser gaps
 
-### 🔮 Runeword Planner
-- **Feasibility Status**: Can build NOW / 1 rune away / 2+ runes away (live-updated as you edit rune counts)
-- **Cube Upgrade Paths**: For each missing rune, show how many lower runes + catalysts needed
-- **Base Recommendations**: Suggested base items for each runeword
-- **Filter by Build**: Focus on runewords for specific characters
-- **Sort by Priority**: 10 key runewords ordered by impact
+### Runeword Planner (95 Runewords)
+- **Full D2R Runeword Database**: All 95 runewords including Ladder-only and Season 13 additions
+- **Feasibility Status**: Can build NOW / 1 rune away / 2+ runes away (live-updated)
+- **Cube Upgrade Paths**: Correct 3:1 (El-Lem) and 2:1 (Pul-Zod) ratios with proper gem catalysts
+- **Sort Options**: Priority, name, level, feasibility, rune count
+- **Search**: Filter by runeword name or stats text
+- **Filters**: Feasibility status, target build, base type, rune count
+- **View Toggle**: Grid cards or compact table view
 
-### 💾 Stash Browser
+### Horadric Cube Calculator
+- **Forward Mode**: Select a rune, see what it cubes into (count + catalyst)
+- **Reverse Mode**: Select a target rune, see the full upgrade tree with inventory awareness
+- **Inventory-Aware**: Green = have enough, Red = need more
+- **Rune Ladder Reference**: Clickable table of all 33 runes with recipes and current counts
+
+### Stash Browser
 - **Tabbed Pages**: 6 stash pages (5 regular + Materials/Runes-Gems)
 - **Quality Filters**: Unique, Set, Rare, Magic, Crafted, Runeword (toggle any combination)
-- **Upgrade Highlights**: Items in stash that match BIS for any character who doesn't have them
+- **Upgrade Highlights**: Items in stash that match BIS for any character
 - **Ethereal & Runeword Markers**: Quick visual cues
 
-### 🎯 Recommendations
+### Recommendations
 - **Runeword Build Priority**: Ordered by feasibility + impact (can build now at top)
-- **Stash→Character Upgrades**: Items in stash that upgrade someone to BIS
+- **Farm Target Suggestions**: For missing runes, shows best farm locations (Countess, LK, Travincal, etc.)
+- **Stash-to-Character Upgrades**: Items in stash that upgrade someone to BIS
 - **Cross-Character Swaps**: Items character A has that are BIS for character B
 - **Tal Rasha Lock**: Never suggests removing Tal Rasha set pieces from RivvySorc
 
@@ -59,13 +71,13 @@ npm run dev
 ```
 
 ### 3. Edit Rune Counts
-Dashboard → Show Rune Table → Edit quantities or import from text:
+Dashboard -> Show Rune Table -> Edit quantities or import from text:
 ```
 Tir:17, Tal:33, Ort:29, Fal:9, Ohm:3
 ```
 
 ### 4. Set Rare Item Tiers
-CharacterDetail → Gear Table → Click dropdown for any Rare/Magic/Crafted item
+CharacterDetail -> Gear Table -> Click dropdown for any Rare/Magic/Crafted item
 
 ### 5. Deploy to GitHub Pages
 ```bash
@@ -77,72 +89,49 @@ npm run deploy  # Push to gh-pages branch
 
 ## Data Update Workflow
 
-### If You Get New Items / Equipment
-1. Run the D2R save parser on your updated save files:
-   ```bash
-   cd parser
-   python parse_d2r_v2.py > ../assets/seed/d2r_items_v2.json
-   ```
-2. Manually update `src/data/characters.json` with new equipped gear
-3. Apply any unknown Season 13 item code patches to `known_gear_overrides` (if needed)
-4. Rebuild:
-   ```bash
-   npm run build
-   npm run deploy
-   ```
+### Parsing D2R Save Files
+1. Copy your `.d2s` save files into the `saves/` directory
+2. Ensure parser TXT files are in `parser/txt/` (armor.txt, weapons.txt, misc.txt, etc.)
+3. Run: `npm run parse`
+4. Output goes to `assets/seed/d2r_items_v2.json`
+5. Manually update `src/data/characters.json` with new equipped gear
+6. Apply any Season 13 item code patches to overrides if needed
+7. Rebuild: `npm run build && npm run deploy`
 
-### If You Want to Add a New Character
-1. Edit `src/data/characters.json`: add new character entry with equipped gear
+Override parser paths via environment variables: `D2S_DIR`, `TXT_DIR`.
+
+### Adding a New Character
+1. Edit `src/data/characters.json`: add new character entry with equipped gear + merc data
 2. Edit `src/data/bis.json`: add BIS targets for the new character
 3. No rebuild needed — hot reload works
 4. Character appears in nav automatically
-
-### If You Find a Parser Gap
-Some Season 13 item codes (e.g., `mrgy` for Amazon gloves, `ctss` for belt) are unknown. Workaround:
-1. Add entry to `known_gear_overrides` in `src/data/characters.json`
-2. Rebuild app
 
 ---
 
 ## Project Structure
 
-**Key Files:**
-- `src/data/` — Static JSON (characters, BIS, runewords, runes, stash)
-- `src/components/` — React components (Layout, cards, badges, rows)
-- `src/pages/` — Page components (Dashboard, CharacterDetail, RunewordPlanner, StashBrowser, Recommendations)
-- `src/hooks/` — Custom hooks (useRareTiers, useRuneInventory, useRunewordFeasibility)
-- `src/lib/` — Utility functions (bisChecker, runeUpgradeCalc)
-- `assets/seed/` — Original seed data (for reference & regeneration)
-- `parser/` — Python parser scripts
-- `docs/` — Detailed build specification (D2R_REPO_BUILD_PLAN.md)
-
-For full architecture details, see [CLAUDE.md](./CLAUDE.md).
-
----
-
-## Folder Structure
-
 ```
-d2r-season13-build-guide/
+d2r-build-guide/
 ├── src/
-│   ├── data/		        (characters.json, bis.json, runewords.json, runes.json, stash.json)
-│   ├── components/          (UI components + shadcn/ui)
-│   ├── pages/               (Dashboard, CharacterDetail, RunewordPlanner, StashBrowser, Recommendations)
-│   ├── hooks/               (useRareTiers, useRuneInventory, useRunewordFeasibility)
-│   ├── lib/                 (bisChecker, runeUpgradeCalc)
-│   ├── types/index.ts       (All TypeScript interfaces)
-│   ├── App.tsx              (Router setup)
+│   ├── data/                    (characters, bis, runewords, runes, stash, farmTargets)
+│   ├── components/              (Layout, CharacterCard, GearSlotRow, RunewordCard,
+│   │                             CubePathTree, QualityBadge, RuneBadge, RareQualityDropdown)
+│   ├── pages/                   (Dashboard, CharacterDetail, RunewordPlanner,
+│   │                             CubeCalculator, StashBrowser, Recommendations)
+│   ├── hooks/                   (useRareTiers, useRuneInventory, useRunewordFeasibility)
+│   ├── lib/                     (bisChecker, runeUpgradeCalc)
+│   ├── types/index.ts
+│   ├── App.tsx                  (HashRouter + 6 routes)
 │   └── main.tsx
-├── assets/seed/             (Original d2r_seed_data.json, d2r_items_v2.json, d2r_stash_v1.json)
-├── parser/                  (Python scripts: parse_d2r_v2.py, build_excel_v3.py)
-├── docs/                    (D2R_REPO_BUILD_PLAN.md — detailed spec)
-├── index.html               (HTML entry point)
-├── vite.config.ts           (Vite config with base: /d2r-build-guide/)
-├── tailwind.config.ts       (Tailwind v4 config)
-├── tsconfig.json            (TypeScript root config)
-├── package.json             (Dependencies + npm scripts)
-├── CLAUDE.md                (Developer guide)
-└── README.md                (This file)
+├── assets/seed/                 (Original seed data for reference & regeneration)
+├── parser/                      (Python D2S parser + Excel builder)
+├── saves/                       (Drop .d2s files here, gitignored)
+├── docs/                        (D2R_REPO_BUILD_PLAN.md)
+├── index.html
+├── vite.config.ts               (base: /d2r-build-guide/)
+├── package.json
+├── CLAUDE.md                    (Developer guide)
+└── README.md
 ```
 
 ---
@@ -161,23 +150,6 @@ d2r-season13-build-guide/
 
 ---
 
-## Key Runewords (10 Tracked)
-
-| Runeword | Runes | Status | Priority |
-|----------|-------|--------|----------|
-| Call to Arms | Amn+Ral+Mal+Ist+Ohm | **BUILD NOW** | 1st |
-| Heart of the Oak | Ko+Vex+Pul+Thul | **BUILD NOW** | 2nd |
-| Spirit | Tal+Thul+Ort+Amn | **BUILD NOW** | 3rd |
-| Insight | Ral+Tir+Tal+Sol | **BUILD NOW** | 4th |
-| Treachery | Shael+Thul+Lem | **BUILD NOW** | 5th |
-| Enigma | Jah+Ith+Ber | 1 RUNE AWAY | 6th |
-| Chains of Honor | Dol+Um+Ber+Ist | 1 RUNE AWAY | 7th |
-| Infinity | Ber+Mal+Ber+Ist | 2+ AWAY | 8th |
-| Grief | Eth+Tir+Lo+Mal+Ral | 2+ AWAY | 9th |
-| Fortitude | El+Sol+Dol+Lo | 2+ AWAY | 10th |
-
----
-
 ## Tech Stack
 
 - **Vite 8** — Lightning-fast build tooling + HMR
@@ -193,20 +165,12 @@ d2r-season13-build-guide/
 ## Development
 
 ```bash
-# Install
-npm install
-
-# Dev server (HMR enabled)
-npm run dev
-
-# Build for production
-npm run build
-
-# Lint
-npm lint
-
-# Deploy (requires npm run build first)
-npm run deploy
+npm install          # Install dependencies
+npm run dev          # Dev server (HMR enabled)
+npm run build        # Build for production
+npm run lint         # Lint code
+npm run parse        # Parse D2S save files (requires Python 3)
+npm run deploy       # Deploy to GitHub Pages
 ```
 
 For detailed dev guide, see [CLAUDE.md](./CLAUDE.md).
@@ -221,18 +185,6 @@ Season 13 introduced new item codes that aren't in the bundled D2 TXT reference 
 ### Rune Stacking
 D2R S13 stacks runes in inventory to save space. The parser doesn't fully decode stacked counts. Current solution: editable rune table (user-managed source of truth).
 
-### Stash Item Parsing
-Stash items from `d2r_stash_v1.json` are parsed but some garbage entries with empty codes are filtered out at generation time.
-
----
-
-## Future Work (Stretch Goals)
-
-- [ ] Horadric Cube recipe calculator (pick 3 runes → show output + catalyst)
-- [ ] Farm target suggestions (for missing runes, suggest Act/Area to farm)
-- [ ] Mercenary gear tracker (equipped items per merc per character)
-- [ ] Export to PDF (print-friendly character sheet)
-
 ---
 
 ## License
@@ -243,7 +195,7 @@ MIT — See [LICENSE](./LICENSE) file.
 
 ## Credits
 
-- **D2 Data:** Diablo II Resurrected (Blizzard)
+- **D2 Data:** Diablo II Resurrected (Blizzard), [diablo2.io](https://diablo2.io/) (authoritative reference)
 - **Parser:** Ported from [Paladijn/d2rsavegameparser](https://github.com/Paladijn/d2rsavegameparser) (LGPL-2.1)
 - **UI:** Built with shadcn/ui + React
 - **Build:** Vite + TypeScript
@@ -255,5 +207,3 @@ MIT — See [LICENSE](./LICENSE) file.
 - **Development:** See [CLAUDE.md](./CLAUDE.md) for architecture, commands, and debugging
 - **Build Spec:** See [docs/D2R_REPO_BUILD_PLAN.md](./docs/D2R_REPO_BUILD_PLAN.md) for detailed requirements
 - **Data Source:** See `assets/seed/d2r_seed_data.json` (ground truth for characters)
-
-Happy building! ⚔️

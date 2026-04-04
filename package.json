@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "parse": "python3 parser/parse_d2r_v2.py",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

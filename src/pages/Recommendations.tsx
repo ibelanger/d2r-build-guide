@@ -8,6 +8,7 @@ import charactersData from '@/data/characters.json';
 import bisData from '@/data/bis.json';
 import stashData from '@/data/stash.json';
 import runewordsData from '@/data/runewords.json';
+import farmTargetsData from '@/data/farmTargets.json';
 import type { Character, GearSlot, BISItem, StashPage, Runeword } from '@/types';
 
 const characters = Object.values(charactersData) as Character[];
@@ -75,7 +76,30 @@ export function Recommendations() {
     }
   }
 
-  // 3. Runeword priority
+  // 3. Farm target suggestions for missing runes
+  const missingRunesSet = new Map<string, string[]>(); // rune → runeword names
+  runewords
+    .map(rw => ({ rw, feasibility: getFeasibility(rw) }))
+    .filter(({ feasibility }) => feasibility.status === 'one_away')
+    .forEach(({ rw, feasibility }) => {
+      for (const m of feasibility.missingRunes) {
+        if (m.have < m.need) {
+          const existing = missingRunesSet.get(m.rune) ?? [];
+          existing.push(rw.name);
+          missingRunesSet.set(m.rune, existing);
+        }
+      }
+    });
+
+  function getFarmLocations(runeName: string) {
+    const tiers = [farmTargetsData.high, farmTargetsData.mid, farmTargetsData.low];
+    for (const tier of tiers) {
+      if (tier.runes.includes(runeName)) return tier.locations;
+    }
+    return farmTargetsData.high.locations;
+  }
+
+  // 4. Runeword priority
   const runewordPriority = runewords
     .map(rw => ({ rw, feasibility: getFeasibility(rw) }))
     .filter(({ feasibility }) => feasibility.status !== 'two_plus_away')
@@ -120,6 +144,38 @@ export function Recommendations() {
           ))}
         </CardContent>
       </Card>
+
+      {/* Farm Targets */}
+      {missingRunesSet.size > 0 && (
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-base">Farm Targets — Missing Runes</CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            {[...missingRunesSet.entries()]
+              .sort((a, b) => a[0].localeCompare(b[0]))
+              .map(([rune, rwNames]) => (
+              <div key={rune} className="border-b border-border/30 pb-3 last:border-0 last:pb-0">
+                <div className="flex items-center gap-2 mb-1.5">
+                  <span className="text-sm font-medium">{rune}</span>
+                  <span className="text-xs text-muted-foreground">
+                    needed for: {rwNames.join(', ')}
+                  </span>
+                </div>
+                <div className="space-y-1 ml-2">
+                  {getFarmLocations(rune).map(loc => (
+                    <div key={loc.name} className="text-xs">
+                      <span className="text-foreground">{loc.name}</span>
+                      <span className="text-muted-foreground"> — {loc.area}</span>
+                      <span className="text-muted-foreground/70 ml-1">({loc.notes})</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </CardContent>
+        </Card>
+      )}
 
       {/* Stash Upgrades */}
       <Card>

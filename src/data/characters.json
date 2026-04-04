@@ -88,6 +88,35 @@
         "is_runeword": false,
         "runeword_name": ""
       }
+    },
+    "merc": {
+      "type": "Act 2 Nightmare (Holy Freeze)",
+      "equipped": {
+        "Weapon": {
+          "name": "Insight (Eth Thresher)",
+          "quality": "Runeword",
+          "code": "7s7",
+          "is_ethereal": true,
+          "is_runeword": true,
+          "runeword_name": "Insight"
+        },
+        "Helm": {
+          "name": "Tal Rasha's Horadric Crest",
+          "quality": "Set",
+          "code": "xsk",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": ""
+        },
+        "Armor": {
+          "name": "Treachery (Archon Plate)",
+          "quality": "Runeword",
+          "code": "utp",
+          "is_ethereal": false,
+          "is_runeword": true,
+          "runeword_name": "Treachery"
+        }
+      }
     }
   },
   "RivvyZon": {
@@ -190,6 +219,35 @@
         "notes": "User-specified — exact stats unknown",
         "overridden": true
       }
+    },
+    "merc": {
+      "type": "Act 2 Nightmare (Holy Freeze)",
+      "equipped": {
+        "Weapon": {
+          "name": "Insight (Eth Colossus Voulge)",
+          "quality": "Runeword",
+          "code": "7vo",
+          "is_ethereal": true,
+          "is_runeword": true,
+          "runeword_name": "Insight"
+        },
+        "Helm": {
+          "name": "Andariel's Visage",
+          "quality": "Unique",
+          "code": "uh9",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": ""
+        },
+        "Armor": {
+          "name": "Treachery (Wire Fleece)",
+          "quality": "Runeword",
+          "code": "xtp",
+          "is_ethereal": false,
+          "is_runeword": true,
+          "runeword_name": "Treachery"
+        }
+      }
     }
   },
   "RivvySorc": {
@@ -284,6 +342,35 @@
         "runeword_name": "",
         "notes": "+15-30 MF",
         "overridden": true
+      }
+    },
+    "merc": {
+      "type": "Act 2 Nightmare (Holy Freeze)",
+      "equipped": {
+        "Weapon": {
+          "name": "Insight (Eth Thresher)",
+          "quality": "Runeword",
+          "code": "7s7",
+          "is_ethereal": true,
+          "is_runeword": true,
+          "runeword_name": "Insight"
+        },
+        "Helm": {
+          "name": "Andariel's Visage",
+          "quality": "Unique",
+          "code": "uh9",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": ""
+        },
+        "Armor": {
+          "name": "Smoke (Archon Plate)",
+          "quality": "Runeword",
+          "code": "utp",
+          "is_ethereal": false,
+          "is_runeword": true,
+          "runeword_name": "Smoke"
+        }
       }
     }
   },
@@ -380,6 +467,35 @@
         "is_runeword": false,
         "runeword_name": ""
       }
+    },
+    "merc": {
+      "type": "Act 2 Nightmare (Might)",
+      "equipped": {
+        "Weapon": {
+          "name": "Obedience (Eth Thresher)",
+          "quality": "Runeword",
+          "code": "7s7",
+          "is_ethereal": true,
+          "is_runeword": true,
+          "runeword_name": "Obedience"
+        },
+        "Helm": {
+          "name": "Guillaume's Face",
+          "quality": "Set",
+          "code": "gh6",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": ""
+        },
+        "Armor": {
+          "name": "Treachery (Dusk Shroud)",
+          "quality": "Runeword",
+          "code": "uui",
+          "is_ethereal": false,
+          "is_runeword": true,
+          "runeword_name": "Treachery"
+        }
+      }
     }
   },
   "Warriv": {
@@ -470,6 +586,35 @@
         "is_ethereal": false,
         "is_runeword": false,
         "runeword_name": ""
+      }
+    },
+    "merc": {
+      "type": "Act 2 Nightmare (Holy Freeze)",
+      "equipped": {
+        "Weapon": {
+          "name": "Insight (Eth Great Poleaxe)",
+          "quality": "Runeword",
+          "code": "7h7",
+          "is_ethereal": true,
+          "is_runeword": true,
+          "runeword_name": "Insight"
+        },
+        "Helm": {
+          "name": "Crown of Thieves",
+          "quality": "Unique",
+          "code": "xrn",
+          "is_ethereal": false,
+          "is_runeword": false,
+          "runeword_name": ""
+        },
+        "Armor": {
+          "name": "Treachery (Archon Plate)",
+          "quality": "Runeword",
+          "code": "utp",
+          "is_ethereal": false,
+          "is_runeword": true,
+          "runeword_name": "Treachery"
+        }
       }
     }
   }

@@ -133,6 +133,31 @@ export function Dashboard() {
           </div>
         )}
       </section>
+
+      {/* D2S File Import */}
+      <section>
+        <h2 className="text-lg font-semibold mb-3">Import Save Files</h2>
+        <Card>
+          <CardContent className="pt-4">
+            <div className="space-y-2 text-sm">
+              <p className="text-muted-foreground">
+                To re-parse your D2R save files and update character data:
+              </p>
+              <ol className="list-decimal list-inside space-y-1 text-muted-foreground ml-2">
+                <li>Copy your <code className="bg-secondary px-1 rounded text-xs">.d2s</code> files to the <code className="bg-secondary px-1 rounded text-xs">saves/</code> directory</li>
+                <li>Ensure parser TXT files are in <code className="bg-secondary px-1 rounded text-xs">parser/txt/</code> (armor.txt, weapons.txt, misc.txt, etc.)</li>
+                <li>Run: <code className="bg-secondary px-1.5 py-0.5 rounded text-xs font-mono">npm run parse</code></li>
+                <li>Output goes to <code className="bg-secondary px-1 rounded text-xs">assets/seed/d2r_items_v2.json</code></li>
+                <li>Update <code className="bg-secondary px-1 rounded text-xs">src/data/characters.json</code> with new parsed data</li>
+              </ol>
+              <p className="text-xs text-muted-foreground/70 mt-2">
+                Save files are gitignored. Requires Python 3 for the parser.
+                Override paths via env vars: D2S_DIR, TXT_DIR.
+              </p>
+            </div>
+          </CardContent>
+        </Card>
+      </section>
     </div>
   );
 }

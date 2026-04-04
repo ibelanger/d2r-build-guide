@@ -12,8 +12,12 @@ Key implementation details:
 """
 import struct, os, json, csv
 
-D2S_DIR = "/sessions/peaceful-admiring-cerf/mnt/Diablo II Resurrected"
-TXT_DIR = "/sessions/peaceful-admiring-cerf/d2rsavegameparser/txt"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.join(SCRIPT_DIR, "..")
+
+# Default paths — override via env vars D2S_DIR and TXT_DIR
+D2S_DIR = os.environ.get("D2S_DIR", os.path.join(REPO_ROOT, "saves"))
+TXT_DIR = os.environ.get("TXT_DIR", os.path.join(SCRIPT_DIR, "txt"))
 
 # ── TXT data loading ──────────────────────────────────────────────────────────
 def load_tsv(path):
@@ -587,37 +591,55 @@ def parse_character(path):
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
-CHARS = [
-    "ESWarlock", "RivvyZon", "RivvySorc", "RivFOHPally", "Warriv",
-    "ArmorMule", "BootMule", "CharmMule", "JeweleryMule",
-    "OSItemMule", "RunewordMule",
-]
 
-all_data = {}
-for cname in CHARS:
-    path = f"{D2S_DIR}/{cname}.d2s"
-    if not os.path.exists(path):
-        continue
-    print(f"\nParsing {cname}...", end=' ', flush=True)
-    result = parse_character(path)
-    if result is None:
-        print("FAILED")
-        continue
-    all_data[cname] = result
+def discover_characters(d2s_dir):
+    """Auto-discover .d2s files in the saves directory."""
+    chars = []
+    if not os.path.isdir(d2s_dir):
+        print(f"D2S directory not found: {d2s_dir}")
+        return chars
+    for f in sorted(os.listdir(d2s_dir)):
+        if f.endswith('.d2s'):
+            chars.append(os.path.splitext(f)[0])
+    return chars
 
-    equipped = [i for i in result['items']
-                if i.get('location') == 1 and not i.get('is_ear') and not i.get('is_simple')]
-    print(f"parsed={result['items_parsed']}/{result['items_total']} "
-          f"errors={result['parse_errors']} equipped={len(equipped)}")
+if __name__ == '__main__':
+    # Auto-discover all .d2s files in the saves directory
+    CHARS = discover_characters(D2S_DIR)
+    if not CHARS:
+        print(f"No .d2s files found in {D2S_DIR}")
+        print("Place your D2R save files in the saves/ directory and re-run.")
+        exit(1)
 
-    for item in equipped:
-        name    = item.get('item_name', item.get('base_name', '?'))
-        quality = item.get('quality', '?')
-        slot    = item.get('slot', '?') or '?'
-        eth     = " (eth)" if item.get('is_ethereal') else ""
-        rw      = f" [{item.get('runeword_name', '')}]" if item.get('is_runeword') else ""
-        print(f"  [{slot:12s}] {name}{eth}{rw}  ({quality})")
+    print(f"Found {len(CHARS)} character(s) in {D2S_DIR}: {', '.join(CHARS)}")
 
-with open('/sessions/peaceful-admiring-cerf/d2r_items_v2.json', 'w') as f:
-    json.dump(all_data, f, indent=2, default=str)
-print("\nSaved d2r_items_v2.json")
+    all_data = {}
+    for cname in CHARS:
+        path = os.path.join(D2S_DIR, f"{cname}.d2s")
+        if not os.path.exists(path):
+            continue
+        print(f"\nParsing {cname}...", end=' ', flush=True)
+        result = parse_character(path)
+        if result is None:
+            print("FAILED")
+            continue
+        all_data[cname] = result
+
+        equipped = [i for i in result['items']
+                    if i.get('location') == 1 and not i.get('is_ear') and not i.get('is_simple')]
+        print(f"parsed={result['items_parsed']}/{result['items_total']} "
+              f"errors={result['parse_errors']} equipped={len(equipped)}")
+
+        for item in equipped:
+            name    = item.get('item_name', item.get('base_name', '?'))
+            quality = item.get('quality', '?')
+            slot    = item.get('slot', '?') or '?'
+            eth     = " (eth)" if item.get('is_ethereal') else ""
+            rw      = f" [{item.get('runeword_name', '')}]" if item.get('is_runeword') else ""
+            print(f"  [{slot:12s}] {name}{eth}{rw}  ({quality})")
+
+    output_path = os.path.join(REPO_ROOT, 'assets', 'seed', 'd2r_items_v2.json')
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, 'w') as f:
+        json.dump(all_data, f, indent=2, default=str)
+    print(f"\nSaved {output_path}")

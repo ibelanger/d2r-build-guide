@@ -17,6 +17,13 @@ export interface EquippedItem {
   overridden?: boolean;
 }
 
+export type MercGearSlot = "Weapon" | "Helm" | "Armor";
+
+export interface MercData {
+  type: string;
+  equipped: Partial<Record<MercGearSlot, EquippedItem>>;
+}
+
 export interface Character {
   id: string;
   name: string;
@@ -24,6 +31,7 @@ export interface Character {
   level: number;
   build: string;
   equipped: Partial<Record<GearSlot, EquippedItem>>;
+  merc?: MercData;
 }
 
 export interface BISItem {

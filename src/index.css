@@ -145,3 +145,36 @@ body {
     @apply font-sans;
   }
 }
+
+@media print {
+  header, footer, nav, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12px;
+  }
+  .print-only {
+    display: block !important;
+  }
+  * {
+    color: black !important;
+    border-color: #ccc !important;
+    background: transparent !important;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #ccc !important;
+    padding: 4px 8px;
+    text-align: left;
+  }
+  [class*="badge"], [class*="Badge"] {
+    border: 1px solid #999 !important;
+    padding: 1px 6px;
+    font-size: 10px;
+  }
+}
