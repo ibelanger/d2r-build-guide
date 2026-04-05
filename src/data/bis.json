@@ -1,15 +1,15 @@
 {
   "ESWarlock": {
-    "Helm": { "name": "Harlequin Crest (Shako)", "quality": "Unique", "notes": "Um rune socket for resistances", "alternatives": ["Griffon's Eye"] },
-    "Armor": { "name": "Enigma (Archon Plate)", "quality": "Runeword", "notes": "Jah+Ith+Ber — Teleport, +2 skills, 45% FRW", "alternatives": ["Chains of Honor"] },
-    "WeaponR": { "name": "Heart of the Oak (Flail)", "quality": "Runeword", "notes": "Ko+Vex+Pul+Thul — +3 skills, 40% FCR, +30-40 all res", "alternatives": ["Eschuta's Temper"] },
-    "WeaponL": { "name": "Spirit (Monarch)", "quality": "Runeword", "notes": "+2 skills, 35% FCR, 55% FHR", "alternatives": [] },
-    "Gloves": { "name": "Trang-Oul's Claws", "quality": "Set", "notes": "+20% FCR — essential for caster breakpoint", "alternatives": ["Magefist"] },
-    "Boots": { "name": "Sandstorm Trek", "quality": "Unique", "notes": "+20 Str, +20 Vit, FHR, poison res", "alternatives": ["War Traveler"] },
-    "Belt": { "name": "Arachnid Mesh", "quality": "Unique", "notes": "+1 skills, +20% FCR, +5% max mana", "alternatives": [] },
-    "Amulet": { "name": "Mara's Kaleidoscope", "quality": "Unique", "notes": "+2 skills, +20-30 all res", "alternatives": ["+2 skills/FCR rare amulet"] },
-    "RingR": { "name": "Stone of Jordan", "quality": "Unique", "notes": "+1 skills, +25% mana", "alternatives": ["Bul-Kathos' Wedding Band"] },
-    "RingL": { "name": "Stone of Jordan", "quality": "Unique", "notes": "+1 skills, +25% mana", "alternatives": ["Bul-Kathos' Wedding Band"] }
+    "Helm": { "name": "Hellwarden's Will", "quality": "Unique", "notes": "BIS for Echoing Strike — +skills, leech, resistances", "alternatives": ["Crown of Ages", "Harlequin Crest (Shako)", "Guillaume's Face", "Lore"] },
+    "Armor": { "name": "Enigma (Archon Plate)", "quality": "Runeword", "notes": "Teleport replaces Blade Warp, +2 skills, 45% FRW", "alternatives": ["Fortitude", "Chains of Honor", "Stealth", "Skin of the Vipermagi"] },
+    "WeaponR": { "name": "Arioc's Needle", "quality": "Unique", "notes": "+4 skills, +50% Deadly Strike, ignores target defense — Echoing Strike scales off weapon damage + FCR, not IAS", "alternatives": ["Death (Thunder Maul)", "Breath of the Dying", "Fortitude", "Insight"] },
+    "WeaponL": { "name": "Spirit (Monarch)", "quality": "Runeword", "notes": "+2 skills, 35% FCR — helps reach 125% FCR breakpoint", "alternatives": ["Phoenix", "Stormshield", "Lidless Wall"] },
+    "Gloves": { "name": "Trang-Oul's Claws", "quality": "Set", "notes": "+20% FCR — essential for 125% FCR breakpoint", "alternatives": ["Magefist", "Steelrend", "Chance Guards"] },
+    "Boots": { "name": "Sandstorm Trek", "quality": "Unique", "notes": "+20 Str, +20 Vit, FHR, poison res", "alternatives": ["Waterwalk", "War Traveler", "Aldur's Advance", "Silkweave"] },
+    "Belt": { "name": "Arachnid Mesh", "quality": "Unique", "notes": "+1 skills, +20% FCR — Echoing Strike uses FCR not IAS", "alternatives": ["Verdungo's Hearty Cord", "Goldwrap"] },
+    "Amulet": { "name": "Mara's Kaleidoscope", "quality": "Unique", "notes": "+2 skills, +20-30 all res", "alternatives": ["Highlord's Wrath"] },
+    "RingR": { "name": "Raven Frost", "quality": "Unique", "notes": "Cannot be frozen, +20 Dex, +250 AR", "alternatives": [] },
+    "RingL": { "name": "The Stone of Jordan", "quality": "Unique", "notes": "+1 skills, +25% mana", "alternatives": ["Bul-Kathos' Wedding Band", "Rare Ring (FCR/Life Steal/Life/Res)"] }
   },
   "RivvyZon": {
     "Helm": { "name": "Griffon's Eye", "quality": "Unique", "notes": "+1 skills, -15-20% enemy lightning res, +10-15% lightning dmg", "alternatives": ["Kira's Guardian", "Valkyrie Wing"] },

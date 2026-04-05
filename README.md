@@ -141,7 +141,7 @@ d2r-build-guide/
 
 | Name | Class | Level | Build |
 |------|-------|-------|-------|
-| **ESWarlock** | Warlock | 90 | Energy Shield + Combat |
+| **ESWarlock** | Warlock | 90 | Echoing Strike |
 | **RivvyZon** | Amazon | 89 | Lightning Fury / Charged Strike |
 | **RivvySorc** | Sorceress | 91 | Blizzard (Tal Rasha Set) |
 | **RivFOHPally** | Paladin | 89 | Fist of the Heavens |

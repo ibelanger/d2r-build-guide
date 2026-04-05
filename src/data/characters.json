@@ -4,7 +4,7 @@
     "name": "ESWarlock",
     "class": "Warlock",
     "level": 90,
-    "build": "Energy Shield Warlock",
+    "build": "Echoing Strike Warlock",
     "equipped": {
       "Helm": {
         "name": "Harlequin Crest",
@@ -90,7 +90,7 @@
       }
     },
     "merc": {
-      "type": "Act 2 Nightmare (Holy Freeze)",
+      "type": "Act 2 Nightmare (Might)",
       "equipped": {
         "Weapon": {
           "name": "Insight (Eth Thresher)",
