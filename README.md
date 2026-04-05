@@ -91,14 +91,13 @@ npm run deploy  # Push to gh-pages branch
 
 ### Parsing D2R Save Files
 1. Copy your `.d2s` save files into the `saves/` directory
-2. Ensure parser TXT files are in `parser/txt/` (armor.txt, weapons.txt, misc.txt, etc.)
-3. Run: `npm run parse`
-4. Output goes to `assets/seed/d2r_items_v2.json`
-5. Manually update `src/data/characters.json` with new equipped gear
-6. Apply any Season 13 item code patches to overrides if needed
-7. Rebuild: `npm run build && npm run deploy`
+2. Run: `npm run parse`
+3. Output goes to `assets/seed/d2r_items_v2.json`
+4. Manually update `src/data/characters.json` with new equipped gear
+5. Apply any Season 13 item code patches to overrides if needed
+6. Rebuild: `npm run build && npm run deploy`
 
-Override parser paths via environment variables: `D2S_DIR`, `TXT_DIR`.
+The parser uses a pre-built `parser/item_lookup.json` (no external TXT files required). To regenerate the lookup data: `python3 parser/generate_lookup.py`. Override parser paths via environment variables: `D2S_DIR`, `TXT_DIR`.
 
 ### Adding a New Character
 1. Edit `src/data/characters.json`: add new character entry with equipped gear + merc data
@@ -124,7 +123,7 @@ d2r-build-guide/
 │   ├── App.tsx                  (HashRouter + 6 routes)
 │   └── main.tsx
 ├── assets/seed/                 (Original seed data for reference & regeneration)
-├── parser/                      (Python D2S parser + Excel builder)
+├── parser/                      (Python D2S parser + item lookup + Excel builder)
 ├── saves/                       (Drop .d2s files here, gitignored)
 ├── docs/                        (D2R_REPO_BUILD_PLAN.md)
 ├── index.html
@@ -180,7 +179,7 @@ For detailed dev guide, see [CLAUDE.md](./CLAUDE.md).
 ## Known Limitations
 
 ### Parser Gaps
-Season 13 introduced new item codes that aren't in the bundled D2 TXT reference files. Items with unknown codes show as `Set?[id=1234]` or are skipped. Workaround: manually patch via `known_gear_overrides` in the data layer.
+Season 13 introduced new item codes not in base D2R data files. The pre-built `item_lookup.json` includes hardcoded S13 entries, but truly new items may show as `Set?[id=1234]` or are skipped. Workaround: manually patch via `known_gear_overrides` in the data layer, or update the S13 extras in `parser/generate_lookup.py`.
 
 ### Rune Stacking
 D2R S13 stacks runes in inventory to save space. The parser doesn't fully decode stacked counts. Current solution: editable rune table (user-managed source of truth).
@@ -197,6 +196,7 @@ MIT — See [LICENSE](./LICENSE) file.
 
 - **D2 Data:** Diablo II Resurrected (Blizzard), [diablo2.io](https://diablo2.io/) (authoritative reference)
 - **Parser:** Ported from [Paladijn/d2rsavegameparser](https://github.com/Paladijn/d2rsavegameparser) (LGPL-2.1)
+- **Item Data:** [pinkufairy/D2R-Excel](https://github.com/pinkufairy/D2R-Excel) (D2R data files)
 - **UI:** Built with shadcn/ui + React
 - **Build:** Vite + TypeScript
 
