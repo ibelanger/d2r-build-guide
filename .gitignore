@@ -10,3 +10,4 @@ saves/*.d2i
 saves/*.ctlo
 saves/*.map
 saves/*.key
+node_modules
