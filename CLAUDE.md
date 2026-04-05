@@ -84,6 +84,8 @@ d2r-build-guide/
 │
 ├── parser/                      # Python parser scripts
 │   ├── parse_d2r_v2.py          # D2R save file parser (auto-discovers saves/)
+│   ├── generate_lookup.py       # Generate item_lookup.json from TXT files or GitHub
+│   ├── item_lookup.json         # Pre-built item data (JSON fallback for parser)
 │   └── build_excel_v3.py        # Excel generation (optional)
 │
 ├── saves/                       # Drop .d2s files here (gitignored)
@@ -288,8 +290,12 @@ Season 13 Rise of the Warlock introduced new item codes not in bundled TXT files
 ### Rune Stacking
 D2R S13 stacks runes in inventory (saves space). Parser doesn't fully decode stacked rune counts. Manual entry via rune table is the current solution.
 
-### Parser TXT Files Required
-The Python parser needs D2R TXT data files (armor.txt, weapons.txt, misc.txt, etc.) in `parser/txt/`. These come from the game's CASC data files or modding community sources.
+### Parser TXT Files (Optional)
+The parser supports two data sources, tried in order:
+1. **D2R TXT files** in `parser/txt/` (original TSV format from game's CASC data)
+2. **`parser/item_lookup.json`** (pre-built JSON fallback, committed to repo)
+
+The JSON fallback is generated from `pinkufairy/D2R-Excel` via `python3 parser/generate_lookup.py`. It includes ~700 items, 433 uniques, 140 set items, and 99 runewords, plus hardcoded Season 13 additions. To regenerate: run `python3 parser/generate_lookup.py` (downloads from GitHub) or `python3 parser/generate_lookup.py --txt-dir /path/to/txt` (uses local files).
 
 ---
 

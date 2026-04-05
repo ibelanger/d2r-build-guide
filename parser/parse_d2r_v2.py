@@ -19,12 +19,15 @@ REPO_ROOT = os.path.join(SCRIPT_DIR, "..")
 D2S_DIR = os.environ.get("D2S_DIR", os.path.join(REPO_ROOT, "saves"))
 TXT_DIR = os.environ.get("TXT_DIR", os.path.join(SCRIPT_DIR, "txt"))
 
-# ── TXT data loading ──────────────────────────────────────────────────────────
+# ── Data loading ─────────────────────────────────────────────────────────────
+JSON_PATH = os.path.join(SCRIPT_DIR, "item_lookup.json")
+
 def load_tsv(path):
     with open(path, encoding='utf-8', errors='replace') as f:
         return list(csv.DictReader(f, delimiter='\t'))
 
-def build_lookups():
+def _load_from_tsv():
+    """Load item data from D2R TXT (TSV) files in TXT_DIR."""
     code_name = {}
     armor_rows = {}
     weapon_rows = {}
@@ -41,7 +44,6 @@ def build_lookups():
                 if name:
                     code_name[code] = name
 
-    # TXT lookups use the *ID column (not row index)
     unique_by_id = {}
     for r in load_tsv(f"{TXT_DIR}/uniqueitems.txt"):
         uid = r.get('*ID', '').strip()
@@ -54,14 +56,12 @@ def build_lookups():
         if uid.isdigit():
             setitem_by_id[int(uid)] = (r.get('index', ''), r.get('code', ''), r.get('set', ''))
 
-    # Rune code -> name (e.g. 'r07' -> 'Tal')
     rune_names = {}
     for code, r in misc_rows.items():
         name = r.get('name', '').strip()
         if code.startswith('r') and code[1:].isdigit():
             rune_names[code] = name.replace(' Rune', '')
 
-    # Runeword: rune tuple -> name
     rune_to_runeword = {}
     for r in load_tsv(f"{TXT_DIR}/runes.txt"):
         if r.get('complete', '').strip() != '1':
@@ -72,6 +72,64 @@ def build_lookups():
             rune_to_runeword[runes] = name
 
     return code_name, armor_rows, weapon_rows, misc_rows, unique_by_id, setitem_by_id, rune_names, rune_to_runeword
+
+def _load_from_json(json_path):
+    """Load item data from pre-built item_lookup.json (fallback when TXT files unavailable)."""
+    with open(json_path, encoding='utf-8') as f:
+        db = json.load(f)
+
+    code_name = {}
+    armor_rows = {}
+    weapon_rows = {}
+    misc_rows = {}
+
+    for code, info in db.get('armor', {}).items():
+        armor_rows[code] = info
+        if info.get('name'):
+            code_name[code] = info['name']
+
+    for code, info in db.get('weapons', {}).items():
+        weapon_rows[code] = info
+        if info.get('name'):
+            code_name[code] = info['name']
+
+    for code, info in db.get('misc', {}).items():
+        misc_rows[code] = info
+        if info.get('name'):
+            code_name[code] = info['name']
+
+    unique_by_id = {}
+    for uid_str, info in db.get('uniques', {}).items():
+        unique_by_id[int(uid_str)] = (info['index'], info['code'])
+
+    setitem_by_id = {}
+    for uid_str, info in db.get('setitems', {}).items():
+        setitem_by_id[int(uid_str)] = (info['index'], info['code'], info['set'])
+
+    rune_names = {}
+    for code, info in misc_rows.items():
+        if code.startswith('r') and code[1:].isdigit():
+            rune_names[code] = info.get('name', '').replace(' Rune', '')
+
+    rune_to_runeword = {}
+    for rw in db.get('runewords', []):
+        runes = tuple(rw['runes'])
+        rune_to_runeword[runes] = rw['name']
+
+    return code_name, armor_rows, weapon_rows, misc_rows, unique_by_id, setitem_by_id, rune_names, rune_to_runeword
+
+def build_lookups():
+    # Try TSV files first (original path)
+    if os.path.exists(os.path.join(TXT_DIR, 'armor.txt')):
+        return _load_from_tsv()
+    # Fall back to pre-built JSON
+    if os.path.exists(JSON_PATH):
+        return _load_from_json(JSON_PATH)
+    raise FileNotFoundError(
+        f"No item data found.\n"
+        f"  Option 1: Place D2R TXT files in {TXT_DIR}/\n"
+        f"  Option 2: Run 'python3 parser/generate_lookup.py' to generate {JSON_PATH}"
+    )
 
 CODE_NAME, ARMOR_ROWS, WEAPON_ROWS, MISC_ROWS, UNIQUE_BY_ID, SETITEM_BY_ID, RUNE_NAMES, RUNE_TO_RW = build_lookups()
 
@@ -206,14 +264,37 @@ POSITION_MAP = {
     8: 'Belt', 9: 'Boots', 10: 'Gloves', 11: 'WeaponR2', 12: 'WeaponL2',
 }
 
+def _is_stackable_row(r):
+    """Check if an item row has stackable=True (handles both TSV strings and JSON booleans)."""
+    v = r.get('stackable', '')
+    if isinstance(v, bool):
+        return v
+    return isinstance(v, str) and v.strip() == '1'
+
+def _get_maxstack(r):
+    """Get maxstack from a row (handles both TSV strings and JSON ints)."""
+    v = r.get('maxstack', 0)
+    if isinstance(v, int):
+        return v
+    return int(v or 0)
+
 def _is_stackable(code):
     r = MISC_ROWS.get(code) or WEAPON_ROWS.get(code)
-    return r and r.get('stackable', '').strip() == '1'
+    return r and _is_stackable_row(r)
 
 def _is_advanced_stash_stackable(code):
     r = MISC_ROWS.get(code)
-    return r and r.get('advancedStashStackable', '').strip() == '1' or \
-           (r and len(list(r.keys())) > 170 and list(r.values())[170] == '1')
+    if not r:
+        return False
+    # JSON path: direct boolean
+    v = r.get('advancedStashStackable')
+    if isinstance(v, bool):
+        return v
+    # TSV path: string field or column-index-170 fallback
+    if isinstance(v, str) and v.strip() == '1':
+        return True
+    vals = list(r.values())
+    return len(vals) > 170 and vals[170] == '1'
 
 def _item_type(code):
     if code in ARMOR_CODES: return 'armor'
@@ -388,16 +469,16 @@ def parse_item(br):
         if max_dur != 0:
             br.skip(9)
         wr = WEAPON_ROWS.get(code)
-        if wr and wr.get('stackable', '').strip() == '1':
+        if wr and _is_stackable_row(wr):
             br.skip(1)   # RotW stackable flag
             br.skip(9)   # stacks
-            max_stacks = int(wr.get('maxstack', '0') or 0)
+            max_stacks = _get_maxstack(wr)
     else:  # misc
         mr = MISC_ROWS.get(code)
-        if mr and mr.get('stackable', '').strip() == '1':
+        if mr and _is_stackable_row(mr):
             br.skip(1)
             br.skip(9)
-            max_stacks = int(mr.get('maxstack', '0') or 0)
+            max_stacks = _get_maxstack(mr)
 
     # RotW: skip 1 extra bit if not stackable (and not Potion of Life)
     if max_stacks == 0 and code != 'xyz':
@@ -478,12 +559,7 @@ def _simple_item_end(br, code):
     Implements the peekedNextByte boundary-skip logic.
     """
     # For advancedStashStackable items: read 1 bit (+ optional 8 bits)
-    mr = MISC_ROWS.get(code)
-    if mr:
-        # Check advancedStashStackable: column index 170 in misc.txt
-        cols = list(mr.keys())
-        adv_stash = len(cols) > 170 and list(mr.values())[170] == '1'
-        if adv_stash:
+    if _is_advanced_stash_stackable(code):
             has_data = br.read(1)
             if has_data:
                 br.skip(8)

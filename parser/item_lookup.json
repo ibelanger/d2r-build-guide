@@ -1,0 +1,7224 @@
+{
+  "armor": {
+    "cap": {
+      "name": "Cap",
+      "type": "helm"
+    },
+    "skp": {
+      "name": "Skull Cap",
+      "type": "helm"
+    },
+    "hlm": {
+      "name": "Helm",
+      "type": "helm"
+    },
+    "fhl": {
+      "name": "Full Helm",
+      "type": "helm"
+    },
+    "ghm": {
+      "name": "Great Helm",
+      "type": "helm"
+    },
+    "crn": {
+      "name": "Crown",
+      "type": "helm"
+    },
+    "msk": {
+      "name": "Mask",
+      "type": "helm"
+    },
+    "qui": {
+      "name": "Quilted Armor",
+      "type": "tors"
+    },
+    "lea": {
+      "name": "Leather Armor",
+      "type": "tors"
+    },
+    "hla": {
+      "name": "Hard Leather Armor",
+      "type": "tors"
+    },
+    "stu": {
+      "name": "Studded Leather",
+      "type": "tors"
+    },
+    "rng": {
+      "name": "Ring Mail",
+      "type": "tors"
+    },
+    "scl": {
+      "name": "Scale Mail",
+      "type": "tors"
+    },
+    "chn": {
+      "name": "Chain Mail",
+      "type": "tors"
+    },
+    "brs": {
+      "name": "Breast Plate",
+      "type": "tors"
+    },
+    "spl": {
+      "name": "Splint Mail",
+      "type": "tors"
+    },
+    "plt": {
+      "name": "Plate Mail",
+      "type": "tors"
+    },
+    "fld": {
+      "name": "Field Plate",
+      "type": "tors"
+    },
+    "gth": {
+      "name": "Gothic Plate",
+      "type": "tors"
+    },
+    "ful": {
+      "name": "Full Plate Mail",
+      "type": "tors"
+    },
+    "aar": {
+      "name": "Ancient Armor",
+      "type": "tors"
+    },
+    "ltp": {
+      "name": "Light Plate",
+      "type": "tors"
+    },
+    "buc": {
+      "name": "Buckler",
+      "type": "shie"
+    },
+    "sml": {
+      "name": "Small Shield",
+      "type": "shie"
+    },
+    "lrg": {
+      "name": "Large Shield",
+      "type": "shie"
+    },
+    "kit": {
+      "name": "Kite Shield",
+      "type": "shie"
+    },
+    "tow": {
+      "name": "Tower Shield",
+      "type": "shie"
+    },
+    "gts": {
+      "name": "Gothic Shield",
+      "type": "shie"
+    },
+    "lgl": {
+      "name": "Leather Gloves",
+      "type": "glov"
+    },
+    "vgl": {
+      "name": "Heavy Gloves",
+      "type": "glov"
+    },
+    "mgl": {
+      "name": "Chain Gloves",
+      "type": "glov"
+    },
+    "tgl": {
+      "name": "Light Gauntlets",
+      "type": "glov"
+    },
+    "hgl": {
+      "name": "Gauntlets",
+      "type": "glov"
+    },
+    "lbt": {
+      "name": "Boots",
+      "type": "boot"
+    },
+    "vbt": {
+      "name": "Heavy Boots",
+      "type": "boot"
+    },
+    "mbt": {
+      "name": "Chain Boots",
+      "type": "boot"
+    },
+    "tbt": {
+      "name": "Light Plated Boots",
+      "type": "boot"
+    },
+    "hbt": {
+      "name": "Greaves",
+      "type": "boot"
+    },
+    "lbl": {
+      "name": "Sash",
+      "type": "belt"
+    },
+    "vbl": {
+      "name": "Light Belt",
+      "type": "belt"
+    },
+    "mbl": {
+      "name": "Belt",
+      "type": "belt"
+    },
+    "tbl": {
+      "name": "Heavy Belt",
+      "type": "belt"
+    },
+    "hbl": {
+      "name": "Plated Belt",
+      "type": "belt"
+    },
+    "bhm": {
+      "name": "Bone Helm",
+      "type": "helm"
+    },
+    "bsh": {
+      "name": "Bone Shield",
+      "type": "shie"
+    },
+    "spk": {
+      "name": "Spiked Shield",
+      "type": "shie"
+    },
+    "xap": {
+      "name": "War Hat",
+      "type": "helm"
+    },
+    "xkp": {
+      "name": "Sallet",
+      "type": "helm"
+    },
+    "xlm": {
+      "name": "Casque",
+      "type": "helm"
+    },
+    "xhl": {
+      "name": "Basinet",
+      "type": "helm"
+    },
+    "xhm": {
+      "name": "Winged Helm",
+      "type": "helm"
+    },
+    "xrn": {
+      "name": "Grand Crown",
+      "type": "helm"
+    },
+    "xsk": {
+      "name": "Death Mask",
+      "type": "helm"
+    },
+    "xui": {
+      "name": "Ghost Armor",
+      "type": "tors"
+    },
+    "xea": {
+      "name": "Serpentskin Armor",
+      "type": "tors"
+    },
+    "xla": {
+      "name": "Demonhide Armor",
+      "type": "tors"
+    },
+    "xtu": {
+      "name": "Trellised Armor",
+      "type": "tors"
+    },
+    "xng": {
+      "name": "Linked Mail",
+      "type": "tors"
+    },
+    "xcl": {
+      "name": "Tigulated Mail",
+      "type": "tors"
+    },
+    "xhn": {
+      "name": "Mesh Armor",
+      "type": "tors"
+    },
+    "xrs": {
+      "name": "Cuirass",
+      "type": "tors"
+    },
+    "xpl": {
+      "name": "Russet Armor",
+      "type": "tors"
+    },
+    "xlt": {
+      "name": "Templar Coat",
+      "type": "tors"
+    },
+    "xld": {
+      "name": "Sharktooth Armor",
+      "type": "tors"
+    },
+    "xth": {
+      "name": "Embossed Plate",
+      "type": "tors"
+    },
+    "xul": {
+      "name": "Chaos Armor",
+      "type": "tors"
+    },
+    "xar": {
+      "name": "Ornate Armor",
+      "type": "tors"
+    },
+    "xtp": {
+      "name": "Mage Plate",
+      "type": "tors"
+    },
+    "xuc": {
+      "name": "Defender",
+      "type": "shie"
+    },
+    "xml": {
+      "name": "Round Shield",
+      "type": "shie"
+    },
+    "xrg": {
+      "name": "Scutum",
+      "type": "shie"
+    },
+    "xit": {
+      "name": "Dragon Shield",
+      "type": "shie"
+    },
+    "xow": {
+      "name": "Pavise",
+      "type": "shie"
+    },
+    "xts": {
+      "name": "Ancient Shield",
+      "type": "shie"
+    },
+    "xlg": {
+      "name": "Demonhide Gloves",
+      "type": "glov"
+    },
+    "xvg": {
+      "name": "Sharkskin Gloves",
+      "type": "glov"
+    },
+    "xmg": {
+      "name": "Heavy Bracers",
+      "type": "glov"
+    },
+    "xtg": {
+      "name": "Battle Gauntlets",
+      "type": "glov"
+    },
+    "xhg": {
+      "name": "War Gauntlets",
+      "type": "glov"
+    },
+    "xlb": {
+      "name": "Demonhide Boots",
+      "type": "boot"
+    },
+    "xvb": {
+      "name": "Sharkskin Boots",
+      "type": "boot"
+    },
+    "xmb": {
+      "name": "Mesh Boots",
+      "type": "boot"
+    },
+    "xtb": {
+      "name": "Battle Boots",
+      "type": "boot"
+    },
+    "xhb": {
+      "name": "War Boots",
+      "type": "boot"
+    },
+    "zlb": {
+      "name": "Demonhide Sash",
+      "type": "belt"
+    },
+    "zvb": {
+      "name": "Sharkskin Belt",
+      "type": "belt"
+    },
+    "zmb": {
+      "name": "Mesh Belt",
+      "type": "belt"
+    },
+    "ztb": {
+      "name": "Battle Belt",
+      "type": "belt"
+    },
+    "zhb": {
+      "name": "War Belt",
+      "type": "belt"
+    },
+    "xh9": {
+      "name": "Grim Helm",
+      "type": "helm"
+    },
+    "xsh": {
+      "name": "Grim Shield",
+      "type": "shie"
+    },
+    "xpk": {
+      "name": "Barbed Shield",
+      "type": "shie"
+    },
+    "dr1": {
+      "name": "Wolf Head",
+      "type": "pelt"
+    },
+    "dr2": {
+      "name": "Hawk Helm",
+      "type": "pelt"
+    },
+    "dr3": {
+      "name": "Antlers",
+      "type": "pelt"
+    },
+    "dr4": {
+      "name": "Falcon Mask",
+      "type": "pelt"
+    },
+    "dr5": {
+      "name": "Spirit Mask",
+      "type": "pelt"
+    },
+    "ba1": {
+      "name": "Jawbone Cap",
+      "type": "phlm"
+    },
+    "ba2": {
+      "name": "Fanged Helm",
+      "type": "phlm"
+    },
+    "ba3": {
+      "name": "Horned Helm",
+      "type": "phlm"
+    },
+    "ba4": {
+      "name": "Assault Helmet",
+      "type": "phlm"
+    },
+    "ba5": {
+      "name": "Avenger Guard",
+      "type": "phlm"
+    },
+    "pa1": {
+      "name": "Targe",
+      "type": "ashd"
+    },
+    "pa2": {
+      "name": "Rondache",
+      "type": "ashd"
+    },
+    "pa3": {
+      "name": "Heraldic Shield",
+      "type": "ashd"
+    },
+    "pa4": {
+      "name": "Aerin Shield",
+      "type": "ashd"
+    },
+    "pa5": {
+      "name": "Crown Shield",
+      "type": "ashd"
+    },
+    "ne1": {
+      "name": "Preserved Head",
+      "type": "head"
+    },
+    "ne2": {
+      "name": "Zombie Head",
+      "type": "head"
+    },
+    "ne3": {
+      "name": "Unraveller Head",
+      "type": "head"
+    },
+    "ne4": {
+      "name": "Gargoyle Head",
+      "type": "head"
+    },
+    "ne5": {
+      "name": "Demon Head",
+      "type": "head"
+    },
+    "ci0": {
+      "name": "Circlet",
+      "type": "circ"
+    },
+    "ci1": {
+      "name": "Coronet",
+      "type": "circ"
+    },
+    "ci2": {
+      "name": "Tiara",
+      "type": "circ"
+    },
+    "ci3": {
+      "name": "Diadem",
+      "type": "circ"
+    },
+    "uap": {
+      "name": "Shako",
+      "type": "helm"
+    },
+    "ukp": {
+      "name": "Hydraskull",
+      "type": "helm"
+    },
+    "ulm": {
+      "name": "Armet",
+      "type": "helm"
+    },
+    "uhl": {
+      "name": "Giant Conch",
+      "type": "helm"
+    },
+    "uhm": {
+      "name": "Spired Helm",
+      "type": "helm"
+    },
+    "urn": {
+      "name": "Corona",
+      "type": "helm"
+    },
+    "usk": {
+      "name": "Demonhead",
+      "type": "helm"
+    },
+    "uui": {
+      "name": "Dusk Shroud",
+      "type": "tors"
+    },
+    "uea": {
+      "name": "Wyrmhide",
+      "type": "tors"
+    },
+    "ula": {
+      "name": "Scarab Husk",
+      "type": "tors"
+    },
+    "utu": {
+      "name": "Wire Fleece",
+      "type": "tors"
+    },
+    "ung": {
+      "name": "Diamond Mail",
+      "type": "tors"
+    },
+    "ucl": {
+      "name": "Loricated Mail",
+      "type": "tors"
+    },
+    "uhn": {
+      "name": "Boneweave",
+      "type": "tors"
+    },
+    "urs": {
+      "name": "Great Hauberk",
+      "type": "tors"
+    },
+    "upl": {
+      "name": "Balrog Skin",
+      "type": "tors"
+    },
+    "ult": {
+      "name": "Hellforge Plate",
+      "type": "tors"
+    },
+    "uld": {
+      "name": "Kraken Shell",
+      "type": "tors"
+    },
+    "uth": {
+      "name": "Lacquered Plate",
+      "type": "tors"
+    },
+    "uul": {
+      "name": "Shadow Plate",
+      "type": "tors"
+    },
+    "uar": {
+      "name": "Sacred Armor",
+      "type": "tors"
+    },
+    "utp": {
+      "name": "Archon Plate",
+      "type": "tors"
+    },
+    "uuc": {
+      "name": "Heater",
+      "type": "shie"
+    },
+    "uml": {
+      "name": "Luna",
+      "type": "shie"
+    },
+    "urg": {
+      "name": "Hyperion",
+      "type": "shie"
+    },
+    "uit": {
+      "name": "Monarch",
+      "type": "shie"
+    },
+    "uow": {
+      "name": "Aegis",
+      "type": "shie"
+    },
+    "uts": {
+      "name": "Ward",
+      "type": "shie"
+    },
+    "ulg": {
+      "name": "Bramble Mitts",
+      "type": "glov"
+    },
+    "uvg": {
+      "name": "Vampirebone Gloves",
+      "type": "glov"
+    },
+    "umg": {
+      "name": "Vambraces",
+      "type": "glov"
+    },
+    "utg": {
+      "name": "Crusader Gauntlets",
+      "type": "glov"
+    },
+    "uhg": {
+      "name": "Ogre Gauntlets",
+      "type": "glov"
+    },
+    "ulb": {
+      "name": "Wyrmhide Boots",
+      "type": "boot"
+    },
+    "uvb": {
+      "name": "Scarabshell Boots",
+      "type": "boot"
+    },
+    "umb": {
+      "name": "Boneweave Boots",
+      "type": "boot"
+    },
+    "utb": {
+      "name": "Mirrored Boots",
+      "type": "boot"
+    },
+    "uhb": {
+      "name": "Myrmidon Greaves",
+      "type": "boot"
+    },
+    "ulc": {
+      "name": "Spiderweb Sash",
+      "type": "belt"
+    },
+    "uvc": {
+      "name": "Vampirefang Belt",
+      "type": "belt"
+    },
+    "umc": {
+      "name": "Mithril Coil",
+      "type": "belt"
+    },
+    "utc": {
+      "name": "Troll Belt",
+      "type": "belt"
+    },
+    "uhc": {
+      "name": "Colossus Girdle",
+      "type": "belt"
+    },
+    "uh9": {
+      "name": "Bone Visage",
+      "type": "helm"
+    },
+    "ush": {
+      "name": "Troll Nest",
+      "type": "shie"
+    },
+    "upk": {
+      "name": "Blade Barrier",
+      "type": "shie"
+    },
+    "dr6": {
+      "name": "Alpha Helm",
+      "type": "pelt"
+    },
+    "dr7": {
+      "name": "Griffon Headress",
+      "type": "pelt"
+    },
+    "dr8": {
+      "name": "Hunter's Guise",
+      "type": "pelt"
+    },
+    "dr9": {
+      "name": "Sacred Feathers",
+      "type": "pelt"
+    },
+    "dra": {
+      "name": "Totemic Mask",
+      "type": "pelt"
+    },
+    "ba6": {
+      "name": "Jawbone Visor",
+      "type": "phlm"
+    },
+    "ba7": {
+      "name": "Lion Helm",
+      "type": "phlm"
+    },
+    "ba8": {
+      "name": "Rage Mask",
+      "type": "phlm"
+    },
+    "ba9": {
+      "name": "Savage Helmet",
+      "type": "phlm"
+    },
+    "baa": {
+      "name": "Slayer Guard",
+      "type": "phlm"
+    },
+    "pa6": {
+      "name": "Akaran Targe",
+      "type": "ashd"
+    },
+    "pa7": {
+      "name": "Akaran Rondache",
+      "type": "ashd"
+    },
+    "pa8": {
+      "name": "Protector Shield",
+      "type": "ashd"
+    },
+    "pa9": {
+      "name": "Gilded Shield",
+      "type": "ashd"
+    },
+    "paa": {
+      "name": "Royal Shield",
+      "type": "ashd"
+    },
+    "ne6": {
+      "name": "Mummified Trophy",
+      "type": "head"
+    },
+    "ne7": {
+      "name": "Fetish Trophy",
+      "type": "head"
+    },
+    "ne8": {
+      "name": "Sexton Trophy",
+      "type": "head"
+    },
+    "ne9": {
+      "name": "Cantor Trophy",
+      "type": "head"
+    },
+    "nea": {
+      "name": "Heirophant Trophy",
+      "type": "head"
+    },
+    "drb": {
+      "name": "Blood Spirit",
+      "type": "pelt"
+    },
+    "drc": {
+      "name": "Sun Spirit",
+      "type": "pelt"
+    },
+    "drd": {
+      "name": "Earth Spirit",
+      "type": "pelt"
+    },
+    "dre": {
+      "name": "Sky Spirit",
+      "type": "pelt"
+    },
+    "drf": {
+      "name": "Dream Spirit",
+      "type": "pelt"
+    },
+    "bab": {
+      "name": "Carnage Helm",
+      "type": "phlm"
+    },
+    "bac": {
+      "name": "Fury Visor",
+      "type": "phlm"
+    },
+    "bad": {
+      "name": "Destroyer Helm",
+      "type": "phlm"
+    },
+    "bae": {
+      "name": "Conqueror Crown",
+      "type": "phlm"
+    },
+    "baf": {
+      "name": "Guardian Crown",
+      "type": "phlm"
+    },
+    "pab": {
+      "name": "Sacred Targe",
+      "type": "ashd"
+    },
+    "pac": {
+      "name": "Sacred Rondache",
+      "type": "ashd"
+    },
+    "pad": {
+      "name": "Ancient Shield",
+      "type": "ashd"
+    },
+    "pae": {
+      "name": "Zakarum Shield",
+      "type": "ashd"
+    },
+    "paf": {
+      "name": "Vortex Shield",
+      "type": "ashd"
+    },
+    "neb": {
+      "name": "Minion Skull",
+      "type": "head"
+    },
+    "neg": {
+      "name": "Hellspawn Skull",
+      "type": "head"
+    },
+    "ned": {
+      "name": "Overseer Skull",
+      "type": "head"
+    },
+    "nee": {
+      "name": "Succubus Skull",
+      "type": "head"
+    },
+    "nef": {
+      "name": "Bloodlord Skull",
+      "type": "head"
+    },
+    "wa1": {
+      "name": "Old Book",
+      "type": "grim"
+    },
+    "wa2": {
+      "name": "Tome",
+      "type": "grim"
+    },
+    "wa3": {
+      "name": "Codex",
+      "type": "grim"
+    },
+    "wa4": {
+      "name": "Compendium",
+      "type": "grim"
+    },
+    "wa5": {
+      "name": "Grimoire",
+      "type": "grim"
+    },
+    "wa6": {
+      "name": "Burnt Text",
+      "type": "grim"
+    },
+    "wa7": {
+      "name": "Dark Tome",
+      "type": "grim"
+    },
+    "wa8": {
+      "name": "Dark Codex",
+      "type": "grim"
+    },
+    "wa9": {
+      "name": "Possessed Compendium",
+      "type": "grim"
+    },
+    "waa": {
+      "name": "Possessed Grimoire",
+      "type": "grim"
+    },
+    "wab": {
+      "name": "Forgotten Volume",
+      "type": "grim"
+    },
+    "wac": {
+      "name": "Occult Tome",
+      "type": "grim"
+    },
+    "wad": {
+      "name": "Occult Codex",
+      "type": "grim"
+    },
+    "wae": {
+      "name": "Blasphemous Compendium",
+      "type": "grim"
+    },
+    "waf": {
+      "name": "Blasphemous Grimoire",
+      "type": "grim"
+    },
+    "ctss": {
+      "name": "Caster Shield",
+      "type": "shie"
+    },
+    "ctsb": {
+      "name": "Caster Body Armor",
+      "type": "tors"
+    },
+    "ctwf": {
+      "name": "Caster Weapon Focus",
+      "type": "wand"
+    },
+    "ewww": {
+      "name": "Warlock Circlet",
+      "type": "helm"
+    },
+    "ncsd": {
+      "name": "Necro Shield",
+      "type": "shie"
+    }
+  },
+  "weapons": {
+    "hax": {
+      "name": "Hand Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "axe": {
+      "name": "Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "2ax": {
+      "name": "Double Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "mpi": {
+      "name": "Military Pick",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "wax": {
+      "name": "War Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "lax": {
+      "name": "Large Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "bax": {
+      "name": "Broad Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "btx": {
+      "name": "Battle Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "gax": {
+      "name": "Great Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "gix": {
+      "name": "Giant Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "wnd": {
+      "name": "Wand",
+      "type": "wand",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ywn": {
+      "name": "Yew Wand",
+      "type": "wand",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "bwn": {
+      "name": "Bone Wand",
+      "type": "wand",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "gwn": {
+      "name": "Grim Wand",
+      "type": "wand",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "clb": {
+      "name": "Club",
+      "type": "club",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "scp": {
+      "name": "Scepter",
+      "type": "scep",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "gsc": {
+      "name": "Grand Scepter",
+      "type": "scep",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "wsp": {
+      "name": "War Scepter",
+      "type": "scep",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "spc": {
+      "name": "Spiked Club",
+      "type": "club",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "mac": {
+      "name": "Mace",
+      "type": "mace",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "mst": {
+      "name": "Morning Star",
+      "type": "mace",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "fla": {
+      "name": "Flail",
+      "type": "mace",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "whm": {
+      "name": "War Hammer",
+      "type": "hamm",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "mau": {
+      "name": "Maul",
+      "type": "hamm",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "gma": {
+      "name": "Great Maul",
+      "type": "hamm",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ssd": {
+      "name": "Short Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "scm": {
+      "name": "Scimitar",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "sbr": {
+      "name": "Saber",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "flc": {
+      "name": "Falchion",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "crs": {
+      "name": "Crystal Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "bsd": {
+      "name": "Broad Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "lsd": {
+      "name": "Long Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "wsd": {
+      "name": "War Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "2hs": {
+      "name": "Two-Handed Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "clm": {
+      "name": "Claymore",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "gis": {
+      "name": "Giant Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "bsw": {
+      "name": "Bastard Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "flb": {
+      "name": "Flamberge",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "gsd": {
+      "name": "Great Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "dgr": {
+      "name": "Dagger",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "dir": {
+      "name": "Dirk",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "kri": {
+      "name": "Kriss",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "bld": {
+      "name": "Blade",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "tkf": {
+      "name": "Throwing Knife",
+      "type": "tkni",
+      "stackable": true,
+      "maxstack": 240
+    },
+    "tax": {
+      "name": "Throwing Axe",
+      "type": "taxe",
+      "stackable": true,
+      "maxstack": 200
+    },
+    "bkf": {
+      "name": "Balanced Knife",
+      "type": "tkni",
+      "stackable": true,
+      "maxstack": 240
+    },
+    "bal": {
+      "name": "Balanced Axe",
+      "type": "taxe",
+      "stackable": true,
+      "maxstack": 200
+    },
+    "jav": {
+      "name": "Javelin",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 90
+    },
+    "pil": {
+      "name": "Pilum",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 75
+    },
+    "ssp": {
+      "name": "Short Spear",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 60
+    },
+    "glv": {
+      "name": "Glaive",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 60
+    },
+    "tsp": {
+      "name": "Throwing Spear",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 120
+    },
+    "spr": {
+      "name": "Spear",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "tri": {
+      "name": "Trident",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "brn": {
+      "name": "Brandistock",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "spt": {
+      "name": "Spetum",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "pik": {
+      "name": "Pike",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "bar": {
+      "name": "Bardiche",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "vou": {
+      "name": "Voulge",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "scy": {
+      "name": "Scythe",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "pax": {
+      "name": "Poleaxe",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "hal": {
+      "name": "Halberd",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "wsc": {
+      "name": "War Scythe",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "sst": {
+      "name": "Short Staff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "lst": {
+      "name": "Long Staff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "cst": {
+      "name": "Gnarled Staff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "bst": {
+      "name": "Battle Staff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "wst": {
+      "name": "War Staff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "sbw": {
+      "name": "Short Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "hbw": {
+      "name": "Hunter's Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "lbw": {
+      "name": "Long Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "cbw": {
+      "name": "Composite Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "sbb": {
+      "name": "Short Battle Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "lbb": {
+      "name": "Long Battle Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "swb": {
+      "name": "Short War Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "lwb": {
+      "name": "Long War Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "lxb": {
+      "name": "Light Crossbow",
+      "type": "xbow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "mxb": {
+      "name": "Crossbow",
+      "type": "xbow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "hxb": {
+      "name": "Heavy Crossbow",
+      "type": "xbow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "rxb": {
+      "name": "Repeating Crossbow",
+      "type": "xbow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "gps": {
+      "name": "Rancid Gas Potion",
+      "type": "tpot",
+      "stackable": true,
+      "maxstack": 25
+    },
+    "ops": {
+      "name": "Oil Potion",
+      "type": "tpot",
+      "stackable": true,
+      "maxstack": 25
+    },
+    "gpm": {
+      "name": "Choking Gas Potion",
+      "type": "tpot",
+      "stackable": true,
+      "maxstack": 25
+    },
+    "opm": {
+      "name": "Exploding Potion",
+      "type": "tpot",
+      "stackable": true,
+      "maxstack": 25
+    },
+    "gpl": {
+      "name": "Strangling Gas Potion",
+      "type": "tpot",
+      "stackable": true,
+      "maxstack": 25
+    },
+    "opl": {
+      "name": "Fulminating Potion",
+      "type": "tpot",
+      "stackable": true,
+      "maxstack": 25
+    },
+    "d33": {
+      "name": "Decoy Gidbinn",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "g33": {
+      "name": "The Gidbinn",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "leg": {
+      "name": "Wirt's Leg",
+      "type": "club",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "hdm": {
+      "name": "Horadric Malus",
+      "type": "hamm",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "hfh": {
+      "name": "Hellforge Hammer",
+      "type": "hamm",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "hst": {
+      "name": "Horadric Staff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "msf": {
+      "name": "Staff of Kings",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9ha": {
+      "name": "Hatchet",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9ax": {
+      "name": "Cleaver",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "92a": {
+      "name": "Twin Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9mp": {
+      "name": "Crowbill",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9wa": {
+      "name": "Naga",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9la": {
+      "name": "Military Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9ba": {
+      "name": "Bearded Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9bt": {
+      "name": "Tabar",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9ga": {
+      "name": "Gothic Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9gi": {
+      "name": "Ancient Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9wn": {
+      "name": "Burnt Wand",
+      "type": "wand",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9yw": {
+      "name": "Petrified Wand",
+      "type": "wand",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9bw": {
+      "name": "Tomb Wand",
+      "type": "wand",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9gw": {
+      "name": "Grave Wand",
+      "type": "wand",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9cl": {
+      "name": "Cudgel",
+      "type": "club",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9sc": {
+      "name": "Rune Scepter",
+      "type": "scep",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9qs": {
+      "name": "Holy Water Sprinkler",
+      "type": "scep",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9ws": {
+      "name": "Divine Scepter",
+      "type": "scep",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9sp": {
+      "name": "Barbed Club",
+      "type": "club",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9ma": {
+      "name": "Flanged Mace",
+      "type": "mace",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9mt": {
+      "name": "Jagged Star",
+      "type": "mace",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9fl": {
+      "name": "Knout",
+      "type": "mace",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9wh": {
+      "name": "Battle Hammer",
+      "type": "hamm",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9m9": {
+      "name": "War Club",
+      "type": "hamm",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9gm": {
+      "name": "Martel de Fer",
+      "type": "hamm",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9ss": {
+      "name": "Gladius",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9sm": {
+      "name": "Cutlass",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9sb": {
+      "name": "Shamshir",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9fc": {
+      "name": "Tulwar",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9cr": {
+      "name": "Dimensional Blade",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9bs": {
+      "name": "Battle Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9ls": {
+      "name": "Rune Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9wd": {
+      "name": "Ancient Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "92h": {
+      "name": "Espandon",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9cm": {
+      "name": "Dacian Falx",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9gs": {
+      "name": "Tusk Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9b9": {
+      "name": "Gothic Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9fb": {
+      "name": "Zweihander",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9gd": {
+      "name": "Executioner Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9dg": {
+      "name": "Poignard",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9di": {
+      "name": "Rondel",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9kr": {
+      "name": "Cinquedeas",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9bl": {
+      "name": "Stilleto",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9tk": {
+      "name": "Battle Dart",
+      "type": "tkni",
+      "stackable": true,
+      "maxstack": 240
+    },
+    "9ta": {
+      "name": "Francisca",
+      "type": "taxe",
+      "stackable": true,
+      "maxstack": 200
+    },
+    "9bk": {
+      "name": "War Dart",
+      "type": "tkni",
+      "stackable": true,
+      "maxstack": 240
+    },
+    "9b8": {
+      "name": "Hurlbat",
+      "type": "taxe",
+      "stackable": true,
+      "maxstack": 200
+    },
+    "9ja": {
+      "name": "War Javelin",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 90
+    },
+    "9pi": {
+      "name": "Great Pilum",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 75
+    },
+    "9s9": {
+      "name": "Simbilan",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 60
+    },
+    "9gl": {
+      "name": "Spiculum",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 30
+    },
+    "9ts": {
+      "name": "Harpoon",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 120
+    },
+    "9sr": {
+      "name": "War Spear",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9tr": {
+      "name": "Fuscina",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9br": {
+      "name": "War Fork",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9st": {
+      "name": "Yari",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9p9": {
+      "name": "Lance",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9b7": {
+      "name": "Lochaber Axe",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9vo": {
+      "name": "Bill",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9s8": {
+      "name": "Battle Scythe",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9pa": {
+      "name": "Partizan",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9h9": {
+      "name": "Bec-de-Corbin",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9wc": {
+      "name": "Grim Scythe",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8ss": {
+      "name": "Jo Staff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8ls": {
+      "name": "Quarterstaff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8cs": {
+      "name": "Cedar Staff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8bs": {
+      "name": "Gothic Staff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8ws": {
+      "name": "Rune Staff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8sb": {
+      "name": "Edge Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8hb": {
+      "name": "Razor Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8lb": {
+      "name": "Cedar Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8cb": {
+      "name": "Double Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8s8": {
+      "name": "Short Siege Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8l8": {
+      "name": "Long Siege Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8sw": {
+      "name": "Rune Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8lw": {
+      "name": "Gothic Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8lx": {
+      "name": "Arbalest",
+      "type": "xbow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8mx": {
+      "name": "Siege Crossbow",
+      "type": "xbow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8hx": {
+      "name": "Ballista",
+      "type": "xbow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "8rx": {
+      "name": "Chu-Ko-Nu",
+      "type": "xbow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "qf1": {
+      "name": "Khalim's Flail",
+      "type": "mace",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "qf2": {
+      "name": "Khalim's Will",
+      "type": "mace",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ktr": {
+      "name": "Katar",
+      "type": "h2h",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "wrb": {
+      "name": "Wrist Blade",
+      "type": "h2h",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "axf": {
+      "name": "Hatchet Hands",
+      "type": "h2h",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ces": {
+      "name": "Cestus",
+      "type": "h2h",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "clw": {
+      "name": "Claws",
+      "type": "h2h",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "btl": {
+      "name": "Blade Talons",
+      "type": "h2h",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "skr": {
+      "name": "Scissors Katar",
+      "type": "h2h",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9ar": {
+      "name": "Quhab",
+      "type": "h2h",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9wb": {
+      "name": "Wrist Spike",
+      "type": "h2h",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9xf": {
+      "name": "Fascia",
+      "type": "h2h",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9cs": {
+      "name": "Hand Scythe",
+      "type": "h2h2",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9lw": {
+      "name": "Greater Claws",
+      "type": "h2h2",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9tw": {
+      "name": "Greater Talons",
+      "type": "h2h2",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "9qr": {
+      "name": "Scissors Quhab",
+      "type": "h2h2",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7ar": {
+      "name": "Suwayyah",
+      "type": "h2h2",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7wb": {
+      "name": "Wrist Sword",
+      "type": "h2h2",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7xf": {
+      "name": "War Fist",
+      "type": "h2h2",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7cs": {
+      "name": "Battle Cestus",
+      "type": "h2h2",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7lw": {
+      "name": "Feral Claws",
+      "type": "h2h2",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7tw": {
+      "name": "Runic Talons",
+      "type": "h2h2",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7qr": {
+      "name": "Scissors Suwayyah",
+      "type": "h2h2",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7ha": {
+      "name": "Tomahawk",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7ax": {
+      "name": "Small Crescent",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "72a": {
+      "name": "Ettin Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7mp": {
+      "name": "War Spike",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7wa": {
+      "name": "Berserker Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7la": {
+      "name": "Feral Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7ba": {
+      "name": "Silver-edged Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7bt": {
+      "name": "Decapitator",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7ga": {
+      "name": "Champion Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7gi": {
+      "name": "Glorious Axe",
+      "type": "axe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7wn": {
+      "name": "Polished Wand",
+      "type": "wand",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7yw": {
+      "name": "Ghost Wand",
+      "type": "wand",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7bw": {
+      "name": "Lich Wand",
+      "type": "wand",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7gw": {
+      "name": "Unearthed Wand",
+      "type": "wand",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7cl": {
+      "name": "Truncheon",
+      "type": "club",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7sc": {
+      "name": "Mighty Scepter",
+      "type": "scep",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7qs": {
+      "name": "Seraph Rod",
+      "type": "scep",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7ws": {
+      "name": "Caduceus",
+      "type": "scep",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7sp": {
+      "name": "Tyrant Club",
+      "type": "club",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7ma": {
+      "name": "Reinforced Mace",
+      "type": "mace",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7mt": {
+      "name": "Devil Star",
+      "type": "mace",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7fl": {
+      "name": "Scourge",
+      "type": "mace",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7wh": {
+      "name": "Legendary Mallet",
+      "type": "hamm",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7m7": {
+      "name": "Ogre Maul",
+      "type": "hamm",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7gm": {
+      "name": "Thunder Maul",
+      "type": "hamm",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7ss": {
+      "name": "Falcata",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7sm": {
+      "name": "Ataghan",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7sb": {
+      "name": "Elegant Blade",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7fc": {
+      "name": "Hydra Edge",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7cr": {
+      "name": "Phase Blade",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7bs": {
+      "name": "Conquest Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7ls": {
+      "name": "Cryptic Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7wd": {
+      "name": "Mythical Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "72h": {
+      "name": "Legend Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7cm": {
+      "name": "Highland Blade",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7gs": {
+      "name": "Balrog Blade",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7b7": {
+      "name": "Champion Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7fb": {
+      "name": "Colossal Sword",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7gd": {
+      "name": "Colossus Blade",
+      "type": "swor",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7dg": {
+      "name": "Bone Knife",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7di": {
+      "name": "Mithral Point",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7kr": {
+      "name": "Fanged Knife",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7bl": {
+      "name": "Legend Spike",
+      "type": "knif",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7tk": {
+      "name": "Flying Knife",
+      "type": "tkni",
+      "stackable": true,
+      "maxstack": 300
+    },
+    "7ta": {
+      "name": "Flying Axe",
+      "type": "taxe",
+      "stackable": true,
+      "maxstack": 270
+    },
+    "7bk": {
+      "name": "Winged Knife",
+      "type": "tkni",
+      "stackable": true,
+      "maxstack": 300
+    },
+    "7b8": {
+      "name": "Winged Axe",
+      "type": "taxe",
+      "stackable": true,
+      "maxstack": 270
+    },
+    "7ja": {
+      "name": "Hyperion Javelin",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 150
+    },
+    "7pi": {
+      "name": "Stygian Pilum",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 140
+    },
+    "7s7": {
+      "name": "Balrog Spear",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 120
+    },
+    "7gl": {
+      "name": "Ghost Glaive",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 120
+    },
+    "7ts": {
+      "name": "Winged Harpoon",
+      "type": "jave",
+      "stackable": true,
+      "maxstack": 120
+    },
+    "7sr": {
+      "name": "Hyperion Spear",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7tr": {
+      "name": "Stygian Pike",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7br": {
+      "name": "Mancatcher",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7st": {
+      "name": "Ghost Spear",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7p7": {
+      "name": "War Pike",
+      "type": "spea",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7o7": {
+      "name": "Ogre Axe",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7vo": {
+      "name": "Colossus Voulge",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7s8": {
+      "name": "Thresher",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7pa": {
+      "name": "Cryptic Axe",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7h7": {
+      "name": "Great Poleaxe",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "7wc": {
+      "name": "Giant Thresher",
+      "type": "pole",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6ss": {
+      "name": "Walking Stick",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6ls": {
+      "name": "Stalagmite",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6cs": {
+      "name": "Elder Staff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6bs": {
+      "name": "Shillelagh",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6ws": {
+      "name": "Archon Staff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6sb": {
+      "name": "Spider Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6hb": {
+      "name": "Blade Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6lb": {
+      "name": "Shadow Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6cb": {
+      "name": "Great Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6s7": {
+      "name": "Diamond Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6l7": {
+      "name": "Crusader Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6sw": {
+      "name": "Ward Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6lw": {
+      "name": "Hydra Bow",
+      "type": "bow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6lx": {
+      "name": "Pellet Bow",
+      "type": "xbow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6mx": {
+      "name": "Gorgon Crossbow",
+      "type": "xbow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6hx": {
+      "name": "Colossus Crossbow",
+      "type": "xbow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "6rx": {
+      "name": "Demon Crossbow",
+      "type": "xbow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ob1": {
+      "name": "Eagle Orb",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ob2": {
+      "name": "Sacred Globe",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ob3": {
+      "name": "Smoked Sphere",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ob4": {
+      "name": "Clasped Orb",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ob5": {
+      "name": "Jared's Stone",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "am1": {
+      "name": "Stag Bow",
+      "type": "abow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "am2": {
+      "name": "Reflex Bow",
+      "type": "abow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "am3": {
+      "name": "Maiden Spear",
+      "type": "aspe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "am4": {
+      "name": "Maiden Pike",
+      "type": "aspe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "am5": {
+      "name": "Maiden Javelin",
+      "type": "ajav",
+      "stackable": true,
+      "maxstack": 120
+    },
+    "ob6": {
+      "name": "Glowing Orb",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ob7": {
+      "name": "Crystalline Globe",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ob8": {
+      "name": "Cloudy Sphere",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ob9": {
+      "name": "Sparkling Ball",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "oba": {
+      "name": "Swirling Crystal",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "am6": {
+      "name": "Ashwood Bow",
+      "type": "abow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "am7": {
+      "name": "Ceremonial Bow",
+      "type": "abow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "am8": {
+      "name": "Ceremonial Spear",
+      "type": "aspe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "am9": {
+      "name": "Ceremonial Pike",
+      "type": "aspe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ama": {
+      "name": "Ceremonial Javelin",
+      "type": "ajav",
+      "stackable": true,
+      "maxstack": 120
+    },
+    "obb": {
+      "name": "Heavenly Stone",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "obc": {
+      "name": "Eldritch Orb",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "obd": {
+      "name": "Demon Heart",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "obe": {
+      "name": "Vortex Orb",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "obf": {
+      "name": "Dimensional Shard",
+      "type": "orb",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "amb": {
+      "name": "Matriarchal Bow",
+      "type": "abow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "amc": {
+      "name": "Grand Matron Bow",
+      "type": "abow",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "amd": {
+      "name": "Matriarchal Spear",
+      "type": "aspe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "ame": {
+      "name": "Matriarchal Pike",
+      "type": "aspe",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "amf": {
+      "name": "Matriarchal Javelin",
+      "type": "ajav",
+      "stackable": true,
+      "maxstack": 120
+    },
+    "9z7p": {
+      "name": "Warlock Staff",
+      "type": "staf",
+      "stackable": false,
+      "maxstack": 0
+    },
+    "wwww": {
+      "name": "Warlock Wand",
+      "type": "wand",
+      "stackable": false,
+      "maxstack": 0
+    }
+  },
+  "misc": {
+    "elx": {
+      "name": "Elixir",
+      "type": "elix",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "hpo": {
+      "name": "Healing Potion",
+      "type": "hpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "mpo": {
+      "name": "Mana Potion",
+      "type": "mpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "hpf": {
+      "name": "Full Healing Potion",
+      "type": "hpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "mpf": {
+      "name": "Full Mana Potion",
+      "type": "mpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "vps": {
+      "name": "Stamina Potion",
+      "type": "spot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "yps": {
+      "name": "Antidote Potion",
+      "type": "apot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "rvs": {
+      "name": "Rejuvenation Potion",
+      "type": "rpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "rvl": {
+      "name": "Full Rejuvenation Potion",
+      "type": "rpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "wms": {
+      "name": "Thawing Potion",
+      "type": "wpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "tbk": {
+      "name": "Tome of Town Portal",
+      "type": "book",
+      "stackable": true,
+      "maxstack": 20,
+      "advancedStashStackable": false
+    },
+    "ibk": {
+      "name": "Tome of Identify",
+      "type": "book",
+      "stackable": true,
+      "maxstack": 20,
+      "advancedStashStackable": false
+    },
+    "amu": {
+      "name": "Amulet",
+      "type": "amul",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "vip": {
+      "name": "Amulet of the Viper",
+      "type": "amul",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "rin": {
+      "name": "Ring",
+      "type": "ring",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "gld": {
+      "name": "Gold",
+      "type": "gold",
+      "stackable": true,
+      "maxstack": 5000,
+      "advancedStashStackable": false
+    },
+    "bks": {
+      "name": "Scroll of Inifuss",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "bkd": {
+      "name": "Key to the Cairn Stones",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "aqv": {
+      "name": "Arrows",
+      "type": "bowq",
+      "stackable": true,
+      "maxstack": 500,
+      "advancedStashStackable": false
+    },
+    "tch": {
+      "name": "Torch",
+      "type": "torc",
+      "stackable": false,
+      "maxstack": 10,
+      "advancedStashStackable": false
+    },
+    "cqv": {
+      "name": "Bolts",
+      "type": "xboq",
+      "stackable": true,
+      "maxstack": 500,
+      "advancedStashStackable": false
+    },
+    "tsc": {
+      "name": "Scroll of Town Portal",
+      "type": "scro",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "isc": {
+      "name": "Scroll of Identify",
+      "type": "scro",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "hrt": {
+      "name": "Heart",
+      "type": "body",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "brz": {
+      "name": "Brain",
+      "type": "body",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "jaw": {
+      "name": "Jawbone",
+      "type": "body",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "eyz": {
+      "name": "Eye",
+      "type": "body",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "hrn": {
+      "name": "Horn",
+      "type": "body",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "tal": {
+      "name": "Tail",
+      "type": "body",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "flg": {
+      "name": "Flag",
+      "type": "body",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "fng": {
+      "name": "Fang",
+      "type": "body",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "qll": {
+      "name": "Quill",
+      "type": "body",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "sol": {
+      "name": "Soul",
+      "type": "body",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "scz": {
+      "name": "Scalp",
+      "type": "body",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "spe": {
+      "name": "Spleen",
+      "type": "body",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "key": {
+      "name": "Key",
+      "type": "key",
+      "stackable": true,
+      "maxstack": 12,
+      "advancedStashStackable": false
+    },
+    "luv": {
+      "name": "The Black Tower Key",
+      "type": "key",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "xyz": {
+      "name": "Potion of Life",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "j34": {
+      "name": "A Jade Figurine",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "g34": {
+      "name": "The Golden Bird",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "bbb": {
+      "name": "Lam Esen's Tome",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "box": {
+      "name": "Horadric Cube",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "tr1": {
+      "name": "Horadric Scroll",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "mss": {
+      "name": "Mephisto's Soulstone",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "ass": {
+      "name": "Book of Skill",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "qey": {
+      "name": "Khalim's Eye",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "qhr": {
+      "name": "Khalim's Heart",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "qbr": {
+      "name": "Khalim's Brain",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "ear": {
+      "name": "Ear",
+      "type": "play",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "gcv": {
+      "name": "Chipped Amethyst",
+      "type": "gema",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gfv": {
+      "name": "Flawed Amethyst",
+      "type": "gema",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gsv": {
+      "name": "Amethyst",
+      "type": "gema",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gzv": {
+      "name": "Flawless Amethyst",
+      "type": "gema",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gpv": {
+      "name": "Perfect Amethyst",
+      "type": "gema",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gcy": {
+      "name": "Chipped Topaz",
+      "type": "gemt",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gfy": {
+      "name": "Flawed Topaz",
+      "type": "gemt",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gsy": {
+      "name": "Topaz",
+      "type": "gemt",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gly": {
+      "name": "Flawless Topaz",
+      "type": "gemt",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gpy": {
+      "name": "Perfect Topaz",
+      "type": "gemt",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gcb": {
+      "name": "Chipped Sapphire",
+      "type": "gems",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gfb": {
+      "name": "Flawed Sapphire",
+      "type": "gems",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gsb": {
+      "name": "Sapphire",
+      "type": "gems",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "glb": {
+      "name": "Flawless Sapphire",
+      "type": "gems",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gpb": {
+      "name": "Perfect Sapphire",
+      "type": "gems",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gcg": {
+      "name": "Chipped Emerald",
+      "type": "geme",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gfg": {
+      "name": "Flawed Emerald",
+      "type": "geme",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gsg": {
+      "name": "Emerald",
+      "type": "geme",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "glg": {
+      "name": "Flawless Emerald",
+      "type": "geme",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gpg": {
+      "name": "Perfect Emerald",
+      "type": "geme",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gcr": {
+      "name": "Chipped Ruby",
+      "type": "gemr",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gfr": {
+      "name": "Flawed Ruby",
+      "type": "gemr",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gsr": {
+      "name": "Ruby",
+      "type": "gemr",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "glr": {
+      "name": "Flawless Ruby",
+      "type": "gemr",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gpr": {
+      "name": "Perfect Ruby",
+      "type": "gemr",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gcw": {
+      "name": "Chipped Diamond",
+      "type": "gemd",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gfw": {
+      "name": "Flawed Diamond",
+      "type": "gemd",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gsw": {
+      "name": "Diamond",
+      "type": "gemd",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "glw": {
+      "name": "Flawless Diamond",
+      "type": "gemd",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "gpw": {
+      "name": "Perfect Diamond",
+      "type": "gemd",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "hp1": {
+      "name": "Minor Healing Potion",
+      "type": "hpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "hp2": {
+      "name": "Light Healing Potion",
+      "type": "hpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "hp3": {
+      "name": "Healing Potion",
+      "type": "hpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "hp4": {
+      "name": "Greater Healing Potion",
+      "type": "hpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "hp5": {
+      "name": "Super Healing Potion",
+      "type": "hpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "mp1": {
+      "name": "Minor Mana Potion",
+      "type": "mpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "mp2": {
+      "name": "Light Mana Potion",
+      "type": "mpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "mp3": {
+      "name": "Mana Potion",
+      "type": "mpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "mp4": {
+      "name": "Greater Mana Potion",
+      "type": "mpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "mp5": {
+      "name": "Super Mana Potion",
+      "type": "mpot",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "skc": {
+      "name": "Chipped Skull",
+      "type": "gemz",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "skf": {
+      "name": "Flawed Skull",
+      "type": "gemz",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "sku": {
+      "name": "Skull",
+      "type": "gemz",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "skl": {
+      "name": "Flawless Skull",
+      "type": "gemz",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "skz": {
+      "name": "Perfect Skull",
+      "type": "gemz",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "hrb": {
+      "name": "Herb",
+      "type": "herb",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "cm1": {
+      "name": "Small Charm",
+      "type": "scha",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "cm2": {
+      "name": "Large Charm",
+      "type": "mcha",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "cm3": {
+      "name": "Grand Charm",
+      "type": "lcha",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "rps": {
+      "name": "Small Red Potion",
+      "type": "hpot",
+      "stackable": true,
+      "maxstack": 10,
+      "advancedStashStackable": false
+    },
+    "rpl": {
+      "name": "Large Red Potion",
+      "type": "hpot",
+      "stackable": true,
+      "maxstack": 10,
+      "advancedStashStackable": false
+    },
+    "bps": {
+      "name": "Small Blue Potion",
+      "type": "mpot",
+      "stackable": true,
+      "maxstack": 10,
+      "advancedStashStackable": false
+    },
+    "bpl": {
+      "name": "Large Blue Potion",
+      "type": "mpot",
+      "stackable": true,
+      "maxstack": 10,
+      "advancedStashStackable": false
+    },
+    "r01": {
+      "name": "El Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r02": {
+      "name": "Eld Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r03": {
+      "name": "Tir Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r04": {
+      "name": "Nef Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r05": {
+      "name": "Eth Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r06": {
+      "name": "Ith Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r07": {
+      "name": "Tal Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r08": {
+      "name": "Ral Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r09": {
+      "name": "Ort Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r10": {
+      "name": "Thul Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r11": {
+      "name": "Amn Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r12": {
+      "name": "Sol Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r13": {
+      "name": "Shael Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r14": {
+      "name": "Dol Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r15": {
+      "name": "Hel Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r16": {
+      "name": "Io Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r17": {
+      "name": "Lum Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r18": {
+      "name": "Ko Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r19": {
+      "name": "Fal Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r20": {
+      "name": "Lem Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r21": {
+      "name": "Pul Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r22": {
+      "name": "Um Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r23": {
+      "name": "Mal Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r24": {
+      "name": "Ist Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r25": {
+      "name": "Gul Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r26": {
+      "name": "Vex Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r27": {
+      "name": "Ohm Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r28": {
+      "name": "Lo Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r29": {
+      "name": "Sur Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r30": {
+      "name": "Ber Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r31": {
+      "name": "Jah Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r32": {
+      "name": "Cham Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "r33": {
+      "name": "Zod Rune",
+      "type": "rune",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "jew": {
+      "name": "Jewel",
+      "type": "jewl",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "ice": {
+      "name": "Malah's Potion",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "0sc": {
+      "name": "Scroll of Knowledge",
+      "type": "scro",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "tr2": {
+      "name": "Scroll of Resistance",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "pk1": {
+      "name": "Key of Terror",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "pk2": {
+      "name": "Key of Hate",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "pk3": {
+      "name": "Key of Destruction",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "dhn": {
+      "name": "Diablo's Horn",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "bey": {
+      "name": "Baal's Eye",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "mbr": {
+      "name": "Mephisto's Brain",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "toa": {
+      "name": "Token of Absolution",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "tes": {
+      "name": "Twisted Essence of Suffering",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "ceh": {
+      "name": "Charged Essense of Hatred",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "bet": {
+      "name": "Burning Essence of Terror",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "fed": {
+      "name": "Festering Essence of Destruction",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "std": {
+      "name": "Standard of Heroes",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "xa1": {
+      "name": "Western Worldstone Shard",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "xa2": {
+      "name": "Eastern Worldstone Shard",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "xa3": {
+      "name": "Southern Worldstone Shard",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "xa4": {
+      "name": "Deep Worldstone Shard",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "xa5": {
+      "name": "Northern Worldstone Shard",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "ua1": {
+      "name": "Uber Ancient Summon Material Act 1",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "ua2": {
+      "name": "Uber Ancient Summon Material Act 2",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "ua3": {
+      "name": "Uber Ancient Summon Material Act 3",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "ua4": {
+      "name": "Uber Ancient Summon Material Act 4",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "ua5": {
+      "name": "Uber Ancient Summon Material Act5",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": true
+    },
+    "um1": {
+      "name": "Uber Ancient Upgrade Material  Fire",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "um2": {
+      "name": "Uber Ancient Upgrade Material Poison",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "um3": {
+      "name": "Uber Ancient Upgrade Material  Cold",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "um4": {
+      "name": "Uber Ancient Upgrade Material Physical",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "um5": {
+      "name": "Uber Ancient Upgrade Material Lightning",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "um6": {
+      "name": "Uber Ancient Upgrade Material Magic",
+      "type": "ques",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "cjw": {
+      "name": "Colossal Jewel",
+      "type": "cjwl",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "cs2": {
+      "name": "Crafted Sunder Charm",
+      "type": "csch",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "mrgy": {
+      "name": "Warlock Orb",
+      "type": "misc",
+      "stackable": false,
+      "maxstack": 0,
+      "advancedStashStackable": false
+    },
+    "bt": {
+      "name": "Bounty Token",
+      "type": "misc",
+      "stackable": true,
+      "maxstack": 50,
+      "advancedStashStackable": false
+    },
+    "rpur": {
+      "name": "Purification Rune",
+      "type": "rune",
+      "stackable": true,
+      "maxstack": 1,
+      "advancedStashStackable": true
+    }
+  },
+  "uniques": {
+    "0": {
+      "index": "The Gnasher",
+      "code": "hax"
+    },
+    "1": {
+      "index": "Deathspade",
+      "code": "axe"
+    },
+    "2": {
+      "index": "Bladebone",
+      "code": "2ax"
+    },
+    "3": {
+      "index": "Mindrend",
+      "code": "mpi"
+    },
+    "4": {
+      "index": "Rakescar",
+      "code": "wax"
+    },
+    "5": {
+      "index": "Fechmars Axe",
+      "code": "lax"
+    },
+    "6": {
+      "index": "Goreshovel",
+      "code": "bax"
+    },
+    "7": {
+      "index": "The Chieftan",
+      "code": "btx"
+    },
+    "8": {
+      "index": "Brainhew",
+      "code": "gax"
+    },
+    "9": {
+      "index": "The Humongous",
+      "code": "gix"
+    },
+    "10": {
+      "index": "Iros Torch",
+      "code": "wnd"
+    },
+    "11": {
+      "index": "Maelstromwrath",
+      "code": "ywn"
+    },
+    "12": {
+      "index": "Gravenspine",
+      "code": "bwn"
+    },
+    "13": {
+      "index": "Umes Lament",
+      "code": "gwn"
+    },
+    "14": {
+      "index": "Felloak",
+      "code": "clb"
+    },
+    "15": {
+      "index": "Knell Striker",
+      "code": "scp"
+    },
+    "16": {
+      "index": "Rusthandle",
+      "code": "gsc"
+    },
+    "17": {
+      "index": "Stormeye",
+      "code": "wsp"
+    },
+    "18": {
+      "index": "Stoutnail",
+      "code": "spc"
+    },
+    "19": {
+      "index": "Crushflange",
+      "code": "mac"
+    },
+    "20": {
+      "index": "Bloodrise",
+      "code": "mst"
+    },
+    "21": {
+      "index": "The Generals Tan Do Li Ga",
+      "code": "fla"
+    },
+    "22": {
+      "index": "Ironstone",
+      "code": "whm"
+    },
+    "23": {
+      "index": "Bonesob",
+      "code": "mau"
+    },
+    "24": {
+      "index": "Steeldriver",
+      "code": "gma"
+    },
+    "25": {
+      "index": "Rixots Keen",
+      "code": "ssd"
+    },
+    "26": {
+      "index": "Blood Crescent",
+      "code": "scm"
+    },
+    "27": {
+      "index": "Krintizs Skewer",
+      "code": "sbr"
+    },
+    "28": {
+      "index": "Gleamscythe",
+      "code": "flc"
+    },
+    "29": {
+      "index": "Azurewrath",
+      "code": "crs"
+    },
+    "30": {
+      "index": "Griswolds Edge",
+      "code": "bsd"
+    },
+    "31": {
+      "index": "Hellplague",
+      "code": "lsd"
+    },
+    "32": {
+      "index": "Culwens Point",
+      "code": "wsd"
+    },
+    "33": {
+      "index": "Shadowfang",
+      "code": "2hs"
+    },
+    "34": {
+      "index": "Soulflay",
+      "code": "clm"
+    },
+    "35": {
+      "index": "Kinemils Awl",
+      "code": "gis"
+    },
+    "36": {
+      "index": "Blacktongue",
+      "code": "bsw"
+    },
+    "37": {
+      "index": "Ripsaw",
+      "code": "flb"
+    },
+    "38": {
+      "index": "The Patriarch",
+      "code": "gsd"
+    },
+    "39": {
+      "index": "Gull",
+      "code": "dgr"
+    },
+    "40": {
+      "index": "The Diggler",
+      "code": "dir"
+    },
+    "41": {
+      "index": "The Jade Tan Do",
+      "code": "kri"
+    },
+    "42": {
+      "index": "Irices Shard",
+      "code": "bld"
+    },
+    "43": {
+      "index": "The Dragon Chang",
+      "code": "spr"
+    },
+    "44": {
+      "index": "Razortine",
+      "code": "tri"
+    },
+    "45": {
+      "index": "Bloodthief",
+      "code": "brn"
+    },
+    "46": {
+      "index": "Lance of Yaggai",
+      "code": "spt"
+    },
+    "47": {
+      "index": "The Tannr Gorerod",
+      "code": "pik"
+    },
+    "48": {
+      "index": "Dimoaks Hew",
+      "code": "bar"
+    },
+    "49": {
+      "index": "Steelgoad",
+      "code": "vou"
+    },
+    "50": {
+      "index": "Soul Harvest",
+      "code": "scy"
+    },
+    "51": {
+      "index": "The Battlebranch",
+      "code": "pax"
+    },
+    "52": {
+      "index": "Woestave",
+      "code": "hal"
+    },
+    "53": {
+      "index": "The Grim Reaper",
+      "code": "wsc"
+    },
+    "54": {
+      "index": "Bane Ash",
+      "code": "sst"
+    },
+    "55": {
+      "index": "Serpent Lord",
+      "code": "lst"
+    },
+    "56": {
+      "index": "Lazarus Spire",
+      "code": "cst"
+    },
+    "57": {
+      "index": "The Salamander",
+      "code": "bst"
+    },
+    "58": {
+      "index": "The Iron Jang Bong",
+      "code": "wst"
+    },
+    "59": {
+      "index": "Pluckeye",
+      "code": "sbw"
+    },
+    "60": {
+      "index": "Witherstring",
+      "code": "hbw"
+    },
+    "61": {
+      "index": "Rimeraven",
+      "code": "lbw"
+    },
+    "62": {
+      "index": "Piercerib",
+      "code": "cbw"
+    },
+    "63": {
+      "index": "Pullspite",
+      "code": "sbb"
+    },
+    "64": {
+      "index": "Wizendraw",
+      "code": "lbb"
+    },
+    "65": {
+      "index": "Hellclap",
+      "code": "swb"
+    },
+    "66": {
+      "index": "Blastbark",
+      "code": "lwb"
+    },
+    "67": {
+      "index": "Leadcrow",
+      "code": "lxb"
+    },
+    "68": {
+      "index": "Ichorsting",
+      "code": "mxb"
+    },
+    "69": {
+      "index": "Hellcast",
+      "code": "hxb"
+    },
+    "70": {
+      "index": "Doomspittle",
+      "code": "rxb"
+    },
+    "71": {
+      "index": "War Bonnet",
+      "code": "cap"
+    },
+    "72": {
+      "index": "Tarnhelm",
+      "code": "skp"
+    },
+    "73": {
+      "index": "Coif of Glory",
+      "code": "hlm"
+    },
+    "74": {
+      "index": "Duskdeep",
+      "code": "fhl"
+    },
+    "75": {
+      "index": "Wormskull",
+      "code": "bhm"
+    },
+    "76": {
+      "index": "Howltusk",
+      "code": "ghm"
+    },
+    "77": {
+      "index": "Undead Crown",
+      "code": "crn"
+    },
+    "78": {
+      "index": "The Face of Horror",
+      "code": "msk"
+    },
+    "79": {
+      "index": "Greyform",
+      "code": "qui"
+    },
+    "80": {
+      "index": "Blinkbats Form",
+      "code": "lea"
+    },
+    "81": {
+      "index": "The Centurion",
+      "code": "hla"
+    },
+    "82": {
+      "index": "Twitchthroe",
+      "code": "stu"
+    },
+    "83": {
+      "index": "Darkglow",
+      "code": "rng"
+    },
+    "84": {
+      "index": "Hawkmail",
+      "code": "scl"
+    },
+    "85": {
+      "index": "Sparking Mail",
+      "code": "chn"
+    },
+    "86": {
+      "index": "Venomsward",
+      "code": "brs"
+    },
+    "87": {
+      "index": "Iceblink",
+      "code": "spl"
+    },
+    "88": {
+      "index": "Boneflesh",
+      "code": "plt"
+    },
+    "89": {
+      "index": "Rockfleece",
+      "code": "fld"
+    },
+    "90": {
+      "index": "Rattlecage",
+      "code": "gth"
+    },
+    "91": {
+      "index": "Goldskin",
+      "code": "ful"
+    },
+    "92": {
+      "index": "Victors Silk",
+      "code": "aar"
+    },
+    "93": {
+      "index": "Heavenly Garb",
+      "code": "ltp"
+    },
+    "94": {
+      "index": "Pelta Lunata",
+      "code": "buc"
+    },
+    "95": {
+      "index": "Umbral Disk",
+      "code": "sml"
+    },
+    "96": {
+      "index": "Stormguild",
+      "code": "lrg"
+    },
+    "97": {
+      "index": "Wall of the Eyeless",
+      "code": "bsh"
+    },
+    "98": {
+      "index": "Swordback Hold",
+      "code": "spk"
+    },
+    "99": {
+      "index": "Steelclash",
+      "code": "kit"
+    },
+    "100": {
+      "index": "Bverrit Keep",
+      "code": "tow"
+    },
+    "101": {
+      "index": "The Ward",
+      "code": "gts"
+    },
+    "102": {
+      "index": "The Hand of Broc",
+      "code": "lgl"
+    },
+    "103": {
+      "index": "Bloodfist",
+      "code": "vgl"
+    },
+    "104": {
+      "index": "Chance Guards",
+      "code": "mgl"
+    },
+    "105": {
+      "index": "Magefist",
+      "code": "tgl"
+    },
+    "106": {
+      "index": "Frostburn",
+      "code": "hgl"
+    },
+    "107": {
+      "index": "Hotspur",
+      "code": "lbt"
+    },
+    "108": {
+      "index": "Gorefoot",
+      "code": "vbt"
+    },
+    "109": {
+      "index": "Treads of Cthon",
+      "code": "mbt"
+    },
+    "110": {
+      "index": "Goblin Toe",
+      "code": "tbt"
+    },
+    "111": {
+      "index": "Tearhaunch",
+      "code": "hbt"
+    },
+    "112": {
+      "index": "Lenyms Cord",
+      "code": "lbl"
+    },
+    "113": {
+      "index": "Snakecord",
+      "code": "vbl"
+    },
+    "114": {
+      "index": "Nightsmoke",
+      "code": "mbl"
+    },
+    "115": {
+      "index": "Goldwrap",
+      "code": "tbl"
+    },
+    "116": {
+      "index": "Bladebuckle",
+      "code": "hbl"
+    },
+    "117": {
+      "index": "Nokozan Relic",
+      "code": "amu"
+    },
+    "118": {
+      "index": "The Eye of Etlich",
+      "code": "amu"
+    },
+    "119": {
+      "index": "The Mahim-Oak Curio",
+      "code": "amu"
+    },
+    "120": {
+      "index": "Nagelring",
+      "code": "rin"
+    },
+    "121": {
+      "index": "Manald Heal",
+      "code": "rin"
+    },
+    "122": {
+      "index": "The Stone of Jordan",
+      "code": "rin"
+    },
+    "123": {
+      "index": "Amulet of the Viper",
+      "code": "vip"
+    },
+    "124": {
+      "index": "Staff of Kings",
+      "code": "msf"
+    },
+    "125": {
+      "index": "Horadric Staff",
+      "code": "hst"
+    },
+    "126": {
+      "index": "Hell Forge Hammer",
+      "code": "hfh"
+    },
+    "127": {
+      "index": "KhalimFlail",
+      "code": "qf1"
+    },
+    "128": {
+      "index": "SuperKhalimFlail",
+      "code": "qf2"
+    },
+    "129": {
+      "index": "Coldkill",
+      "code": "9ha"
+    },
+    "130": {
+      "index": "Butcher's Pupil",
+      "code": "9ax"
+    },
+    "131": {
+      "index": "Islestrike",
+      "code": "92a"
+    },
+    "132": {
+      "index": "Pompe's Wrath",
+      "code": "9mp"
+    },
+    "133": {
+      "index": "Guardian Naga",
+      "code": "9wa"
+    },
+    "134": {
+      "index": "Warlord's Trust",
+      "code": "9la"
+    },
+    "135": {
+      "index": "Spellsteel",
+      "code": "9ba"
+    },
+    "136": {
+      "index": "Stormrider",
+      "code": "9bt"
+    },
+    "137": {
+      "index": "Boneslayer Blade",
+      "code": "9ga"
+    },
+    "138": {
+      "index": "The Minataur",
+      "code": "9gi"
+    },
+    "139": {
+      "index": "Suicide Branch",
+      "code": "9wn"
+    },
+    "140": {
+      "index": "Carin Shard",
+      "code": "9yw"
+    },
+    "141": {
+      "index": "Arm of King Leoric",
+      "code": "9bw"
+    },
+    "142": {
+      "index": "Blackhand Key",
+      "code": "9gw"
+    },
+    "143": {
+      "index": "Dark Clan Crusher",
+      "code": "9cl"
+    },
+    "144": {
+      "index": "Zakarum's Hand",
+      "code": "9sc"
+    },
+    "145": {
+      "index": "The Fetid Sprinkler",
+      "code": "9qs"
+    },
+    "146": {
+      "index": "Hand of Blessed Light",
+      "code": "9ws"
+    },
+    "147": {
+      "index": "Fleshrender",
+      "code": "9sp"
+    },
+    "148": {
+      "index": "Sureshrill Frost",
+      "code": "9ma"
+    },
+    "149": {
+      "index": "Moonfall",
+      "code": "9mt"
+    },
+    "150": {
+      "index": "Baezil's Vortex",
+      "code": "9fl"
+    },
+    "151": {
+      "index": "Earthshaker",
+      "code": "9wh"
+    },
+    "152": {
+      "index": "Bloodtree Stump",
+      "code": "9m9"
+    },
+    "153": {
+      "index": "The Gavel of Pain",
+      "code": "9gm"
+    },
+    "154": {
+      "index": "Bloodletter",
+      "code": "9ss"
+    },
+    "155": {
+      "index": "Coldsteel Eye",
+      "code": "9sm"
+    },
+    "156": {
+      "index": "Hexfire",
+      "code": "9sb"
+    },
+    "157": {
+      "index": "Blade of Ali Baba",
+      "code": "9fc"
+    },
+    "158": {
+      "index": "Ginther's Rift",
+      "code": "9cr"
+    },
+    "159": {
+      "index": "Headstriker",
+      "code": "9bs"
+    },
+    "160": {
+      "index": "Plague Bearer",
+      "code": "9ls"
+    },
+    "161": {
+      "index": "The Atlantian",
+      "code": "9wd"
+    },
+    "162": {
+      "index": "Crainte Vomir",
+      "code": "92h"
+    },
+    "163": {
+      "index": "Bing Sz Wang",
+      "code": "9cm"
+    },
+    "164": {
+      "index": "The Vile Husk",
+      "code": "9gs"
+    },
+    "165": {
+      "index": "Cloudcrack",
+      "code": "9b9"
+    },
+    "166": {
+      "index": "Todesfaelle Flamme",
+      "code": "9fb"
+    },
+    "167": {
+      "index": "Swordguard",
+      "code": "9gd"
+    },
+    "168": {
+      "index": "Spineripper",
+      "code": "9dg"
+    },
+    "169": {
+      "index": "Heart Carver",
+      "code": "9di"
+    },
+    "170": {
+      "index": "Blackbog's Sharp",
+      "code": "9kr"
+    },
+    "171": {
+      "index": "Stormspike",
+      "code": "9bl"
+    },
+    "172": {
+      "index": "The Impaler",
+      "code": "9sr"
+    },
+    "173": {
+      "index": "Kelpie Snare",
+      "code": "9tr"
+    },
+    "174": {
+      "index": "Soulfeast Tine",
+      "code": "9br"
+    },
+    "175": {
+      "index": "Hone Sundan",
+      "code": "9st"
+    },
+    "176": {
+      "index": "Spire of Honor",
+      "code": "9p9"
+    },
+    "177": {
+      "index": "The Meat Scraper",
+      "code": "9b7"
+    },
+    "178": {
+      "index": "Blackleach Blade",
+      "code": "9vo"
+    },
+    "179": {
+      "index": "Athena's Wrath",
+      "code": "9s8"
+    },
+    "180": {
+      "index": "Pierre Tombale Couant",
+      "code": "9pa"
+    },
+    "181": {
+      "index": "Husoldal Evo",
+      "code": "9h9"
+    },
+    "182": {
+      "index": "Grim's Burning Dead",
+      "code": "9wc"
+    },
+    "183": {
+      "index": "Razorswitch",
+      "code": "8ss"
+    },
+    "184": {
+      "index": "Ribcracker",
+      "code": "8ls"
+    },
+    "185": {
+      "index": "Chromatic Ire",
+      "code": "8cs"
+    },
+    "186": {
+      "index": "Warpspear",
+      "code": "8bs"
+    },
+    "187": {
+      "index": "Skullcollector",
+      "code": "8ws"
+    },
+    "188": {
+      "index": "Skystrike",
+      "code": "8sb"
+    },
+    "189": {
+      "index": "Riphook",
+      "code": "8hb"
+    },
+    "190": {
+      "index": "Kuko Shakaku",
+      "code": "8lb"
+    },
+    "191": {
+      "index": "Endlesshail",
+      "code": "8cb"
+    },
+    "192": {
+      "index": "Whichwild String",
+      "code": "8s8"
+    },
+    "193": {
+      "index": "Cliffkiller",
+      "code": "8l8"
+    },
+    "194": {
+      "index": "Magewrath",
+      "code": "8sw"
+    },
+    "195": {
+      "index": "Godstrike Arch",
+      "code": "8lw"
+    },
+    "196": {
+      "index": "Langer Briser",
+      "code": "8lx"
+    },
+    "197": {
+      "index": "Pus Spiter",
+      "code": "8mx"
+    },
+    "198": {
+      "index": "Buriza-Do Kyanon",
+      "code": "8hx"
+    },
+    "199": {
+      "index": "Demon Machine",
+      "code": "8rx"
+    },
+    "201": {
+      "index": "Peasent Crown",
+      "code": "xap"
+    },
+    "202": {
+      "index": "Rockstopper",
+      "code": "xkp"
+    },
+    "203": {
+      "index": "Stealskull",
+      "code": "xlm"
+    },
+    "204": {
+      "index": "Darksight Helm",
+      "code": "xhl"
+    },
+    "205": {
+      "index": "Valkiry Wing",
+      "code": "xhm"
+    },
+    "206": {
+      "index": "Crown of Thieves",
+      "code": "xrn"
+    },
+    "207": {
+      "index": "Blackhorn's Face",
+      "code": "xsk"
+    },
+    "208": {
+      "index": "Vampiregaze",
+      "code": "xh9"
+    },
+    "209": {
+      "index": "The Spirit Shroud",
+      "code": "xui"
+    },
+    "210": {
+      "index": "Skin of the Vipermagi",
+      "code": "xea"
+    },
+    "211": {
+      "index": "Skin of the Flayerd One",
+      "code": "xla"
+    },
+    "212": {
+      "index": "Ironpelt",
+      "code": "xtu"
+    },
+    "213": {
+      "index": "Spiritforge",
+      "code": "xng"
+    },
+    "214": {
+      "index": "Crow Caw",
+      "code": "xcl"
+    },
+    "215": {
+      "index": "Shaftstop",
+      "code": "xhn"
+    },
+    "216": {
+      "index": "Duriel's Shell",
+      "code": "xrs"
+    },
+    "217": {
+      "index": "Skullder's Ire",
+      "code": "xpl"
+    },
+    "218": {
+      "index": "Guardian Angel",
+      "code": "xlt"
+    },
+    "219": {
+      "index": "Toothrow",
+      "code": "xld"
+    },
+    "220": {
+      "index": "Atma's Wail",
+      "code": "xth"
+    },
+    "221": {
+      "index": "Black Hades",
+      "code": "xul"
+    },
+    "222": {
+      "index": "Corpsemourn",
+      "code": "xar"
+    },
+    "223": {
+      "index": "Que-Hegan's Wisdon",
+      "code": "xtp"
+    },
+    "224": {
+      "index": "Visceratuant",
+      "code": "xuc"
+    },
+    "225": {
+      "index": "Mosers Blessed Circle",
+      "code": "xml"
+    },
+    "226": {
+      "index": "Stormchaser",
+      "code": "xrg"
+    },
+    "227": {
+      "index": "Tiamat's Rebuke",
+      "code": "xit"
+    },
+    "228": {
+      "index": "Kerke's Sanctuary",
+      "code": "xow"
+    },
+    "229": {
+      "index": "Radimant's Sphere",
+      "code": "xts"
+    },
+    "230": {
+      "index": "Lidless Wall",
+      "code": "xsh"
+    },
+    "231": {
+      "index": "Lance Guard",
+      "code": "xpk"
+    },
+    "232": {
+      "index": "Venom Grip",
+      "code": "xlg"
+    },
+    "233": {
+      "index": "Gravepalm",
+      "code": "xvg"
+    },
+    "234": {
+      "index": "Ghoulhide",
+      "code": "xmg"
+    },
+    "235": {
+      "index": "Lavagout",
+      "code": "xtg"
+    },
+    "236": {
+      "index": "Hellmouth",
+      "code": "xhg"
+    },
+    "237": {
+      "index": "Infernostride",
+      "code": "xlb"
+    },
+    "238": {
+      "index": "Waterwalk",
+      "code": "xvb"
+    },
+    "239": {
+      "index": "Silkweave",
+      "code": "xmb"
+    },
+    "240": {
+      "index": "Wartraveler",
+      "code": "xtb"
+    },
+    "241": {
+      "index": "Gorerider",
+      "code": "xhb"
+    },
+    "242": {
+      "index": "String of Ears",
+      "code": "zlb"
+    },
+    "243": {
+      "index": "Razortail",
+      "code": "zvb"
+    },
+    "244": {
+      "index": "Gloomstrap",
+      "code": "zmb"
+    },
+    "245": {
+      "index": "Snowclash",
+      "code": "ztb"
+    },
+    "246": {
+      "index": "Thudergod's Vigor",
+      "code": "zhb"
+    },
+    "248": {
+      "index": "Harlequin Crest",
+      "code": "uap"
+    },
+    "249": {
+      "index": "Veil of Steel",
+      "code": "uhm"
+    },
+    "250": {
+      "index": "The Gladiator's Bane",
+      "code": "utu"
+    },
+    "251": {
+      "index": "Arkaine's Valor",
+      "code": "upl"
+    },
+    "252": {
+      "index": "Blackoak Shield",
+      "code": "uml"
+    },
+    "253": {
+      "index": "Stormshield",
+      "code": "uit"
+    },
+    "254": {
+      "index": "Hellslayer",
+      "code": "7bt"
+    },
+    "255": {
+      "index": "Messerschmidt's Reaver",
+      "code": "7ga"
+    },
+    "256": {
+      "index": "Baranar's Star",
+      "code": "7mt"
+    },
+    "257": {
+      "index": "Schaefer's Hammer",
+      "code": "7wh"
+    },
+    "258": {
+      "index": "The Cranium Basher",
+      "code": "7gm"
+    },
+    "259": {
+      "index": "Lightsabre",
+      "code": "7cr"
+    },
+    "260": {
+      "index": "Doombringer",
+      "code": "7b7"
+    },
+    "261": {
+      "index": "The Grandfather",
+      "code": "7gd"
+    },
+    "262": {
+      "index": "Wizardspike",
+      "code": "7dg"
+    },
+    "263": {
+      "index": "Constricting Ring",
+      "code": "rin"
+    },
+    "264": {
+      "index": "Stormspire",
+      "code": "7wc"
+    },
+    "265": {
+      "index": "Eaglehorn",
+      "code": "6l7"
+    },
+    "266": {
+      "index": "Windforce",
+      "code": "6lw"
+    },
+    "268": {
+      "index": "Bul Katho's Wedding Band",
+      "code": "rin"
+    },
+    "269": {
+      "index": "The Cat's Eye",
+      "code": "amu"
+    },
+    "270": {
+      "index": "The Rising Sun",
+      "code": "amu"
+    },
+    "271": {
+      "index": "Crescent Moon",
+      "code": "amu"
+    },
+    "272": {
+      "index": "Mara's Kaleidoscope",
+      "code": "amu"
+    },
+    "273": {
+      "index": "Atma's Scarab",
+      "code": "amu"
+    },
+    "274": {
+      "index": "Dwarf Star",
+      "code": "rin"
+    },
+    "275": {
+      "index": "Raven Frost",
+      "code": "rin"
+    },
+    "276": {
+      "index": "Highlord's Wrath",
+      "code": "amu"
+    },
+    "277": {
+      "index": "Saracen's Chance",
+      "code": "amu"
+    },
+    "279": {
+      "index": "Arreat's Face",
+      "code": "baa"
+    },
+    "280": {
+      "index": "Homunculus",
+      "code": "nea"
+    },
+    "281": {
+      "index": "Titan's Revenge",
+      "code": "ama"
+    },
+    "282": {
+      "index": "Lycander's Aim",
+      "code": "am7"
+    },
+    "283": {
+      "index": "Lycander's Flank",
+      "code": "am9"
+    },
+    "284": {
+      "index": "The Oculus",
+      "code": "oba"
+    },
+    "285": {
+      "index": "Herald of Zakarum",
+      "code": "pa9"
+    },
+    "286": {
+      "index": "Cutthroat1",
+      "code": "9tw"
+    },
+    "287": {
+      "index": "Jalal's Mane",
+      "code": "dra"
+    },
+    "288": {
+      "index": "The Scalper",
+      "code": "9ta"
+    },
+    "289": {
+      "index": "Bloodmoon",
+      "code": "7sb"
+    },
+    "290": {
+      "index": "Djinnslayer",
+      "code": "7sm"
+    },
+    "291": {
+      "index": "Deathbit",
+      "code": "9tk"
+    },
+    "292": {
+      "index": "Warshrike",
+      "code": "7bk"
+    },
+    "293": {
+      "index": "Gutsiphon",
+      "code": "6rx"
+    },
+    "294": {
+      "index": "Razoredge",
+      "code": "7ha"
+    },
+    "295": {
+      "index": "Gore Ripper",
+      "code": ""
+    },
+    "296": {
+      "index": "Demonlimb",
+      "code": "7sp"
+    },
+    "297": {
+      "index": "Steelshade",
+      "code": "ulm"
+    },
+    "298": {
+      "index": "Tomb Reaver",
+      "code": "7pa"
+    },
+    "299": {
+      "index": "Deaths's Web",
+      "code": "7gw"
+    },
+    "300": {
+      "index": "Nature's Peace",
+      "code": "rin"
+    },
+    "301": {
+      "index": "Azurewrath",
+      "code": "7cr"
+    },
+    "302": {
+      "index": "Seraph's Hymn",
+      "code": "amu"
+    },
+    "303": {
+      "index": "Zakarum's Salvation",
+      "code": ""
+    },
+    "304": {
+      "index": "Fleshripper",
+      "code": "7kr"
+    },
+    "305": {
+      "index": "Odium",
+      "code": ""
+    },
+    "306": {
+      "index": "Horizon's Tornado",
+      "code": "7fl"
+    },
+    "307": {
+      "index": "Stone Crusher",
+      "code": "7wh"
+    },
+    "308": {
+      "index": "Jadetalon",
+      "code": "7wb"
+    },
+    "309": {
+      "index": "Shadowdancer",
+      "code": "uhb"
+    },
+    "310": {
+      "index": "Cerebus",
+      "code": "drb"
+    },
+    "311": {
+      "index": "Tyrael's Might",
+      "code": "uar"
+    },
+    "312": {
+      "index": "Souldrain",
+      "code": "umg"
+    },
+    "313": {
+      "index": "Runemaster",
+      "code": "72a"
+    },
+    "314": {
+      "index": "Deathcleaver",
+      "code": "7wa"
+    },
+    "315": {
+      "index": "Executioner's Justice",
+      "code": "7gi"
+    },
+    "316": {
+      "index": "Stoneraven",
+      "code": "amd"
+    },
+    "317": {
+      "index": "Leviathan",
+      "code": "uld"
+    },
+    "318": {
+      "index": "Larzuk's Champion",
+      "code": ""
+    },
+    "319": {
+      "index": "Wisp",
+      "code": "rin"
+    },
+    "320": {
+      "index": "Gargoyle's Bite",
+      "code": "7ts"
+    },
+    "321": {
+      "index": "Lacerator",
+      "code": "7b8"
+    },
+    "322": {
+      "index": "Mang Song's Lesson",
+      "code": "6ws"
+    },
+    "323": {
+      "index": "Viperfork",
+      "code": "7br"
+    },
+    "324": {
+      "index": "Ethereal Edge",
+      "code": "7ba"
+    },
+    "325": {
+      "index": "Demonhorn's Edge",
+      "code": "bad"
+    },
+    "326": {
+      "index": "The Reaper's Toll",
+      "code": "7s8"
+    },
+    "327": {
+      "index": "Spiritkeeper",
+      "code": "drd"
+    },
+    "328": {
+      "index": "Hellrack",
+      "code": "6hx"
+    },
+    "329": {
+      "index": "Alma Negra",
+      "code": "pac"
+    },
+    "330": {
+      "index": "Darkforge Spawn",
+      "code": "nef"
+    },
+    "331": {
+      "index": "Widowmaker",
+      "code": "6sw"
+    },
+    "332": {
+      "index": "Bloodraven's Charge",
+      "code": "amb"
+    },
+    "333": {
+      "index": "Ghostflame",
+      "code": "7bl"
+    },
+    "334": {
+      "index": "Shadowkiller",
+      "code": "7cs"
+    },
+    "335": {
+      "index": "Gimmershred",
+      "code": "7ta"
+    },
+    "336": {
+      "index": "Griffon's Eye",
+      "code": "ci3"
+    },
+    "337": {
+      "index": "Windhammer",
+      "code": "7m7"
+    },
+    "338": {
+      "index": "Thunderstroke",
+      "code": "amf"
+    },
+    "339": {
+      "index": "Giantmaimer",
+      "code": ""
+    },
+    "340": {
+      "index": "Demon's Arch",
+      "code": "7s7"
+    },
+    "341": {
+      "index": "Boneflame",
+      "code": "nee"
+    },
+    "342": {
+      "index": "Steelpillar",
+      "code": "7p7"
+    },
+    "343": {
+      "index": "Nightwing's Veil",
+      "code": "uhm"
+    },
+    "344": {
+      "index": "Crown of Ages",
+      "code": "urn"
+    },
+    "345": {
+      "index": "Andariel's Visage",
+      "code": "usk"
+    },
+    "346": {
+      "index": "Darkfear",
+      "code": "ulm"
+    },
+    "347": {
+      "index": "Dragonscale",
+      "code": "pae"
+    },
+    "348": {
+      "index": "Steel Carapice",
+      "code": "uul"
+    },
+    "349": {
+      "index": "Medusa's Gaze",
+      "code": "uow"
+    },
+    "350": {
+      "index": "Ravenlore",
+      "code": "dre"
+    },
+    "351": {
+      "index": "Boneshade",
+      "code": "7bw"
+    },
+    "352": {
+      "index": "Nethercrow",
+      "code": ""
+    },
+    "353": {
+      "index": "Flamebellow",
+      "code": "7gs"
+    },
+    "354": {
+      "index": "Fathom",
+      "code": "obf"
+    },
+    "355": {
+      "index": "Wolfhowl",
+      "code": "bac"
+    },
+    "356": {
+      "index": "Spirit Ward",
+      "code": "uts"
+    },
+    "357": {
+      "index": "Kira's Guardian",
+      "code": "ci2"
+    },
+    "358": {
+      "index": "Ormus' Robes",
+      "code": "uui"
+    },
+    "359": {
+      "index": "Gheed's Fortune",
+      "code": "cm3"
+    },
+    "360": {
+      "index": "Stormlash",
+      "code": "7fl"
+    },
+    "361": {
+      "index": "Halaberd's Reign",
+      "code": "bae"
+    },
+    "362": {
+      "index": "Warriv's Warder",
+      "code": ""
+    },
+    "363": {
+      "index": "Spike Thorn",
+      "code": "upk"
+    },
+    "364": {
+      "index": "Dracul's Grasp",
+      "code": "uvg"
+    },
+    "365": {
+      "index": "Frostwind",
+      "code": "7ls"
+    },
+    "366": {
+      "index": "Templar's Might",
+      "code": "uar"
+    },
+    "367": {
+      "index": "Eschuta's temper",
+      "code": "obc"
+    },
+    "368": {
+      "index": "Firelizard's Talons",
+      "code": "7lw"
+    },
+    "369": {
+      "index": "Sandstorm Trek",
+      "code": "uvb"
+    },
+    "370": {
+      "index": "Marrowwalk",
+      "code": "umb"
+    },
+    "371": {
+      "index": "Heaven's Light",
+      "code": "7sc"
+    },
+    "372": {
+      "index": "Merman's Speed",
+      "code": ""
+    },
+    "373": {
+      "index": "Arachnid Mesh",
+      "code": "ulc"
+    },
+    "374": {
+      "index": "Nosferatu's Coil",
+      "code": "uvc"
+    },
+    "375": {
+      "index": "Metalgrid",
+      "code": "amu"
+    },
+    "376": {
+      "index": "Verdugo's Hearty Cord",
+      "code": "umc"
+    },
+    "377": {
+      "index": "Sigurd's Staunch",
+      "code": ""
+    },
+    "378": {
+      "index": "Carrion Wind",
+      "code": "rin"
+    },
+    "379": {
+      "index": "Giantskull",
+      "code": "uh9"
+    },
+    "380": {
+      "index": "Ironward",
+      "code": "7ws"
+    },
+    "381": {
+      "index": "Annihilus",
+      "code": "cm1"
+    },
+    "382": {
+      "index": "Arioc's Needle",
+      "code": "7sr"
+    },
+    "383": {
+      "index": "Cranebeak",
+      "code": "7mp"
+    },
+    "384": {
+      "index": "Nord's Tenderizer",
+      "code": "7cl"
+    },
+    "385": {
+      "index": "Earthshifter",
+      "code": "7gm"
+    },
+    "386": {
+      "index": "Wraithflight",
+      "code": "7gl"
+    },
+    "387": {
+      "index": "Bonehew",
+      "code": "7o7"
+    },
+    "388": {
+      "index": "Ondal's Wisdom",
+      "code": "6cs"
+    },
+    "389": {
+      "index": "The Reedeemer",
+      "code": "7sc"
+    },
+    "390": {
+      "index": "Headhunter's Glory",
+      "code": "ush"
+    },
+    "391": {
+      "index": "Steelrend",
+      "code": "uhg"
+    },
+    "392": {
+      "index": "Rainbow Facet",
+      "code": "jew"
+    },
+    "393": {
+      "index": "Rainbow Facet",
+      "code": "jew"
+    },
+    "394": {
+      "index": "Rainbow Facet",
+      "code": "jew"
+    },
+    "395": {
+      "index": "Rainbow Facet",
+      "code": "jew"
+    },
+    "396": {
+      "index": "Rainbow Facet",
+      "code": "jew"
+    },
+    "397": {
+      "index": "Rainbow Facet",
+      "code": "jew"
+    },
+    "398": {
+      "index": "Rainbow Facet",
+      "code": "jew"
+    },
+    "399": {
+      "index": "Rainbow Facet",
+      "code": "jew"
+    },
+    "400": {
+      "index": "Hellfire Torch",
+      "code": "cm2"
+    },
+    "401": {
+      "index": "Cold Rupture",
+      "code": "cm3"
+    },
+    "402": {
+      "index": "Flame Rift",
+      "code": "cm3"
+    },
+    "403": {
+      "index": "Crack of the Heavens",
+      "code": "cm3"
+    },
+    "404": {
+      "index": "Rotting Fissure",
+      "code": "cm3"
+    },
+    "405": {
+      "index": "Bone Break",
+      "code": "cm3"
+    },
+    "406": {
+      "index": "Black Cleft",
+      "code": "cm3"
+    },
+    "408": {
+      "index": "Ars Al'Diablolos",
+      "code": "waf"
+    },
+    "409": {
+      "index": "Ars Tor'Baalos",
+      "code": "wae"
+    },
+    "410": {
+      "index": "Ars Dul'Mephistos",
+      "code": "wac"
+    },
+    "411": {
+      "index": "Measured Wrath",
+      "code": "wa6"
+    },
+    "412": {
+      "index": "Dreadfang",
+      "code": "72h"
+    },
+    "413": {
+      "index": "Wraithstep",
+      "code": "utb"
+    },
+    "414": {
+      "index": "Bloodpact Shard",
+      "code": "7di"
+    },
+    "415": {
+      "index": "Sling",
+      "code": "rin"
+    },
+    "416": {
+      "index": "Opalvein",
+      "code": "rin"
+    },
+    "417": {
+      "index": "Entropy Locket",
+      "code": "amu"
+    },
+    "418": {
+      "index": "Gheed's Wager",
+      "code": "utc"
+    },
+    "419": {
+      "index": "Unique Warlock Helm",
+      "code": "xsk"
+    },
+    "420": {
+      "index": "Defender's Bile",
+      "code": "cjw"
+    },
+    "421": {
+      "index": "Guardian's Thunder",
+      "code": "cjw"
+    },
+    "422": {
+      "index": "Protector's Frost",
+      "code": "cjw"
+    },
+    "423": {
+      "index": "Defender's Fire",
+      "code": "cjw"
+    },
+    "424": {
+      "index": "Protector's Stone",
+      "code": "cjw"
+    },
+    "425": {
+      "index": "Guardian's Light",
+      "code": "cjw"
+    },
+    "426": {
+      "index": "PreCrafted Cold Rupture",
+      "code": "cm3"
+    },
+    "427": {
+      "index": "Crafted Cold Rupture",
+      "code": "cs2"
+    },
+    "428": {
+      "index": "PreCrafted Flame Rift",
+      "code": "cm3"
+    },
+    "429": {
+      "index": "PreCrafted Crack of the Heavens",
+      "code": "cm3"
+    },
+    "430": {
+      "index": "PreCrafted Rotting Fissure",
+      "code": "cm3"
+    },
+    "431": {
+      "index": "PreCrafted Bone Break",
+      "code": "cm3"
+    },
+    "432": {
+      "index": "PreCrafted Black Cleft",
+      "code": "cm3"
+    },
+    "433": {
+      "index": "Crafted Flame Rift",
+      "code": "cs2"
+    },
+    "434": {
+      "index": "Crafted Crack of the Heavens",
+      "code": "cs2"
+    },
+    "435": {
+      "index": "Crafted Rotting Fissure",
+      "code": "cs2"
+    },
+    "436": {
+      "index": "Crafted Bone Break",
+      "code": "cs2"
+    },
+    "437": {
+      "index": "Crafted Black Cleft",
+      "code": "cs2"
+    }
+  },
+  "setitems": {
+    "0": {
+      "index": "Civerb's Ward",
+      "code": "",
+      "set": "Civerb's Vestments"
+    },
+    "1": {
+      "index": "Civerb's Icon",
+      "code": "",
+      "set": "Civerb's Vestments"
+    },
+    "2": {
+      "index": "Civerb's Cudgel",
+      "code": "",
+      "set": "Civerb's Vestments"
+    },
+    "3": {
+      "index": "Hsarus' Iron Heel",
+      "code": "",
+      "set": "Hsarus' Defense"
+    },
+    "4": {
+      "index": "Hsarus' Iron Fist",
+      "code": "",
+      "set": "Hsarus' Defense"
+    },
+    "5": {
+      "index": "Hsarus' Iron Stay",
+      "code": "",
+      "set": "Hsarus' Defense"
+    },
+    "6": {
+      "index": "Cleglaw's Tooth",
+      "code": "",
+      "set": "Cleglaw's Brace"
+    },
+    "7": {
+      "index": "Cleglaw's Claw",
+      "code": "",
+      "set": "Cleglaw's Brace"
+    },
+    "8": {
+      "index": "Cleglaw's Pincers",
+      "code": "",
+      "set": "Cleglaw's Brace"
+    },
+    "9": {
+      "index": "Iratha's Collar",
+      "code": "",
+      "set": "Iratha's Finery"
+    },
+    "10": {
+      "index": "Iratha's Cuff",
+      "code": "",
+      "set": "Iratha's Finery"
+    },
+    "11": {
+      "index": "Iratha's Coil",
+      "code": "",
+      "set": "Iratha's Finery"
+    },
+    "12": {
+      "index": "Iratha's Cord",
+      "code": "",
+      "set": "Iratha's Finery"
+    },
+    "13": {
+      "index": "Isenhart's Lightbrand",
+      "code": "",
+      "set": "Isenhart's Armory"
+    },
+    "14": {
+      "index": "Isenhart's Parry",
+      "code": "",
+      "set": "Isenhart's Armory"
+    },
+    "15": {
+      "index": "Isenhart's Case",
+      "code": "",
+      "set": "Isenhart's Armory"
+    },
+    "16": {
+      "index": "Isenhart's Horns",
+      "code": "",
+      "set": "Isenhart's Armory"
+    },
+    "17": {
+      "index": "Vidala's Barb",
+      "code": "",
+      "set": "Vidala's Rig"
+    },
+    "18": {
+      "index": "Vidala's Fetlock",
+      "code": "",
+      "set": "Vidala's Rig"
+    },
+    "19": {
+      "index": "Vidala's Ambush",
+      "code": "",
+      "set": "Vidala's Rig"
+    },
+    "20": {
+      "index": "Vidala's Snare",
+      "code": "",
+      "set": "Vidala's Rig"
+    },
+    "21": {
+      "index": "Milabrega's Orb",
+      "code": "",
+      "set": "Milabrega's Regalia"
+    },
+    "22": {
+      "index": "Milabrega's Rod",
+      "code": "",
+      "set": "Milabrega's Regalia"
+    },
+    "23": {
+      "index": "Milabrega's Diadem",
+      "code": "",
+      "set": "Milabrega's Regalia"
+    },
+    "24": {
+      "index": "Milabrega's Robe",
+      "code": "",
+      "set": "Milabrega's Regalia"
+    },
+    "25": {
+      "index": "Cathan's Rule",
+      "code": "",
+      "set": "Cathan's Traps"
+    },
+    "26": {
+      "index": "Cathan's Mesh",
+      "code": "",
+      "set": "Cathan's Traps"
+    },
+    "27": {
+      "index": "Cathan's Visage",
+      "code": "",
+      "set": "Cathan's Traps"
+    },
+    "28": {
+      "index": "Cathan's Sigil",
+      "code": "",
+      "set": "Cathan's Traps"
+    },
+    "29": {
+      "index": "Cathan's Seal",
+      "code": "",
+      "set": "Cathan's Traps"
+    },
+    "30": {
+      "index": "Tancred's Crowbill",
+      "code": "",
+      "set": "Tancred's Battlegear"
+    },
+    "31": {
+      "index": "Tancred's Spine",
+      "code": "",
+      "set": "Tancred's Battlegear"
+    },
+    "32": {
+      "index": "Tancred's Hobnails",
+      "code": "",
+      "set": "Tancred's Battlegear"
+    },
+    "33": {
+      "index": "Tancred's Weird",
+      "code": "",
+      "set": "Tancred's Battlegear"
+    },
+    "34": {
+      "index": "Tancred's Skull",
+      "code": "",
+      "set": "Tancred's Battlegear"
+    },
+    "35": {
+      "index": "Sigon's Gage",
+      "code": "",
+      "set": "Sigon's Complete Steel"
+    },
+    "36": {
+      "index": "Sigon's Visor",
+      "code": "",
+      "set": "Sigon's Complete Steel"
+    },
+    "37": {
+      "index": "Sigon's Shelter",
+      "code": "",
+      "set": "Sigon's Complete Steel"
+    },
+    "38": {
+      "index": "Sigon's Sabot",
+      "code": "",
+      "set": "Sigon's Complete Steel"
+    },
+    "39": {
+      "index": "Sigon's Wrap",
+      "code": "",
+      "set": "Sigon's Complete Steel"
+    },
+    "40": {
+      "index": "Sigon's Guard",
+      "code": "",
+      "set": "Sigon's Complete Steel"
+    },
+    "41": {
+      "index": "Infernal Cranium",
+      "code": "",
+      "set": "Infernal Tools"
+    },
+    "42": {
+      "index": "Infernal Torch",
+      "code": "",
+      "set": "Infernal Tools"
+    },
+    "43": {
+      "index": "Infernal Sign",
+      "code": "",
+      "set": "Infernal Tools"
+    },
+    "44": {
+      "index": "Berserker's Headgear",
+      "code": "",
+      "set": "Berserker's Garb"
+    },
+    "45": {
+      "index": "Berserker's Hauberk",
+      "code": "",
+      "set": "Berserker's Garb"
+    },
+    "46": {
+      "index": "Berserker's Hatchet",
+      "code": "",
+      "set": "Berserker's Garb"
+    },
+    "47": {
+      "index": "Death's Hand",
+      "code": "",
+      "set": "Death's Disguise"
+    },
+    "48": {
+      "index": "Death's Guard",
+      "code": "",
+      "set": "Death's Disguise"
+    },
+    "49": {
+      "index": "Death's Touch",
+      "code": "",
+      "set": "Death's Disguise"
+    },
+    "50": {
+      "index": "Angelic Sickle",
+      "code": "",
+      "set": "Angelical Raiment"
+    },
+    "51": {
+      "index": "Angelic Mantle",
+      "code": "",
+      "set": "Angelical Raiment"
+    },
+    "52": {
+      "index": "Angelic Halo",
+      "code": "",
+      "set": "Angelical Raiment"
+    },
+    "53": {
+      "index": "Angelic Wings",
+      "code": "",
+      "set": "Angelical Raiment"
+    },
+    "54": {
+      "index": "Arctic Horn",
+      "code": "",
+      "set": "Arctic Gear"
+    },
+    "55": {
+      "index": "Arctic Furs",
+      "code": "",
+      "set": "Arctic Gear"
+    },
+    "56": {
+      "index": "Arctic Binding",
+      "code": "",
+      "set": "Arctic Gear"
+    },
+    "57": {
+      "index": "Arctic Mitts",
+      "code": "",
+      "set": "Arctic Gear"
+    },
+    "58": {
+      "index": "Arcanna's Sign",
+      "code": "",
+      "set": "Arcanna's Tricks"
+    },
+    "59": {
+      "index": "Arcanna's Deathwand",
+      "code": "",
+      "set": "Arcanna's Tricks"
+    },
+    "60": {
+      "index": "Arcanna's Head",
+      "code": "",
+      "set": "Arcanna's Tricks"
+    },
+    "61": {
+      "index": "Arcanna's Flesh",
+      "code": "",
+      "set": "Arcanna's Tricks"
+    },
+    "62": {
+      "index": "Natalya's Totem",
+      "code": "",
+      "set": "Natalya's Odium"
+    },
+    "63": {
+      "index": "Natalya's Mark",
+      "code": "",
+      "set": "Natalya's Odium"
+    },
+    "64": {
+      "index": "Natalya's Shadow",
+      "code": "",
+      "set": "Natalya's Odium"
+    },
+    "65": {
+      "index": "Natalya's Soul",
+      "code": "",
+      "set": "Natalya's Odium"
+    },
+    "66": {
+      "index": "Aldur's Stony Gaze",
+      "code": "",
+      "set": "Aldur's Watchtower"
+    },
+    "67": {
+      "index": "Aldur's Deception",
+      "code": "",
+      "set": "Aldur's Watchtower"
+    },
+    "68": {
+      "index": "Aldur's Gauntlet",
+      "code": "",
+      "set": "Aldur's Watchtower"
+    },
+    "69": {
+      "index": "Aldur's Advance",
+      "code": "",
+      "set": "Aldur's Watchtower"
+    },
+    "70": {
+      "index": "Immortal King's Will",
+      "code": "",
+      "set": "Immortal King"
+    },
+    "71": {
+      "index": "Immortal King's Soul Cage",
+      "code": "",
+      "set": "Immortal King"
+    },
+    "72": {
+      "index": "Immortal King's Detail",
+      "code": "",
+      "set": "Immortal King"
+    },
+    "73": {
+      "index": "Immortal King's Forge",
+      "code": "",
+      "set": "Immortal King"
+    },
+    "74": {
+      "index": "Immortal King's Pillar",
+      "code": "",
+      "set": "Immortal King"
+    },
+    "75": {
+      "index": "Immortal King's Stone Crusher",
+      "code": "",
+      "set": "Immortal King"
+    },
+    "76": {
+      "index": "Tal Rasha's Fire-Spun Cloth",
+      "code": "",
+      "set": "Tal Rasha's Wrappings"
+    },
+    "77": {
+      "index": "Tal Rasha's Adjudication",
+      "code": "",
+      "set": "Tal Rasha's Wrappings"
+    },
+    "78": {
+      "index": "Tal Rasha's Lidless Eye",
+      "code": "",
+      "set": "Tal Rasha's Wrappings"
+    },
+    "79": {
+      "index": "Tal Rasha's Howling Wind",
+      "code": "",
+      "set": "Tal Rasha's Wrappings"
+    },
+    "80": {
+      "index": "Tal Rasha's Horadric Crest",
+      "code": "",
+      "set": "Tal Rasha's Wrappings"
+    },
+    "81": {
+      "index": "Griswold's Valor",
+      "code": "",
+      "set": "Griswold's Legacy"
+    },
+    "82": {
+      "index": "Griswold's Heart",
+      "code": "",
+      "set": "Griswold's Legacy"
+    },
+    "83": {
+      "index": "Griswolds's Redemption",
+      "code": "",
+      "set": "Griswold's Legacy"
+    },
+    "84": {
+      "index": "Griswold's Honor",
+      "code": "",
+      "set": "Griswold's Legacy"
+    },
+    "85": {
+      "index": "Trang-Oul's Guise",
+      "code": "",
+      "set": "Trang-Oul's Avatar"
+    },
+    "86": {
+      "index": "Trang-Oul's Scales",
+      "code": "",
+      "set": "Trang-Oul's Avatar"
+    },
+    "87": {
+      "index": "Trang-Oul's Wing",
+      "code": "",
+      "set": "Trang-Oul's Avatar"
+    },
+    "88": {
+      "index": "Trang-Oul's Claws",
+      "code": "",
+      "set": "Trang-Oul's Avatar"
+    },
+    "89": {
+      "index": "Trang-Oul's Girth",
+      "code": "",
+      "set": "Trang-Oul's Avatar"
+    },
+    "90": {
+      "index": "M'avina's True Sight",
+      "code": "",
+      "set": "M'avina's Battle Hymn"
+    },
+    "91": {
+      "index": "M'avina's Embrace",
+      "code": "",
+      "set": "M'avina's Battle Hymn"
+    },
+    "92": {
+      "index": "M'avina's Icy Clutch",
+      "code": "",
+      "set": "M'avina's Battle Hymn"
+    },
+    "93": {
+      "index": "M'avina's Tenet",
+      "code": "",
+      "set": "M'avina's Battle Hymn"
+    },
+    "94": {
+      "index": "M'avina's Caster",
+      "code": "",
+      "set": "M'avina's Battle Hymn"
+    },
+    "95": {
+      "index": "Telling of Beads",
+      "code": "",
+      "set": "The Disciple"
+    },
+    "96": {
+      "index": "Laying of Hands",
+      "code": "",
+      "set": "The Disciple"
+    },
+    "97": {
+      "index": "Rite of Passage",
+      "code": "",
+      "set": "The Disciple"
+    },
+    "98": {
+      "index": "Spiritual Custodian",
+      "code": "",
+      "set": "The Disciple"
+    },
+    "99": {
+      "index": "Credendum",
+      "code": "",
+      "set": "The Disciple"
+    },
+    "100": {
+      "index": "Dangoon's Teaching",
+      "code": "",
+      "set": "Heaven's Brethren"
+    },
+    "101": {
+      "index": "Heaven's Taebaek",
+      "code": "",
+      "set": "Heaven's Brethren"
+    },
+    "102": {
+      "index": "Haemosu's Adament",
+      "code": "",
+      "set": "Heaven's Brethren"
+    },
+    "103": {
+      "index": "Ondal's Almighty",
+      "code": "",
+      "set": "Heaven's Brethren"
+    },
+    "104": {
+      "index": "Guillaume's Face",
+      "code": "",
+      "set": "Orphan's Call"
+    },
+    "105": {
+      "index": "Wilhelm's Pride",
+      "code": "",
+      "set": "Orphan's Call"
+    },
+    "106": {
+      "index": "Magnus' Skin",
+      "code": "",
+      "set": "Orphan's Call"
+    },
+    "107": {
+      "index": "Wihtstan's Guard",
+      "code": "",
+      "set": "Orphan's Call"
+    },
+    "108": {
+      "index": "Hwanin's Splendor",
+      "code": "",
+      "set": "Hwanin's Majesty"
+    },
+    "109": {
+      "index": "Hwanin's Refuge",
+      "code": "",
+      "set": "Hwanin's Majesty"
+    },
+    "110": {
+      "index": "Hwanin's Seal",
+      "code": "",
+      "set": "Hwanin's Majesty"
+    },
+    "111": {
+      "index": "Hwanin's Justice",
+      "code": "",
+      "set": "Hwanin's Majesty"
+    },
+    "112": {
+      "index": "Sazabi's Cobalt Redeemer",
+      "code": "",
+      "set": "Sazabi's Grand Tribute"
+    },
+    "113": {
+      "index": "Sazabi's Ghost Liberator",
+      "code": "",
+      "set": "Sazabi's Grand Tribute"
+    },
+    "114": {
+      "index": "Sazabi's Mental Sheath",
+      "code": "",
+      "set": "Sazabi's Grand Tribute"
+    },
+    "115": {
+      "index": "Bul-Kathos' Sacred Charge",
+      "code": "",
+      "set": "Bul-Kathos' Children"
+    },
+    "116": {
+      "index": "Bul-Kathos' Tribal Guardian",
+      "code": "",
+      "set": "Bul-Kathos' Children"
+    },
+    "117": {
+      "index": "Cow King's Horns",
+      "code": "",
+      "set": "Cow King's Leathers"
+    },
+    "118": {
+      "index": "Cow King's Hide",
+      "code": "",
+      "set": "Cow King's Leathers"
+    },
+    "119": {
+      "index": "Cow King's Hoofs",
+      "code": "",
+      "set": "Cow King's Leathers"
+    },
+    "120": {
+      "index": "Naj's Puzzler",
+      "code": "",
+      "set": "Naj's Ancient Set"
+    },
+    "121": {
+      "index": "Naj's Light Plate",
+      "code": "",
+      "set": "Naj's Ancient Set"
+    },
+    "122": {
+      "index": "Naj's Circlet",
+      "code": "",
+      "set": "Naj's Ancient Set"
+    },
+    "123": {
+      "index": "McAuley's Paragon",
+      "code": "",
+      "set": "McAuley's Folly"
+    },
+    "124": {
+      "index": "McAuley's Riprap",
+      "code": "",
+      "set": "McAuley's Folly"
+    },
+    "125": {
+      "index": "McAuley's Taboo",
+      "code": "",
+      "set": "McAuley's Folly"
+    },
+    "126": {
+      "index": "McAuley's Superstition",
+      "code": "",
+      "set": "McAuley's Folly"
+    },
+    "127": {
+      "index": "Warlord's Conquest",
+      "code": "",
+      "set": "Warlord's Glory"
+    },
+    "128": {
+      "index": "Warlord's Lust",
+      "code": "",
+      "set": "Warlord's Glory"
+    },
+    "129": {
+      "index": "Warlord's Mantle",
+      "code": "",
+      "set": "Warlord's Glory"
+    },
+    "130": {
+      "index": "Warlord's Crushers",
+      "code": "",
+      "set": "Warlord's Glory"
+    },
+    "131": {
+      "index": "Warlord's Authority",
+      "code": "",
+      "set": "Warlord's Glory"
+    },
+    "132": {
+      "index": "Bane's Oathmaker",
+      "code": "",
+      "set": "Bane's Garments"
+    },
+    "133": {
+      "index": "Bane's Wraithskin",
+      "code": "",
+      "set": "Bane's Garments"
+    },
+    "134": {
+      "index": "Bane's Authority",
+      "code": "",
+      "set": "Bane's Garments"
+    },
+    "135": {
+      "index": "Horazon's Countenance",
+      "code": "",
+      "set": "Horazon's Splendor"
+    },
+    "136": {
+      "index": "Horazon's Dominion",
+      "code": "",
+      "set": "Horazon's Splendor"
+    },
+    "137": {
+      "index": "Horazon's Hold",
+      "code": "",
+      "set": "Horazon's Splendor"
+    },
+    "138": {
+      "index": "Horazon's Legacy",
+      "code": "",
+      "set": "Horazon's Splendor"
+    },
+    "139": {
+      "index": "Horazon's Secrets",
+      "code": "",
+      "set": "Horazon's Splendor"
+    }
+  },
+  "runewords": [
+    {
+      "name": "Ancients' Pledge",
+      "runes": [
+        "r08",
+        "r09",
+        "r07"
+      ]
+    },
+    {
+      "name": "Authority",
+      "runes": [
+        "r15",
+        "r13",
+        "r08"
+      ]
+    },
+    {
+      "name": "Beast",
+      "runes": [
+        "r30",
+        "r03",
+        "r22",
+        "r23",
+        "r17"
+      ]
+    },
+    {
+      "name": "Black",
+      "runes": [
+        "r10",
+        "r16",
+        "r04"
+      ]
+    },
+    {
+      "name": "Bone",
+      "runes": [
+        "r12",
+        "r22",
+        "r22"
+      ]
+    },
+    {
+      "name": "Bramble",
+      "runes": [
+        "r08",
+        "r27",
+        "r29",
+        "r05"
+      ]
+    },
+    {
+      "name": "Brand",
+      "runes": [
+        "r31",
+        "r28",
+        "r23",
+        "r25"
+      ]
+    },
+    {
+      "name": "Breath of the Dying",
+      "runes": [
+        "r26",
+        "r15",
+        "r01",
+        "r02",
+        "r33",
+        "r05"
+      ]
+    },
+    {
+      "name": "Call to Arms",
+      "runes": [
+        "r11",
+        "r08",
+        "r23",
+        "r24",
+        "r27"
+      ]
+    },
+    {
+      "name": "Chains of Honor",
+      "runes": [
+        "r14",
+        "r22",
+        "r30",
+        "r24"
+      ]
+    },
+    {
+      "name": "Chaos",
+      "runes": [
+        "r19",
+        "r27",
+        "r22"
+      ]
+    },
+    {
+      "name": "Crescent Moon",
+      "runes": [
+        "r13",
+        "r22",
+        "r03"
+      ]
+    },
+    {
+      "name": "Death",
+      "runes": [
+        "r15",
+        "r01",
+        "r26",
+        "r09",
+        "r25"
+      ]
+    },
+    {
+      "name": "Delirium",
+      "runes": [
+        "r20",
+        "r24",
+        "r16"
+      ]
+    },
+    {
+      "name": "Destruction",
+      "runes": [
+        "r26",
+        "r28",
+        "r30",
+        "r31",
+        "r18"
+      ]
+    },
+    {
+      "name": "Doom",
+      "runes": [
+        "r15",
+        "r27",
+        "r22",
+        "r28",
+        "r32"
+      ]
+    },
+    {
+      "name": "Dragon",
+      "runes": [
+        "r29",
+        "r28",
+        "r12"
+      ]
+    },
+    {
+      "name": "Dream",
+      "runes": [
+        "r16",
+        "r31",
+        "r21"
+      ]
+    },
+    {
+      "name": "Duress",
+      "runes": [
+        "r13",
+        "r22",
+        "r10"
+      ]
+    },
+    {
+      "name": "Edge",
+      "runes": [
+        "r03",
+        "r07",
+        "r11"
+      ]
+    },
+    {
+      "name": "Enigma",
+      "runes": [
+        "r31",
+        "r06",
+        "r30"
+      ]
+    },
+    {
+      "name": "Enlightenment",
+      "runes": [
+        "r21",
+        "r08",
+        "r12"
+      ]
+    },
+    {
+      "name": "Eternity",
+      "runes": [
+        "r11",
+        "r30",
+        "r24",
+        "r12",
+        "r29"
+      ]
+    },
+    {
+      "name": "Exile",
+      "runes": [
+        "r26",
+        "r27",
+        "r24",
+        "r14"
+      ]
+    },
+    {
+      "name": "Faith",
+      "runes": [
+        "r27",
+        "r31",
+        "r20",
+        "r02"
+      ]
+    },
+    {
+      "name": "Famine",
+      "runes": [
+        "r19",
+        "r27",
+        "r09",
+        "r31"
+      ]
+    },
+    {
+      "name": "Flickering Flame",
+      "runes": [
+        "r04",
+        "r21",
+        "r26"
+      ]
+    },
+    {
+      "name": "Fortitude",
+      "runes": [
+        "r01",
+        "r12",
+        "r14",
+        "r28"
+      ]
+    },
+    {
+      "name": "Fury",
+      "runes": [
+        "r31",
+        "r25",
+        "r05"
+      ]
+    },
+    {
+      "name": "Gloom",
+      "runes": [
+        "r19",
+        "r22",
+        "r21"
+      ]
+    },
+    {
+      "name": "Grief",
+      "runes": [
+        "r05",
+        "r03",
+        "r28",
+        "r23",
+        "r08"
+      ]
+    },
+    {
+      "name": "Hand of Justice",
+      "runes": [
+        "r29",
+        "r32",
+        "r11",
+        "r28"
+      ]
+    },
+    {
+      "name": "Harmony",
+      "runes": [
+        "r03",
+        "r06",
+        "r12",
+        "r18"
+      ]
+    },
+    {
+      "name": "Heart of the Oak",
+      "runes": [
+        "r18",
+        "r26",
+        "r21",
+        "r10"
+      ]
+    },
+    {
+      "name": "Holy Thunder",
+      "runes": [
+        "r05",
+        "r08",
+        "r09",
+        "r07"
+      ]
+    },
+    {
+      "name": "Honor",
+      "runes": [
+        "r11",
+        "r01",
+        "r06",
+        "r03",
+        "r12"
+      ]
+    },
+    {
+      "name": "Ice",
+      "runes": [
+        "r11",
+        "r13",
+        "r31",
+        "r28"
+      ]
+    },
+    {
+      "name": "Infinity",
+      "runes": [
+        "r30",
+        "r23",
+        "r30",
+        "r24"
+      ]
+    },
+    {
+      "name": "Insight",
+      "runes": [
+        "r08",
+        "r03",
+        "r07",
+        "r12"
+      ]
+    },
+    {
+      "name": "King's Grace",
+      "runes": [
+        "r11",
+        "r08",
+        "r10"
+      ]
+    },
+    {
+      "name": "Kingslayer",
+      "runes": [
+        "r23",
+        "r22",
+        "r25",
+        "r19"
+      ]
+    },
+    {
+      "name": "Last Wish",
+      "runes": [
+        "r31",
+        "r23",
+        "r31",
+        "r29",
+        "r31",
+        "r30"
+      ]
+    },
+    {
+      "name": "Lawbringer",
+      "runes": [
+        "r11",
+        "r20",
+        "r18"
+      ]
+    },
+    {
+      "name": "Leaf",
+      "runes": [
+        "r03",
+        "r08"
+      ]
+    },
+    {
+      "name": "Lionheart",
+      "runes": [
+        "r15",
+        "r17",
+        "r19"
+      ]
+    },
+    {
+      "name": "Lore",
+      "runes": [
+        "r09",
+        "r12"
+      ]
+    },
+    {
+      "name": "Malice",
+      "runes": [
+        "r06",
+        "r01",
+        "r05"
+      ]
+    },
+    {
+      "name": "Melody",
+      "runes": [
+        "r13",
+        "r18",
+        "r04"
+      ]
+    },
+    {
+      "name": "Memory",
+      "runes": [
+        "r17",
+        "r16",
+        "r12",
+        "r05"
+      ]
+    },
+    {
+      "name": "Mist",
+      "runes": [
+        "r32",
+        "r13",
+        "r25",
+        "r10",
+        "r06"
+      ]
+    },
+    {
+      "name": "Myth",
+      "runes": [
+        "r15",
+        "r11",
+        "r04"
+      ]
+    },
+    {
+      "name": "Nadir",
+      "runes": [
+        "r04",
+        "r03"
+      ]
+    },
+    {
+      "name": "Oath",
+      "runes": [
+        "r13",
+        "r21",
+        "r23",
+        "r17"
+      ]
+    },
+    {
+      "name": "Obedience",
+      "runes": [
+        "r15",
+        "r18",
+        "r10",
+        "r05",
+        "r19"
+      ]
+    },
+    {
+      "name": "Obsession",
+      "runes": [
+        "r33",
+        "r24",
+        "r20",
+        "r17",
+        "r16",
+        "r04"
+      ]
+    },
+    {
+      "name": "Passion",
+      "runes": [
+        "r14",
+        "r09",
+        "r02",
+        "r20"
+      ]
+    },
+    {
+      "name": "Pattern",
+      "runes": [
+        "r07",
+        "r09",
+        "r10"
+      ]
+    },
+    {
+      "name": "Peace",
+      "runes": [
+        "r13",
+        "r10",
+        "r11"
+      ]
+    },
+    {
+      "name": "Voice of Reason",
+      "runes": [
+        "r20",
+        "r18",
+        "r01",
+        "r02"
+      ]
+    },
+    {
+      "name": "Phoenix",
+      "runes": [
+        "r26",
+        "r26",
+        "r28",
+        "r31"
+      ]
+    },
+    {
+      "name": "Plague",
+      "runes": [
+        "r32",
+        "r13",
+        "r22"
+      ]
+    },
+    {
+      "name": "Pride",
+      "runes": [
+        "r32",
+        "r29",
+        "r16",
+        "r28"
+      ]
+    },
+    {
+      "name": "Principle",
+      "runes": [
+        "r08",
+        "r25",
+        "r02"
+      ]
+    },
+    {
+      "name": "Prudence",
+      "runes": [
+        "r23",
+        "r03"
+      ]
+    },
+    {
+      "name": "Radiance",
+      "runes": [
+        "r04",
+        "r12",
+        "r06"
+      ]
+    },
+    {
+      "name": "Rain",
+      "runes": [
+        "r09",
+        "r23",
+        "r06"
+      ]
+    },
+    {
+      "name": "Rhyme",
+      "runes": [
+        "r13",
+        "r05"
+      ]
+    },
+    {
+      "name": "Rift",
+      "runes": [
+        "r15",
+        "r18",
+        "r20",
+        "r25"
+      ]
+    },
+    {
+      "name": "Sanctuary",
+      "runes": [
+        "r18",
+        "r18",
+        "r23"
+      ]
+    },
+    {
+      "name": "Silence",
+      "runes": [
+        "r14",
+        "r02",
+        "r15",
+        "r24",
+        "r03",
+        "r26"
+      ]
+    },
+    {
+      "name": "Smoke",
+      "runes": [
+        "r04",
+        "r17"
+      ]
+    },
+    {
+      "name": "Spirit",
+      "runes": [
+        "r07",
+        "r10",
+        "r09",
+        "r11"
+      ]
+    },
+    {
+      "name": "Splendor",
+      "runes": [
+        "r05",
+        "r17"
+      ]
+    },
+    {
+      "name": "Stealth",
+      "runes": [
+        "r07",
+        "r05"
+      ]
+    },
+    {
+      "name": "Steel",
+      "runes": [
+        "r03",
+        "r01"
+      ]
+    },
+    {
+      "name": "Stone",
+      "runes": [
+        "r13",
+        "r22",
+        "r21",
+        "r17"
+      ]
+    },
+    {
+      "name": "Strength",
+      "runes": [
+        "r11",
+        "r03"
+      ]
+    },
+    {
+      "name": "Treachery",
+      "runes": [
+        "r13",
+        "r10",
+        "r20"
+      ]
+    },
+    {
+      "name": "Unbending Will",
+      "runes": [
+        "r19",
+        "r16",
+        "r06",
+        "r02",
+        "r01",
+        "r15"
+      ]
+    },
+    {
+      "name": "Venom",
+      "runes": [
+        "r07",
+        "r14",
+        "r23"
+      ]
+    },
+    {
+      "name": "Void",
+      "runes": [
+        "r10",
+        "r33",
+        "r24"
+      ]
+    },
+    {
+      "name": "Wealth",
+      "runes": [
+        "r20",
+        "r18",
+        "r03"
+      ]
+    },
+    {
+      "name": "White",
+      "runes": [
+        "r14",
+        "r16"
+      ]
+    },
+    {
+      "name": "Wind",
+      "runes": [
+        "r29",
+        "r01"
+      ]
+    },
+    {
+      "name": "Wisdom",
+      "runes": [
+        "r21",
+        "r06",
+        "r02"
+      ]
+    },
+    {
+      "name": "Wrath",
+      "runes": [
+        "r21",
+        "r17",
+        "r30",
+        "r23"
+      ]
+    },
+    {
+      "name": "Zephyr",
+      "runes": [
+        "r09",
+        "r05"
+      ]
+    },
+    {
+      "name": "Hustle (armor)",
+      "runes": [
+        "r13",
+        "r18",
+        "r02"
+      ]
+    },
+    {
+      "name": "Hustle (weapon)",
+      "runes": [
+        "r13",
+        "r18",
+        "r02"
+      ]
+    },
+    {
+      "name": "Mosaic",
+      "runes": [
+        "r23",
+        "r25",
+        "r11"
+      ]
+    },
+    {
+      "name": "Metamorphosis",
+      "runes": [
+        "r16",
+        "r32",
+        "r19"
+      ]
+    },
+    {
+      "name": "Ground",
+      "runes": [
+        "r13",
+        "r16",
+        "r09"
+      ]
+    },
+    {
+      "name": "Temper",
+      "runes": [
+        "r13",
+        "r16",
+        "r08"
+      ]
+    },
+    {
+      "name": "Hearth",
+      "runes": [
+        "r13",
+        "r16",
+        "r10"
+      ]
+    },
+    {
+      "name": "Cure",
+      "runes": [
+        "r13",
+        "r16",
+        "r07"
+      ]
+    },
+    {
+      "name": "Bulwark",
+      "runes": [
+        "r13",
+        "r16",
+        "r12"
+      ]
+    },
+    {
+      "name": "Coven",
+      "runes": [
+        "r24",
+        "r08",
+        "r16"
+      ]
+    },
+    {
+      "name": "Vigilance",
+      "runes": [
+        "r14",
+        "r25"
+      ]
+    },
+    {
+      "name": "Ritual",
+      "runes": [
+        "r11",
+        "r13",
+        "r27"
+      ]
+    }
+  ]
+}
